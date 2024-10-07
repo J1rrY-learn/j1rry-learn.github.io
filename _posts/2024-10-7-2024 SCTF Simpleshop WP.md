@@ -1,10 +1,8 @@
 
-
 ---
  title: 2024 SCTF Simpleshop WP
  date: 2024-10-7 12:00:00 +0800
  categories: [CTF, PHP,Thinkphp]
-
  tags: [CTF,SCTF,Thinkphp反序列化,代码审计]
  ---
 
