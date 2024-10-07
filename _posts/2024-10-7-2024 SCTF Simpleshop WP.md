@@ -71,7 +71,10 @@ php版本 <8 而且是国内常用的thinkphp框架 自然会想到打phar反序
 
 https://github.com/ambionics/phpggc/blob/master/gadgetchains/Guzzle/FW/1/gadgets.php 确实是我的疏忽
 
-其他大多数Web大哥的思路 都是通过反序列化链最终实现任意代码执行触发到`eval` 实现 思路非常优秀 可以参考一下他们的解法
+其他大多数Web大哥的思路 都是通过反序列化链最终实现thinkphp模板渲染处实现任意代码执行触发到`eval` 实现 思路非常优秀 可以参考一下他们的解法
+
+![image.png](https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202410042308161.png)
+
 
 这里提供一种当时想出来比较取巧的一种思路
 
@@ -176,9 +179,9 @@ https://github.com/ambionics/phpggc/blob/master/gadgetchains/Guzzle/FW/1/gadgets
   $phar->stopBuffering();
 ```
 
-最终实现了 file_put_contents的效果
+最终实现了 `file_put_contents`的效果
 
-gzip一下绕过明文检测
+gzip一下绕过明文检测 做明文混淆
 
 ![image.png](https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202410020136351.png)
 
