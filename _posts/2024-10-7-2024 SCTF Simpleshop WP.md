@@ -2,7 +2,7 @@
  title: 2024 SCTF Simpleshop WP
  date: 2024-10-7 12:00:00 +0800
  categories: [CTF,Thinkphp]
- tags: [CTF,SCTF,Thinkphp反序列化,代码审计]
+ tags: [CTF,SCTF,Thinkphp反序列化链,代码审计]
 ---
 
 其实这道题主要是想考一下在Thinkphp框架下在反序列化过程中如何实现任意文件写入以及cnext绕过disable_function实现命令执行
