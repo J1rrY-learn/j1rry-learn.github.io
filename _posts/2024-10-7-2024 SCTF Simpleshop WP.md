@@ -37,7 +37,7 @@ php版本 <8 而且是国内常用的thinkphp框架 自然会想到打phar反序
 
 
 
-通过访问/api/image_base64 是会处理到get_image_base64函数当中的实现触发
+通过访问/api/image_base64 是会处理到`get_image_base64`函数当中的实现触发
 
 紧接着是if判断 但是这里明显存在 逻辑上的问题 应该用`||` 连接 可以导致后缀的绕过 只要不为空即可绕过 判断
 
@@ -49,7 +49,7 @@ php版本 <8 而且是国内常用的thinkphp框架 自然会想到打phar反序
 
 这意味着我们同一个图片只能够使用一次触发
 
-在put_image中触发phar反序列化 image_to_base64可以触发任意文件读取/SSRF
+在put_image中触发phar反序列化 `image_to_base64`可以触发任意文件读取/SSRF
 
 这里我们主要关注phar反序列化的实现 跟进put_image中
 
@@ -69,7 +69,9 @@ php版本 <8 而且是国内常用的thinkphp框架 自然会想到打phar反序
 
 出题时没有考虑到程序用到不是原生的thinkphp框架 导致可以实现guzzle任意文件写文件 简化了写文件的过程
 
-https://github.com/ambionics/phpggc/blob/master/gadgetchains/Guzzle/FW/1/gadgets.php 确实是我的疏忽
+https://github.com/ambionics/phpggc/blob/master/gadgetchains/Guzzle/FW/1/gadgets.php 
+
+确实是我的疏忽 没有考虑到app本身有其他的扩展
 
 其他大多数Web大哥的思路 都是通过反序列化链最终实现thinkphp模板渲染处实现任意代码执行触发到`eval` 实现 思路非常优秀 可以参考一下他们的解法
 
@@ -80,7 +82,7 @@ https://github.com/ambionics/phpggc/blob/master/gadgetchains/Guzzle/FW/1/gadgets
 
 一般来说 thinkphp框架最后sink点大致可以分为两类
 
-一种是通过 __call方法实现跳板到call_user_func_array 实现rce或者接着当跳板实现其他目的
+一种是通过 __call方法实现跳板到`call_user_func_array` 实现rce或者接着当跳板实现其他目的
 
 另外一种就是利用匿名类closure实现动态控制函数实现
 
@@ -88,13 +90,13 @@ https://github.com/ambionics/phpggc/blob/master/gadgetchains/Guzzle/FW/1/gadgets
 
 我们可以通过控制 $closure($value, $this->data);实现我们的目的
 
-网上的大师傅们一般都是在这个地方实现rce 比如system
+网上的大师傅们一般都是在这个地方实现rce 比如`system`
 
-但是实际上 $value`=`this->data 我们在获取value时走到第一个判断就返回$this->data的值了
+但是实际上 `$value=this->data` 我们在获取`value`时走到第一个判断就返回`$this->data`的值了
 
 ![image.png](https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202410020121605.png)
 
-相当于向system传入两个一摸一样的参数
+相当于向`system`传入两个一摸一样的参数
 
 ![image.png](https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202410020111577.png)
 
@@ -102,7 +104,7 @@ https://github.com/ambionics/phpggc/blob/master/gadgetchains/Guzzle/FW/1/gadgets
 
 ![image.png](https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202410020112667.png)
 
-这里明显可以控制两个参数 可以尝试用 file_put_contents('/var/www/public/myshell','<?php eval($_POST[1]);?>')
+这里明显可以控制两个参数 可以尝试用 `file_put_contents('/var/www/public/myshell','<?php eval($_POST[1]);?>')`
 
 写入实现任意文件写 问题是我们分别如何控制每个参数的值了?
 
@@ -114,13 +116,13 @@ https://github.com/ambionics/phpggc/blob/master/gadgetchains/Guzzle/FW/1/gadgets
 
 ![image.png](https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202410020118272.png)
 
-在三元表达式中可以令 strict=false 令严格模式为假
+在三元表达式中可以令 `strict=false` 令严格模式为假
 
 触发 Snake 驼峰命名转化机制 让key值实现不同
 
 ![image.png](https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202410020120713.png)
 
-实现 进入判断2 返回relation中的值
+实现 进入判断2 返回`relation`中的值
 
 ![image.png](https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202410020122886.png)
 
@@ -223,7 +225,7 @@ mkdir('sub');chdir('sub');ini_set('open_basedir','..');chdir('..');chdir('..');c
 
 ![image.png](https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202410020143816.png)
 
-看到很多师傅都用 kezibei 师傅的本地化项目 可以推荐一下
+看到很多师傅都用 kezibei 师傅的本地化项目 实现一体化的绕过disabled_function 可以推荐一下
 
 https://github.com/kezibei/php-filter-iconv/tree/main
 
