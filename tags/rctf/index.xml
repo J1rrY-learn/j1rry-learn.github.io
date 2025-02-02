@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>RCTF on J1rrY&#39;s Blog</title>
+    <link>http://localhost:1313/tags/rctf/</link>
+    <description>Recent content in RCTF on J1rrY&#39;s Blog</description>
+    <image>
+      <title>J1rrY&#39;s Blog</title>
+      <url>http://localhost:1313/</url>
+      <link>http://localhost:1313/</link>
+    </image>
+    <generator>Hugo -- 0.139.1</generator>
+    <language>zh</language>
+    <copyright>©2025 J1rrY&amp;rsquo;s Blog</copyright>
+    <lastBuildDate>Sat, 11 May 2024 12:30:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/rctf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2024 RCTF 部分 WP</title>
+      <link>http://localhost:1313/posts/2024-rctf-%E9%83%A8%E5%88%86-wp/</link>
+      <pubDate>Sat, 11 May 2024 12:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-rctf-%E9%83%A8%E5%88%86-wp/</guid>
+      <description>&lt;h1 id=&#34;misc&#34;&gt;Misc&lt;/h1&gt;
+&lt;h2 id=&#34;gogogo&#34;&gt;gogogo&lt;/h2&gt;
+&lt;p&gt;考点:内存取证
+得到 gogogo.raw 内存取证的题用volatility和AXIOM结合分析
+AXIOM 分析存在云服务 但是百度网盘要密码
+&lt;a href=&#34;https://pan.baidu.com/share/init?surl=ZllFd8IK-oHvTCYl61_7Kw&#34;&gt;https://pan.baidu.com/share/init?surl=ZllFd8IK-oHvTCYl61_7Kw&lt;/a&gt;
+&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202405272239612.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;发现访问过sqlite数据库 可以尝试提取数据库文件出来
+&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202405272240228.png&#34;&gt;
+结合 volatility 第一步先看 粘贴板
+&lt;code&gt;vol.py -f gogogo.raw --profile=Win7SP0x86  clipboard &lt;/code&gt;
+&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202405272244218.png&#34;&gt;
+有 &lt;code&gt;cwqs&lt;/code&gt; 猜测可能是百度网盘密码
+&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202405272246195.png&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

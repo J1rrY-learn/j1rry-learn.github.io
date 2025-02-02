@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Proc on J1rrY&#39;s Blog</title>
+    <link>http://localhost:1313/tags/proc/</link>
+    <description>Recent content in Proc on J1rrY&#39;s Blog</description>
+    <image>
+      <title>J1rrY&#39;s Blog</title>
+      <url>http://localhost:1313/</url>
+      <link>http://localhost:1313/</link>
+    </image>
+    <generator>Hugo -- 0.139.1</generator>
+    <language>zh</language>
+    <copyright>©2025 J1rrY&amp;rsquo;s Blog</copyright>
+    <lastBuildDate>Thu, 21 Mar 2024 12:30:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/proc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CTF trick proc的利用</title>
+      <link>http://localhost:1313/posts/ctf-trick-proc%E7%9A%84%E5%88%A9%E7%94%A8/</link>
+      <pubDate>Thu, 21 Mar 2024 12:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ctf-trick-proc%E7%9A%84%E5%88%A9%E7%94%A8/</guid>
+      <description>&lt;h1 id=&#34;proc利用相关例题总结&#34;&gt;/proc利用相关例题总结&lt;/h1&gt;
+&lt;p&gt;[toc]&lt;/p&gt;
+&lt;h2 id=&#34;知识点汇总&#34;&gt;知识点汇总&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.anquanke.com/post/id/241148#h2-10&#34;&gt;https://www.anquanke.com/post/id/241148#h2-10&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;复现环境buuctf 或者 nssctf都有&lt;/p&gt;
+&lt;h2 id=&#34;1hdctf-2023yamiyami&#34;&gt;1.[HDCTF 2023]YamiYami&lt;/h2&gt;
+&lt;h3 id=&#34;涉及知识点&#34;&gt;涉及知识点&lt;/h3&gt;
+&lt;p&gt;任意文件读取/proc&lt;/p&gt;
+&lt;h3 id=&#34;解题流程image-20240311161537705httpsjerry-note-imgsoss-cn-beijingaliyuncscomimgs202403111619060png&#34;&gt;解题流程&lt;img alt=&#34;image-20240311161537705&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202403111619060.png&#34;&gt;&lt;/h3&gt;
+&lt;p&gt;/pwd 提示查看 /app&lt;/p&gt;
+&lt;p&gt;/Upload file 一个上传接口&lt;/p&gt;
+&lt;p&gt;/Read somethings 类似ssrf漏洞 还是一个任意文件读取&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;image-20240311161550849&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202403111619061.png&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

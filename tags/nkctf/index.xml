@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>NKCTF on J1rrY&#39;s Blog</title>
+    <link>http://localhost:1313/tags/nkctf/</link>
+    <description>Recent content in NKCTF on J1rrY&#39;s Blog</description>
+    <image>
+      <title>J1rrY&#39;s Blog</title>
+      <url>http://localhost:1313/</url>
+      <link>http://localhost:1313/</link>
+    </image>
+    <generator>Hugo -- 0.139.1</generator>
+    <language>zh</language>
+    <copyright>©2025 J1rrY&amp;rsquo;s Blog</copyright>
+    <lastBuildDate>Thu, 11 Apr 2024 12:30:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/nkctf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NKCTF 2024 webshell_pro</title>
+      <link>http://localhost:1313/posts/nkctf-2024-webshell_pro/</link>
+      <pubDate>Thu, 11 Apr 2024 12:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/nkctf-2024-webshell_pro/</guid>
+      <description>&lt;p&gt;还是正常的HTTP流量
+&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202406011022878.png&#34;&gt;
+既然是webshell一定是看POST流量
+&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202406011023634.png&#34;&gt;
+对每一个进行追踪tcp流
+最终发现 在 流9 (&lt;code&gt;tcp.stream eq 9&lt;/code&gt;)存在 base32 &amp;ndash;&amp;gt;base64的流量的加密逻辑
+&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202406011024658.png&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

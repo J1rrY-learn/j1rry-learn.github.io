@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Hgame on J1rrY&#39;s Blog</title>
+    <link>http://localhost:1313/tags/hgame/</link>
+    <description>Recent content in Hgame on J1rrY&#39;s Blog</description>
+    <image>
+      <title>J1rrY&#39;s Blog</title>
+      <url>http://localhost:1313/</url>
+      <link>http://localhost:1313/</link>
+    </image>
+    <generator>Hugo -- 0.139.1</generator>
+    <language>zh</language>
+    <copyright>©2025 J1rrY&amp;rsquo;s Blog</copyright>
+    <lastBuildDate>Sun, 21 Jan 2024 12:30:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/hgame/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2024-Hgame-Web-Misc复现-附docker-部分wp</title>
+      <link>http://localhost:1313/posts/2024-hgame-web-misc%E5%A4%8D%E7%8E%B0-%E9%99%84docker-%E9%83%A8%E5%88%86wp/</link>
+      <pubDate>Sun, 21 Jan 2024 12:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-hgame-web-misc%E5%A4%8D%E7%8E%B0-%E9%99%84docker-%E9%83%A8%E5%88%86wp/</guid>
+      <description>&lt;h1 id=&#34;2024-hgame-webmisc复现附docker-部分wp&#34;&gt;2024 Hgame Web&amp;amp;Misc复现(附docker) 部分wp&lt;/h1&gt;
+&lt;h2 id=&#34;2024-hgame-webmisc复现附docker-部分wp-1&#34;&gt;2024 Hgame Web&amp;amp;Misc复现(附docker) 部分wp&lt;/h2&gt;
+&lt;h4 id=&#34;文章目录&#34;&gt;文章目录&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;2024 Hgame Web&amp;amp;Misc复现(附docker) 部分wp&lt;/li&gt;
+&lt;li&gt;第一周&lt;/li&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;ezHTTP&lt;/li&gt;
+&lt;li&gt;Bypass it&lt;/li&gt;
+&lt;li&gt;Select Course&lt;/li&gt;
+&lt;li&gt;2048&lt;/li&gt;
+&lt;li&gt;jhat&lt;/li&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;java 的命令执行&lt;/li&gt;
+&lt;li&gt;不出网 方法总结&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;SignIn&lt;/li&gt;
+&lt;li&gt;来自星尘的问候&lt;/li&gt;
+&lt;li&gt;simple_attack&lt;/li&gt;
+&lt;li&gt;希儿希儿希尔&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;第二周&lt;/li&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;Select Course&lt;/li&gt;
+&lt;li&gt;Python反序列化(myflask)&lt;/li&gt;
+&lt;li&gt;search4member（H2_RCE）&lt;/li&gt;
+&lt;li&gt;梅开二度 （Go的模板注入+xss）&lt;/li&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;template常用基本语法&lt;/li&gt;
+&lt;li&gt;安全过滤&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ek1ng_want_girlfriend&lt;/li&gt;
+&lt;li&gt;ezWord&lt;/li&gt;
+&lt;li&gt;龙之舞&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;第三周&lt;/li&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;Vider box(XXE盲注+file读取远程文件)&lt;/li&gt;
+&lt;li&gt;考点：xxe盲注+file://协议如何远程读xml文件&lt;/li&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;思考：file://可以读取远程服务器上的文件吗？（为什么类似ftp特性）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.本地调试java如何处理ftp请求（usename?password?）(可跳过见反思)&lt;/li&gt;
+&lt;li&gt;2.现在我们远程环境测试真实环境&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;反思：难道我们一定要拿Java默认ftp连接密码？&lt;/li&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;难道我们一定要file://读取远程服务？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;WebVpn(对JS原型链污染的再理解)&lt;/li&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;JS原型链污染原理再理解&lt;/li&gt;
+&lt;li&gt;JS语法特性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ZeroLink（Go的特性+unzip的软链接）&lt;/li&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;变量的赋值&lt;/li&gt;
+&lt;li&gt;Go的结构分析&lt;/li&gt;
+&lt;li&gt;上传zip文件(软链接)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;与ai聊天&lt;/li&gt;
+&lt;li&gt;vmdk取证&lt;/li&gt;
+&lt;li&gt;简单的取证,不过前十个有红包&lt;/li&gt;
+&lt;li&gt;Blind SQL Injection&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;第四周&lt;/li&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;Reverse and Escalation&lt;/li&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;Apache ActiveMQ OpenWire 协议反序列化命令执行漏洞（CVE-2023-46604）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;whose home ?&lt;/li&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;对bash和sh反弹shell的辨析&lt;/li&gt;
+&lt;li&gt;如何判断内网其他存活主机了&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ezKeyboard&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;复现–官方题目附件+收集环境：链接：https://pan.baidu.com/s/1fNtXf9epA7tIsfPeiHITDg?pwd=8888&lt;br&gt;
+提取码：8888&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

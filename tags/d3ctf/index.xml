@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>D3CTF on J1rrY&#39;s Blog</title>
+    <link>http://localhost:1313/tags/d3ctf/</link>
+    <description>Recent content in D3CTF on J1rrY&#39;s Blog</description>
+    <image>
+      <title>J1rrY&#39;s Blog</title>
+      <url>http://localhost:1313/</url>
+      <link>http://localhost:1313/</link>
+    </image>
+    <generator>Hugo -- 0.139.1</generator>
+    <language>zh</language>
+    <copyright>©2025 J1rrY&amp;rsquo;s Blog</copyright>
+    <lastBuildDate>Wed, 01 May 2024 12:30:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/d3ctf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2024 凌武杯D3CTF 部分WP</title>
+      <link>http://localhost:1313/posts/2024-%E5%87%8C%E6%AD%A6%E6%9D%AFd3ctf-wp/</link>
+      <pubDate>Wed, 01 May 2024 12:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-%E5%87%8C%E6%AD%A6%E6%9D%AFd3ctf-wp/</guid>
+      <description>&lt;h1 id=&#34;ospf-enhanced&#34;&gt;O!!!SPF!!!!!! Enhanced&lt;/h1&gt;
+&lt;p&gt;题目描述&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;I&amp;#39;m apologized for the missing part of the treasure map. Luckily this is a way to recover it. 2a13:b487:11aa::d3:c7f:2f will tell you the key at its path. But it seems not easy to reach it? The dungeon and the flag inside it is waiting for you.
+
+很抱歉藏宝图丢失了一部分。幸运的是，我们有办法找回它。2a13:b487:11aa::d3:c7f:2f 会告诉你钥匙的路径。但要找到它似乎并不容易？地牢和里面的旗帜正在等着你。
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;什么玩意&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>笔记总结 on J1rrY&#39;s Blog</title>
+    <link>http://localhost:1313/categories/%E7%AC%94%E8%AE%B0%E6%80%BB%E7%BB%93/</link>
+    <description>Recent content in 笔记总结 on J1rrY&#39;s Blog</description>
+    <image>
+      <title>J1rrY&#39;s Blog</title>
+      <url>http://localhost:1313/</url>
+      <link>http://localhost:1313/</link>
+    </image>
+    <generator>Hugo -- 0.139.1</generator>
+    <language>zh</language>
+    <copyright>©2025 J1rrY&amp;rsquo;s Blog</copyright>
+    <lastBuildDate>Tue, 21 Jan 2025 12:30:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/%E7%AC%94%E8%AE%B0%E6%80%BB%E7%BB%93/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>尝试CodeQL分析2025 SUCTF SU_Solon</title>
+      <link>http://localhost:1313/posts/%E5%B0%9D%E8%AF%95codeql%E5%88%86%E6%9E%902025-suctf-su_solon/</link>
+      <pubDate>Tue, 21 Jan 2025 12:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E5%B0%9D%E8%AF%95codeql%E5%88%86%E6%9E%902025-suctf-su_solon/</guid>
+      <description>&lt;p&gt;本篇文章尝试通过CodeQL对触发JDBC的可能解进行探究,也是初学CodeQL进行练手的一道题目 SU_Solon&lt;/p&gt;
+&lt;p&gt;这是一道非常明确的Hession反序列化的题目&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>从国城杯Ez_Gallery实现寻找WSGIRef内存马和Response响应头外带以及栈帧回显的尝试</title>
+      <link>http://localhost:1313/posts/%E4%BF%AE%E6%94%B9-%E4%BB%8E%E5%9B%BD%E5%9F%8E%E6%9D%AFez_gallery%E5%AE%9E%E7%8E%B0%E5%AF%BB%E6%89%BEwsgiref%E5%86%85%E5%AD%98%E9%A9%AC%E5%92%8Cresponse%E5%93%8D%E5%BA%94%E5%A4%B4%E5%A4%96%E5%B8%A6%E4%BB%A5%E5%8F%8A%E6%A0%88%E5%B8%A7%E5%9B%9E%E6%98%BE%E7%9A%84%E5%B0%9D%E8%AF%95/</link>
+      <pubDate>Mon, 23 Dec 2024 12:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E4%BF%AE%E6%94%B9-%E4%BB%8E%E5%9B%BD%E5%9F%8E%E6%9D%AFez_gallery%E5%AE%9E%E7%8E%B0%E5%AF%BB%E6%89%BEwsgiref%E5%86%85%E5%AD%98%E9%A9%AC%E5%92%8Cresponse%E5%93%8D%E5%BA%94%E5%A4%B4%E5%A4%96%E5%B8%A6%E4%BB%A5%E5%8F%8A%E6%A0%88%E5%B8%A7%E5%9B%9E%E6%98%BE%E7%9A%84%E5%B0%9D%E8%AF%95/</guid>
+      <description>&lt;h2 id=&#34;登陆后台&#34;&gt;登陆后台&lt;/h2&gt;
+&lt;p&gt;直接尝试弱密码&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;admin
+123456
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;实现登陆后台功能&lt;/p&gt;
+&lt;h2 id=&#34;实现任意文件读取&#34;&gt;实现任意文件读取&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://xzfile.aliyuncs.com/media/upload/picture/20241209154320-42da5512-b601-1.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;file后接着具体的文件名 要考虑目录穿越问题
+一般后端这样写都是直接通过  &lt;code&gt;os.path.join&lt;/code&gt; 直接拼接存在任意文件读取
+尝试直接读取当前程序的启动命令查看当前Web应用的绝对路径&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ThinkPHP审计(2)  Thinkphp反序列化5.x链子</title>
+      <link>http://localhost:1313/posts/thinkphp%E5%AE%A1%E8%AE%A12--thinkphp%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E9%93%BE5.1.x%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90%E5%85%B8%E5%9E%8Bctf%E4%BE%8B%E9%A2%98/</link>
+      <pubDate>Wed, 12 Jun 2024 12:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/thinkphp%E5%AE%A1%E8%AE%A12--thinkphp%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E9%93%BE5.1.x%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90%E5%85%B8%E5%9E%8Bctf%E4%BE%8B%E9%A2%98/</guid>
+      <description>&lt;h1 id=&#34;thinkphp审计2--thinkphp反序列化链子51x原理分析从0编写poc&#34;&gt;ThinkPHP审计(2)  Thinkphp反序列化链子5.1.X原理分析&amp;amp;从0编写POC&lt;/h1&gt;
+&lt;h1 id=&#34;动态调试环境配置&#34;&gt;动态调试环境配置&lt;/h1&gt;
+&lt;p&gt;比较简洁的环境配置教程：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://sn1per-ssd.github.io/2021/02/09/phpstudy-phpstorm-xdebug%E6%90%AD%E5%BB%BA%E6%9C%AC%E5%9C%B0%E8%B0%83%E8%AF%95%E7%8E%AF%E5%A2%83/&#34;&gt;https://sn1per-ssd.github.io/2021/02/09/phpstudy-phpstorm-xdebug%E6%90%AD%E5%BB%BA%E6%9C%AC%E5%9C%B0%E8%B0%83%E8%AF%95%E7%8E%AF%E5%A2%83/&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;thinkphp反序列化链51x原理分析&#34;&gt;Thinkphp反序列化链5.1.X原理分析&lt;/h1&gt;
+&lt;p&gt;Thinkphp反序列化链5.1.X原理分析仅仅是遵循前辈的已有的道路，而不是完全探究每一种链子所带来的情况和可能性&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ThinkPHP代码审计(1)    不安全的SQL注入&amp;PHP反序列化链子phar利用&amp;简单的CMS审计实例</title>
+      <link>http://localhost:1313/posts/php%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A11----%E4%B8%8D%E5%AE%89%E5%85%A8%E7%9A%84sql%E6%B3%A8%E5%85%A5php%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E9%93%BE%E5%AD%90%E7%9A%84%E5%88%A9%E7%94%A8/</link>
+      <pubDate>Sun, 02 Jun 2024 12:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/php%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A11----%E4%B8%8D%E5%AE%89%E5%85%A8%E7%9A%84sql%E6%B3%A8%E5%85%A5php%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E9%93%BE%E5%AD%90%E7%9A%84%E5%88%A9%E7%94%A8/</guid>
+      <description>&lt;h1 id=&#34;thinkphp代码审计1----不安全的sql注入php反序列化链子phar利用简单的cms审计实例&#34;&gt;ThinkPHP代码审计(1)    不安全的SQL注入&amp;amp;PHP反序列化链子phar利用&amp;amp;简单的CMS审计实例&lt;/h1&gt;
+&lt;p&gt;[TOC]&lt;/p&gt;
+&lt;h1 id=&#34;一thinkphp5不安全的sql写法&#34;&gt;一.Thinkphp5不安全的SQL写法&lt;/h1&gt;
+&lt;p&gt;Thinkphp官方提供了SQL接口，已经为SQL语句进行了预编译&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CTF题型 Http请求走私总结&amp;靶场例题</title>
+      <link>http://localhost:1313/posts/ctf%E9%A2%98%E5%9E%8B-http%E8%AF%B7%E6%B1%82%E8%B5%B0%E7%A7%81burp%E4%BE%8B%E9%A2%98/</link>
+      <pubDate>Sun, 24 Mar 2024 12:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ctf%E9%A2%98%E5%9E%8B-http%E8%AF%B7%E6%B1%82%E8%B5%B0%E7%A7%81burp%E4%BE%8B%E9%A2%98/</guid>
+      <description>&lt;h1 id=&#34;ctf题型-http请求走私总结靶场例题&#34;&gt;CTF题型 Http请求走私总结&amp;amp;靶场例题&lt;/h1&gt;
+&lt;h1 id=&#34;http请求走私&#34;&gt;HTTP请求走私&lt;/h1&gt;
+&lt;h2 id=&#34;http请求走私漏洞原理&#34;&gt;HTTP请求走私漏洞原理&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&#34;image-20240318083539644&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202403180835924.png&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;为什么用前端服务器&#34;&gt;为什么用前端服务器&lt;/h3&gt;
+&lt;p&gt;keep-alive 与 pipeline&lt;/p&gt;
+&lt;p&gt;为了缓解源站的压力，一般会在用户和后端服务器（源站）之间加设前置服务器，用以缓存、简单校验、负载均衡等，而前置服务器与后端服务器往往是在可靠的网络域中，ip 也是相对固定的，所以可以重用 TCP 连接来减少频繁 TCP 握手带来的开销。这里就用到了 HTTP1.1 中的 &lt;code&gt;Keep-Alive&lt;/code&gt; 和 &lt;code&gt;Pipeline&lt;/code&gt; 特性：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CTF 题型 python原型链污染 题记和总结</title>
+      <link>http://localhost:1313/posts/ctf-%E9%A2%98%E5%9E%8B-python%E5%8E%9F%E5%9E%8B%E9%93%BE%E6%B1%A1%E6%9F%93-%E9%A2%98%E8%AE%B0%E5%92%8C%E6%80%BB%E7%BB%93-/</link>
+      <pubDate>Sat, 23 Mar 2024 12:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ctf-%E9%A2%98%E5%9E%8B-python%E5%8E%9F%E5%9E%8B%E9%93%BE%E6%B1%A1%E6%9F%93-%E9%A2%98%E8%AE%B0%E5%92%8C%E6%80%BB%E7%BB%93-/</guid>
+      <description>&lt;p&gt;CTF 题型 python原型链污染 题记和总结&lt;/p&gt;
+&lt;h1 id=&#34;一般特征关键函数判断python原型链污染依据&#34;&gt;一般特征关键函数(判断python原型链污染依据)&lt;/h1&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;merge&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;dst&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;  &lt;span class=&#34;o&#34;&gt;//&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;不会换成update你就不认识了吧&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;v&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;items&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;():&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;hasattr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;dst&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;__getitem__&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;dst&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;get&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;and&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;dict&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;n&#34;&gt;merge&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;dst&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;get&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;n&#34;&gt;dst&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;elif&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;hasattr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;dst&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;and&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;dict&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;n&#34;&gt;merge&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;getattr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;dst&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nb&#34;&gt;setattr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;dst&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;1geekchanlleng-2023-ezpython&#34;&gt;1.[GeekChanlleng 2023 ezpython]&lt;/h1&gt;
+&lt;p&gt;官方docker：https://github.com/SycloverTeam/GeekChallenge2023/tree/main/Web/ezpython&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CTF 题型 SSRF攻击&amp;例题总结</title>
+      <link>http://localhost:1313/posts/ctf-%E9%A2%98%E5%9E%8B-ssrf%E6%94%BB%E5%87%BB%E4%BE%8B%E9%A2%98%E6%80%BB%E7%BB%93/</link>
+      <pubDate>Sat, 23 Mar 2024 12:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ctf-%E9%A2%98%E5%9E%8B-ssrf%E6%94%BB%E5%87%BB%E4%BE%8B%E9%A2%98%E6%80%BB%E7%BB%93/</guid>
+      <description>&lt;p&gt;CTF 题型 python原型链污染 题记和总结&lt;/p&gt;
+&lt;h1 id=&#34;ctf-题型-ssrf攻击例题总结&#34;&gt;CTF 题型 SSRF攻击&amp;amp;例题总结&lt;/h1&gt;
+&lt;p&gt;[TOC]&lt;/p&gt;
+&lt;p&gt;SSRF攻击方式&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Jerry%E7%9A%84SSRF%E6%94%BB%E5%87%BB%E6%80%BB%E7%BB%93%20e2d12a336f01472faf4dc1a7f92f26a6/16193750_6374cb8ecb1b72582.jpg&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202403181426178.jpg&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;server-side-request-forgery-服务端请求伪造&#34;&gt;Server-side Request Forgery 服务端请求伪造&lt;/h2&gt;
+&lt;p&gt;概念：攻击者向服务端发送包含恶意url连接的请求，借由服务端发起请求&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CTF题型 Http2降级走私原理分析&amp;例题分享</title>
+      <link>http://localhost:1313/posts/ctf%E9%A2%98%E5%9E%8B-http2%E9%99%8D%E7%BA%A7%E8%B5%B0%E7%A7%81/</link>
+      <pubDate>Sat, 23 Mar 2024 12:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ctf%E9%A2%98%E5%9E%8B-http2%E9%99%8D%E7%BA%A7%E8%B5%B0%E7%A7%81/</guid>
+      <description>&lt;h1 id=&#34;ctf题型-http2降级走私原理分析例题分享&#34;&gt;CTF题型 Http2降级走私原理分析&amp;amp;例题分享&lt;/h1&gt;
+&lt;p&gt;[TOC]&lt;/p&gt;
+&lt;p&gt;请先学习Http请求走私原理作为前置知识&lt;/p&gt;
+&lt;h2 id=&#34;http2请求走私的产生&#34;&gt;HTTP/2请求走私的产生&lt;/h2&gt;
+&lt;h3 id=&#34;回顾一下http请求走私原理&#34;&gt;回顾一下Http请求走私原理&lt;/h3&gt;
+&lt;p&gt;请求走私本质上是利用不同服务器对请求长度头部（Content-Length）解析时产生的差异&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CTF题型 SSTI(1) Flask-SSTI-labs 通关 题记</title>
+      <link>http://localhost:1313/posts/ctf-%E9%A2%98%E5%9E%8B-flask-ssti-labs-%E9%80%9A%E5%85%B3-level-1-13/</link>
+      <pubDate>Fri, 22 Mar 2024 12:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ctf-%E9%A2%98%E5%9E%8B-flask-ssti-labs-%E9%80%9A%E5%85%B3-level-1-13/</guid>
+      <description>&lt;h1 id=&#34;ctf题型-ssti1-flask-ssti-labs-通关-题记&#34;&gt;CTF题型 SSTI(1) Flask-SSTI-labs 通关 题记&lt;/h1&gt;
+&lt;p&gt;[TOC]&lt;/p&gt;
+&lt;h2 id=&#34;前记&#34;&gt;前记&lt;/h2&gt;
+&lt;p&gt;搭建环境&lt;/p&gt;
+&lt;p&gt;建议用nssctf在线 &lt;a href=&#34;https://www.nssctf.cn/problem/13&#34;&gt;https://www.nssctf.cn/problem/13&lt;/a&gt; 直接用&lt;/p&gt;
+&lt;p&gt;以下题目我用简洁的payload 绕过&lt;code&gt;{{lipsum.__globals__[&#39;os&#39;].popen(&#39;ls&#39;).read()}}&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CTF trick proc的利用</title>
+      <link>http://localhost:1313/posts/ctf-trick-proc%E7%9A%84%E5%88%A9%E7%94%A8/</link>
+      <pubDate>Thu, 21 Mar 2024 12:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ctf-trick-proc%E7%9A%84%E5%88%A9%E7%94%A8/</guid>
+      <description>&lt;h1 id=&#34;proc利用相关例题总结&#34;&gt;/proc利用相关例题总结&lt;/h1&gt;
+&lt;p&gt;[toc]&lt;/p&gt;
+&lt;h2 id=&#34;知识点汇总&#34;&gt;知识点汇总&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.anquanke.com/post/id/241148#h2-10&#34;&gt;https://www.anquanke.com/post/id/241148#h2-10&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;复现环境buuctf 或者 nssctf都有&lt;/p&gt;
+&lt;h2 id=&#34;1hdctf-2023yamiyami&#34;&gt;1.[HDCTF 2023]YamiYami&lt;/h2&gt;
+&lt;h3 id=&#34;涉及知识点&#34;&gt;涉及知识点&lt;/h3&gt;
+&lt;p&gt;任意文件读取/proc&lt;/p&gt;
+&lt;h3 id=&#34;解题流程image-20240311161537705httpsjerry-note-imgsoss-cn-beijingaliyuncscomimgs202403111619060png&#34;&gt;解题流程&lt;img alt=&#34;image-20240311161537705&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202403111619060.png&#34;&gt;&lt;/h3&gt;
+&lt;p&gt;/pwd 提示查看 /app&lt;/p&gt;
+&lt;p&gt;/Upload file 一个上传接口&lt;/p&gt;
+&lt;p&gt;/Read somethings 类似ssrf漏洞 还是一个任意文件读取&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;image-20240311161550849&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202403111619061.png&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CTF题型 SSTI(3) Smart SSTI 例题和题记</title>
+      <link>http://localhost:1313/posts/ctf%E9%A2%98%E5%9E%8B-%E5%8C%BF%E5%90%8D%E5%87%BD%E6%95%B0%E8%80%83%E6%B3%95%E4%BE%8B%E9%A2%98%E6%80%BB%E7%BB%93/</link>
+      <pubDate>Tue, 06 Feb 2024 12:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ctf%E9%A2%98%E5%9E%8B-%E5%8C%BF%E5%90%8D%E5%87%BD%E6%95%B0%E8%80%83%E6%B3%95%E4%BE%8B%E9%A2%98%E6%80%BB%E7%BB%93/</guid>
+      <description>&lt;h1 id=&#34;ctf题型-匿名函数考法例题总结&#34;&gt;CTF题型 匿名函数考法&amp;amp;例题总结&lt;/h1&gt;
+&lt;h2 id=&#34;一-原理分析&#34;&gt;一 .原理分析&lt;/h2&gt;
+&lt;p&gt;匿名函数&lt;strong&gt;特点:无函数名，使用一次就被丢弃，一般可以动态执行php代码&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;二-重点匿名函数利用&#34;&gt;二 .重点匿名函数利用&lt;/h2&gt;
+&lt;p&gt;请熟记并理解为后面php代码审计打基础&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CTF题型 pickle反序列化进阶&amp;例题</title>
+      <link>http://localhost:1313/posts/ctf%E9%A2%98%E5%9E%8B-pickle%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E8%BF%9B%E9%98%B6%E5%88%A9%E7%94%A8/</link>
+      <pubDate>Mon, 05 Feb 2024 12:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ctf%E9%A2%98%E5%9E%8B-pickle%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E8%BF%9B%E9%98%B6%E5%88%A9%E7%94%A8/</guid>
+      <description>&lt;h1 id=&#34;ctf题型-pickle反序列化进阶例题&#34;&gt;CTF题型 pickle反序列化进阶&amp;amp;例题&lt;/h1&gt;
+&lt;h1 id=&#34;一基础的pickle反序列化&#34;&gt;一.基础的pickle反序列化&lt;/h1&gt;
+&lt;p&gt;关键代码&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;pickle.dumps(obj[, protocol])&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;功能：将obj对象序列化为string形式，而不是存入文件中。
+参数:
+obj：想要序列化的obj对象。
+protocal：如果该项省略，则默认为0。如果为负值或HIGHEST_PROTOCOL，则使用最高的协议版本。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CTF题型 SSTI(2)   Flask-SSTI典型题巩固</title>
+      <link>http://localhost:1313/posts/ctf%E9%A2%98%E5%9E%8B-ssti2---flask-ssti%E5%85%B8%E5%9E%8B%E9%A2%98%E5%B7%A9%E5%9B%BA/</link>
+      <pubDate>Mon, 05 Feb 2024 12:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ctf%E9%A2%98%E5%9E%8B-ssti2---flask-ssti%E5%85%B8%E5%9E%8B%E9%A2%98%E5%B7%A9%E5%9B%BA/</guid>
+      <description>&lt;h1 id=&#34;ctf题型-ssti2---flask-ssti典型题巩固&#34;&gt;CTF题型 SSTI(2)   Flask-SSTI典型题巩固&lt;/h1&gt;
+&lt;h2 id=&#34;前记&#34;&gt;前记&lt;/h2&gt;
+&lt;p&gt;从基础到自己构造payload&lt;/p&gt;
+&lt;p&gt;请参考  &lt;a href=&#34;https://blog.csdn.net/qq_39947980/article/details/136692512?spm=1001.2014.3001.5501&#34;&gt;https://blog.csdn.net/qq_39947980/article/details/136692512?spm=1001.2014.3001.5501&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;上次用的极简payload &lt;code&gt;{{lipsum.__globals__[&#39;os&#39;].popen(&#39;ls&#39;).read()}}&lt;/code&gt;这里接着沿用&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CTF题型 SSTI(3) Smart SSTI 例题和题记</title>
+      <link>http://localhost:1313/posts/ctf%E9%A2%98%E5%9E%8B-ssti3-smart-ssti-%E4%BE%8B%E9%A2%98%E5%92%8C%E9%A2%98%E8%AE%B0/</link>
+      <pubDate>Mon, 05 Feb 2024 12:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ctf%E9%A2%98%E5%9E%8B-ssti3-smart-ssti-%E4%BE%8B%E9%A2%98%E5%92%8C%E9%A2%98%E8%AE%B0/</guid>
+      <description>&lt;h1 id=&#34;ctf题型-ssti3-smart-ssti-例题和题记&#34;&gt;CTF题型 SSTI(3) Smart SSTI 例题和题记&lt;/h1&gt;
+&lt;p&gt;前面我们学习了Flask SSTI&lt;/p&gt;
+&lt;p&gt;Smart SSTI和Flask SSTI 不同&lt;/p&gt;
+&lt;p&gt;Smart SSTI 是基于php的，居然可以在其中&lt;strong&gt;直接执行任意的php代码&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;参考 Smart中文手册  &lt;a href=&#34;https://www.smarty.net/docs/zh_CN/&#34;&gt;https://www.smarty.net/docs/zh_CN/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CTF题型 md5考法相关例题总结</title>
+      <link>http://localhost:1313/posts/ctf%E9%A2%98%E5%9E%8B-md5%E7%9B%B8%E5%85%B3%E4%BE%8B%E9%A2%98/</link>
+      <pubDate>Wed, 03 Jan 2024 12:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ctf%E9%A2%98%E5%9E%8B-md5%E7%9B%B8%E5%85%B3%E4%BE%8B%E9%A2%98/</guid>
+      <description>&lt;h1 id=&#34;ctf题型-md5考法相关例题总结&#34;&gt;CTF题型 md5考法相关例题总结&lt;/h1&gt;
+&lt;h2 id=&#34;一md5弱字符相等&#34;&gt;一.md5弱字符相等(==)&lt;/h2&gt;
+&lt;h3 id=&#34;swpuctf-2021-新生赛easy_md5&#34;&gt;[SWPUCTF 2021 新生赛]easy_md5&lt;/h3&gt;
+&lt;p&gt;例题 &lt;a href=&#34;https://www.nssctf.cn/problem/386&#34;&gt;https://www.nssctf.cn/problem/386&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;关键代码就一行&lt;code&gt; if ($name != $password &amp;amp;&amp;amp; md5($name) == md5($password))&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;保证 值不相等 而且 md5 值 弱比较相等&lt;/p&gt;
+&lt;p&gt;因为 md5(数组)将返回 Null&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CTF题型 php://filter特殊编码绕过小汇总</title>
+      <link>http://localhost:1313/posts/phpfilter%E4%BC%AA%E5%8D%8F%E8%AE%AE%E7%BB%95%E8%BF%87%E6%AD%BB%E4%BA%A1exit/</link>
+      <pubDate>Tue, 02 Jan 2024 12:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/phpfilter%E4%BC%AA%E5%8D%8F%E8%AE%AE%E7%BB%95%E8%BF%87%E6%AD%BB%E4%BA%A1exit/</guid>
+      <description>&lt;h1 id=&#34;ctf题型-phpfilter特殊编码绕过小汇总&#34;&gt;CTF题型 php://filter特殊编码绕过小汇总&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;php://filter&lt;/code&gt; 是一个伪协议，它允许你读取经过过滤器处理的数据流。过滤器可以执行各种转换，如 base64 编码/解码、字符串压缩/解压缩等&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CTF题型 nodejs(2) Js沙盒逃逸原理&amp;典型例题</title>
+      <link>http://localhost:1313/posts/ctf%E9%A2%98%E5%9E%8B-nodejs2-js%E6%B2%99%E7%9B%92%E9%80%83%E9%80%B8%E5%8E%9F%E7%90%86%E5%85%B8%E5%9E%8B%E4%BE%8B%E9%A2%98/</link>
+      <pubDate>Sat, 23 Dec 2023 12:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ctf%E9%A2%98%E5%9E%8B-nodejs2-js%E6%B2%99%E7%9B%92%E9%80%83%E9%80%B8%E5%8E%9F%E7%90%86%E5%85%B8%E5%9E%8B%E4%BE%8B%E9%A2%98/</guid>
+      <description>&lt;h1 id=&#34;ctf题型-nodejs2-js沙盒逃逸原理典型例题&#34;&gt;CTF题型 nodejs(2) Js沙盒逃逸原理&amp;amp;典型例题&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;vm&lt;/code&gt; 模块提供了一系列 API 用于在 V8 虚拟机环境中编译和运行代码&lt;/p&gt;
+&lt;p&gt;逃逸定义：通过某种方式拿到沙箱外的 &lt;code&gt;global.process&lt;/code&gt;就算成功&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CTF题型 nodejs(1)  命令执行绕过</title>
+      <link>http://localhost:1313/posts/ctf%E9%A2%98%E5%9E%8B-nodejs%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E7%BB%95%E8%BF%87%E6%B2%99%E7%AE%B1%E9%80%83%E9%80%B8/</link>
+      <pubDate>Fri, 03 Nov 2023 12:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ctf%E9%A2%98%E5%9E%8B-nodejs%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E7%BB%95%E8%BF%87%E6%B2%99%E7%AE%B1%E9%80%83%E9%80%B8/</guid>
+      <description>&lt;h1 id=&#34;ctf题型-nodejs1--命令执行绕过&#34;&gt;CTF题型 nodejs(1)  命令执行绕过&lt;/h1&gt;
+&lt;p&gt;[TOC]&lt;/p&gt;
+&lt;h1 id=&#34;一nodejs中的命令执行&#34;&gt;一.nodejs中的命令执行&lt;/h1&gt;
+&lt;p&gt;正常的nodejs中命令执行&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;require(&amp;quot;child_process&amp;quot;).execSync(&amp;quot;sleep 3&amp;quot;);&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;动态的一种绕过某些限制（比如模块缓存或包管理器的限制）的方法&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;global.process.mainModule.constructor._load(&amp;quot;child_process&amp;quot;).execSync(&amp;quot;curl 127.0.0.1:1234&amp;quot;)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;global.process.mainModule.constructor._load&lt;/code&gt;来动态导入&lt;code&gt;child_process&lt;/code&gt;模块&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CTF题型 php反序列化进阶(1) php原生文件操作类 例题和总结</title>
+      <link>http://localhost:1313/posts/ctf%E9%A2%98%E5%9E%8B-php%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E8%BF%9B%E9%98%B61-php%E5%8E%9F%E7%94%9F%E7%B1%BB-%E4%BE%8B%E9%A2%98%E5%92%8C%E6%80%BB%E7%BB%93/</link>
+      <pubDate>Thu, 02 Nov 2023 12:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ctf%E9%A2%98%E5%9E%8B-php%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E8%BF%9B%E9%98%B61-php%E5%8E%9F%E7%94%9F%E7%B1%BB-%E4%BE%8B%E9%A2%98%E5%92%8C%E6%80%BB%E7%BB%93/</guid>
+      <description>&lt;h1 id=&#34;ctf题型-php反序列化进阶1-php原生文件操作类-例题和总结&#34;&gt;CTF题型 php反序列化进阶(1) php原生文件操作类 例题和总结&lt;/h1&gt;
+&lt;h2 id=&#34;特征&#34;&gt;特征&lt;/h2&gt;
+&lt;p&gt;在php反序列化中 没有直接的利用点&lt;/p&gt;
+&lt;p&gt;可以直接rce&lt;/p&gt;
+&lt;p&gt;而是&lt;code&gt;echo new $a($b);&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;echo 可以触发类的 toString方法&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

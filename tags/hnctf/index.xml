@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>H&amp;NCTF on J1rrY&#39;s Blog</title>
+    <link>http://localhost:1313/tags/hnctf/</link>
+    <description>Recent content in H&amp;NCTF on J1rrY&#39;s Blog</description>
+    <image>
+      <title>J1rrY&#39;s Blog</title>
+      <url>http://localhost:1313/</url>
+      <link>http://localhost:1313/</link>
+    </image>
+    <generator>Hugo -- 0.139.1</generator>
+    <language>zh</language>
+    <copyright>©2025 J1rrY&amp;rsquo;s Blog</copyright>
+    <lastBuildDate>Tue, 11 Jun 2024 12:30:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/hnctf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2024 H&amp;N CTF wp</title>
+      <link>http://localhost:1313/posts/2024-hn-ctf-wp/</link>
+      <pubDate>Tue, 11 Jun 2024 12:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-hn-ctf-wp/</guid>
+      <description>&lt;h1 id=&#34;web&#34;&gt;Web&lt;/h1&gt;
+&lt;h2 id=&#34;ez_tp&#34;&gt;ez_tp&lt;/h2&gt;
+&lt;p&gt;判断是thinkphp 3.2
+参考官方手册:https://www.kancloud.cn/manual/thinkphp/1697
+判断路由模式&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>国城杯 on J1rrY&#39;s Blog</title>
+    <link>http://localhost:1313/tags/%E5%9B%BD%E5%9F%8E%E6%9D%AF/</link>
+    <description>Recent content in 国城杯 on J1rrY&#39;s Blog</description>
+    <image>
+      <title>J1rrY&#39;s Blog</title>
+      <url>http://localhost:1313/</url>
+      <link>http://localhost:1313/</link>
+    </image>
+    <generator>Hugo -- 0.139.1</generator>
+    <language>zh</language>
+    <copyright>©2025 J1rrY&amp;rsquo;s Blog</copyright>
+    <lastBuildDate>Mon, 23 Dec 2024 12:30:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E5%9B%BD%E5%9F%8E%E6%9D%AF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>从国城杯Ez_Gallery实现寻找WSGIRef内存马和Response响应头外带以及栈帧回显的尝试</title>
+      <link>http://localhost:1313/posts/%E4%BF%AE%E6%94%B9-%E4%BB%8E%E5%9B%BD%E5%9F%8E%E6%9D%AFez_gallery%E5%AE%9E%E7%8E%B0%E5%AF%BB%E6%89%BEwsgiref%E5%86%85%E5%AD%98%E9%A9%AC%E5%92%8Cresponse%E5%93%8D%E5%BA%94%E5%A4%B4%E5%A4%96%E5%B8%A6%E4%BB%A5%E5%8F%8A%E6%A0%88%E5%B8%A7%E5%9B%9E%E6%98%BE%E7%9A%84%E5%B0%9D%E8%AF%95/</link>
+      <pubDate>Mon, 23 Dec 2024 12:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E4%BF%AE%E6%94%B9-%E4%BB%8E%E5%9B%BD%E5%9F%8E%E6%9D%AFez_gallery%E5%AE%9E%E7%8E%B0%E5%AF%BB%E6%89%BEwsgiref%E5%86%85%E5%AD%98%E9%A9%AC%E5%92%8Cresponse%E5%93%8D%E5%BA%94%E5%A4%B4%E5%A4%96%E5%B8%A6%E4%BB%A5%E5%8F%8A%E6%A0%88%E5%B8%A7%E5%9B%9E%E6%98%BE%E7%9A%84%E5%B0%9D%E8%AF%95/</guid>
+      <description>&lt;h2 id=&#34;登陆后台&#34;&gt;登陆后台&lt;/h2&gt;
+&lt;p&gt;直接尝试弱密码&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;admin
+123456
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;实现登陆后台功能&lt;/p&gt;
+&lt;h2 id=&#34;实现任意文件读取&#34;&gt;实现任意文件读取&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://xzfile.aliyuncs.com/media/upload/picture/20241209154320-42da5512-b601-1.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;file后接着具体的文件名 要考虑目录穿越问题
+一般后端这样写都是直接通过  &lt;code&gt;os.path.join&lt;/code&gt; 直接拼接存在任意文件读取
+尝试直接读取当前程序的启动命令查看当前Web应用的绝对路径&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

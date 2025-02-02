@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>中国海洋大学CTF on J1rrY&#39;s Blog</title>
+    <link>http://localhost:1313/tags/%E4%B8%AD%E5%9B%BD%E6%B5%B7%E6%B4%8B%E5%A4%A7%E5%AD%A6ctf/</link>
+    <description>Recent content in 中国海洋大学CTF on J1rrY&#39;s Blog</description>
+    <image>
+      <title>J1rrY&#39;s Blog</title>
+      <url>http://localhost:1313/</url>
+      <link>http://localhost:1313/</link>
+    </image>
+    <generator>Hugo -- 0.139.1</generator>
+    <language>zh</language>
+    <copyright>©2025 J1rrY&amp;rsquo;s Blog</copyright>
+    <lastBuildDate>Sun, 21 Apr 2024 12:30:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E4%B8%AD%E5%9B%BD%E6%B5%B7%E6%B4%8B%E5%A4%A7%E5%AD%A6ctf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2024 中国海洋大学 CTF 部分WP</title>
+      <link>http://localhost:1313/posts/2024-%E4%B8%AD%E5%9B%BD%E6%B5%B7%E6%B4%8B%E5%A4%A7%E5%AD%A6-ctf/</link>
+      <pubDate>Sun, 21 Apr 2024 12:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-%E4%B8%AD%E5%9B%BD%E6%B5%B7%E6%B4%8B%E5%A4%A7%E5%AD%A6-ctf/</guid>
+      <description>&lt;h1 id=&#34;web&#34;&gt;Web&lt;/h1&gt;
+&lt;h2 id=&#34;菜鸟工具2&#34;&gt;菜鸟工具2&lt;/h2&gt;
+&lt;p&gt;如何&lt;strong&gt;实现python读内存&lt;/strong&gt;
+1.&lt;code&gt;/proc/*/fd/*&lt;/code&gt;  chroot逃逸
+2.利用python实现读取内存
+&lt;strong&gt;依靠 python 解析自身进程的内存&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;法一&#34;&gt;法一&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;ctypes&lt;/code&gt; 是 Python 的一个标准库模块，它提供了 C 兼容的数据类型，并允许调用共享库中的函数
+&lt;strong&gt;处理指针&lt;/strong&gt;：&lt;code&gt;ctypes&lt;/code&gt; 允许你在 Python 中操作指针，包括创建、读取和修改指针的值
+参考链接： &lt;a href=&#34;https://zer0peach.github.io/2024/02/06/L3HCTF-WEB/#L3HCTF&#34;&gt;L3HCTF&lt;/a&gt; &lt;a href=&#34;https://github.com/maple3142/My-CTF-Challenges/blob/master/TSJ%20CTF%202022/Just%20a%20pyjail/README.md&#34;&gt;Just a pyjail&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>网鼎杯 on J1rrY&#39;s Blog</title>
+    <link>http://localhost:1313/tags/%E7%BD%91%E9%BC%8E%E6%9D%AF/</link>
+    <description>Recent content in 网鼎杯 on J1rrY&#39;s Blog</description>
+    <image>
+      <title>J1rrY&#39;s Blog</title>
+      <url>http://localhost:1313/</url>
+      <link>http://localhost:1313/</link>
+    </image>
+    <generator>Hugo -- 0.139.1</generator>
+    <language>zh</language>
+    <copyright>©2025 J1rrY&amp;rsquo;s Blog</copyright>
+    <lastBuildDate>Thu, 19 Dec 2024 12:30:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E7%BD%91%E9%BC%8E%E6%9D%AF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2024 网鼎杯 CTF 青龙组 Web 方向 全解 WP</title>
+      <link>http://localhost:1313/posts/2024-%E7%BD%91%E9%BC%8E%E6%9D%AF-ctf-%E9%9D%92%E9%BE%99%E7%BB%84-web-%E6%96%B9%E5%90%91-%E8%A7%A3%E9%A2%98-wp/</link>
+      <pubDate>Thu, 19 Dec 2024 12:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-%E7%BD%91%E9%BC%8E%E6%9D%AF-ctf-%E9%9D%92%E9%BE%99%E7%BB%84-web-%E6%96%B9%E5%90%91-%E8%A7%A3%E9%A2%98-wp/</guid>
+      <description>&lt;h1 id=&#34;web1&#34;&gt;Web1&lt;/h1&gt;
+&lt;p&gt;考点: RS256弱公钥jwt伪造+ flask session身份伪造 +emoji shell?+xxe绕过黑名单实现任意文件读取
+本身可以以任意用户登陆 随意登陆后
+&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202410292112744.png&#34;&gt;
+Cookie中设置了 &lt;code&gt;token&lt;/code&gt;(jwt) 和 &lt;code&gt;session&lt;/code&gt;(flask session)
+&lt;code&gt;token&lt;/code&gt;是 jwt 通过 RS256进行的加密签名
+&lt;code&gt;session&lt;/code&gt; 就是 Python flask session
+&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202410292115175.png&#34;&gt;
+尝试删除 session 可以发现并不影响 &lt;code&gt;/profile&lt;/code&gt;返回当前用户名&lt;code&gt;username&lt;/code&gt;
+如果希望篡改 &lt;code&gt;username&lt;/code&gt; 的值 需要 ==公私钥==(非对称加密)
+公钥实现解密 私钥加密&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

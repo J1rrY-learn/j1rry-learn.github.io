@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Http请求走私 on J1rrY&#39;s Blog</title>
+    <link>http://localhost:1313/tags/http%E8%AF%B7%E6%B1%82%E8%B5%B0%E7%A7%81/</link>
+    <description>Recent content in Http请求走私 on J1rrY&#39;s Blog</description>
+    <image>
+      <title>J1rrY&#39;s Blog</title>
+      <url>http://localhost:1313/</url>
+      <link>http://localhost:1313/</link>
+    </image>
+    <generator>Hugo -- 0.139.1</generator>
+    <language>zh</language>
+    <copyright>©2025 J1rrY&amp;rsquo;s Blog</copyright>
+    <lastBuildDate>Sun, 24 Mar 2024 12:30:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/http%E8%AF%B7%E6%B1%82%E8%B5%B0%E7%A7%81/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CTF题型 Http请求走私总结&amp;靶场例题</title>
+      <link>http://localhost:1313/posts/ctf%E9%A2%98%E5%9E%8B-http%E8%AF%B7%E6%B1%82%E8%B5%B0%E7%A7%81burp%E4%BE%8B%E9%A2%98/</link>
+      <pubDate>Sun, 24 Mar 2024 12:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ctf%E9%A2%98%E5%9E%8B-http%E8%AF%B7%E6%B1%82%E8%B5%B0%E7%A7%81burp%E4%BE%8B%E9%A2%98/</guid>
+      <description>&lt;h1 id=&#34;ctf题型-http请求走私总结靶场例题&#34;&gt;CTF题型 Http请求走私总结&amp;amp;靶场例题&lt;/h1&gt;
+&lt;h1 id=&#34;http请求走私&#34;&gt;HTTP请求走私&lt;/h1&gt;
+&lt;h2 id=&#34;http请求走私漏洞原理&#34;&gt;HTTP请求走私漏洞原理&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&#34;image-20240318083539644&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202403180835924.png&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;为什么用前端服务器&#34;&gt;为什么用前端服务器&lt;/h3&gt;
+&lt;p&gt;keep-alive 与 pipeline&lt;/p&gt;
+&lt;p&gt;为了缓解源站的压力，一般会在用户和后端服务器（源站）之间加设前置服务器，用以缓存、简单校验、负载均衡等，而前置服务器与后端服务器往往是在可靠的网络域中，ip 也是相对固定的，所以可以重用 TCP 连接来减少频繁 TCP 握手带来的开销。这里就用到了 HTTP1.1 中的 &lt;code&gt;Keep-Alive&lt;/code&gt; 和 &lt;code&gt;Pipeline&lt;/code&gt; 特性：&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
