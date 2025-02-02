@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>JDBC on J1rrY&#39;s Blog</title>
-    <link>http://localhost:1313/tags/jdbc/</link>
+    <link>http://j1rry-learn.github.io/tags/jdbc/</link>
     <description>Recent content in JDBC on J1rrY&#39;s Blog</description>
     <image>
       <title>J1rrY&#39;s Blog</title>
-      <url>http://localhost:1313/</url>
-      <link>http://localhost:1313/</link>
+      <url>http://j1rry-learn.github.io/</url>
+      <link>http://j1rry-learn.github.io/</link>
     </image>
-    <generator>Hugo -- 0.139.1</generator>
+    <generator>Hugo -- 0.143.0</generator>
     <language>zh</language>
     <copyright>©2025 J1rrY&amp;rsquo;s Blog</copyright>
     <lastBuildDate>Tue, 21 Jan 2025 12:30:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/jdbc/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://j1rry-learn.github.io/tags/jdbc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>尝试CodeQL分析2025 SUCTF SU_Solon</title>
-      <link>http://localhost:1313/posts/%E5%B0%9D%E8%AF%95codeql%E5%88%86%E6%9E%902025-suctf-su_solon/</link>
+      <link>http://j1rry-learn.github.io/posts/%E5%B0%9D%E8%AF%95codeql%E5%88%86%E6%9E%902025-suctf-su_solon/</link>
       <pubDate>Tue, 21 Jan 2025 12:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/%E5%B0%9D%E8%AF%95codeql%E5%88%86%E6%9E%902025-suctf-su_solon/</guid>
+      <guid>http://j1rry-learn.github.io/posts/%E5%B0%9D%E8%AF%95codeql%E5%88%86%E6%9E%902025-suctf-su_solon/</guid>
       <description>&lt;p&gt;本篇文章尝试通过CodeQL对触发JDBC的可能解进行探究,也是初学CodeQL进行练手的一道题目 SU_Solon&lt;/p&gt;
 &lt;p&gt;这是一道非常明确的Hession反序列化的题目&lt;/p&gt;</description>
     </item>
     <item>
       <title>羊城杯 2020 a_piece_of_java</title>
-      <link>http://localhost:1313/posts/%E7%BE%8A%E5%9F%8E%E6%9D%AF-2020-a_piece_of_java/</link>
+      <link>http://j1rry-learn.github.io/posts/%E7%BE%8A%E5%9F%8E%E6%9D%AF-2020-a_piece_of_java/</link>
       <pubDate>Tue, 03 Sep 2024 12:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/%E7%BE%8A%E5%9F%8E%E6%9D%AF-2020-a_piece_of_java/</guid>
+      <guid>http://j1rry-learn.github.io/posts/%E7%BE%8A%E5%9F%8E%E6%9D%AF-2020-a_piece_of_java/</guid>
       <description>&lt;p&gt;考点:JDBC反序列化打CC链+动态代理类触发readobject
 &lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202406171439011.png&#34;&gt;
 一眼看过去 好像只有一个&lt;code&gt;mysql-connector-java&lt;/code&gt; 可以利用jdbc

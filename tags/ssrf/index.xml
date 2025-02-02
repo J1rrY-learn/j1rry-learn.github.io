@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>SSRF on J1rrY&#39;s Blog</title>
-    <link>http://localhost:1313/tags/ssrf/</link>
+    <link>http://j1rry-learn.github.io/tags/ssrf/</link>
     <description>Recent content in SSRF on J1rrY&#39;s Blog</description>
     <image>
       <title>J1rrY&#39;s Blog</title>
-      <url>http://localhost:1313/</url>
-      <link>http://localhost:1313/</link>
+      <url>http://j1rry-learn.github.io/</url>
+      <link>http://j1rry-learn.github.io/</link>
     </image>
-    <generator>Hugo -- 0.139.1</generator>
+    <generator>Hugo -- 0.143.0</generator>
     <language>zh</language>
     <copyright>©2025 J1rrY&amp;rsquo;s Blog</copyright>
     <lastBuildDate>Sat, 23 Mar 2024 12:30:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/ssrf/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://j1rry-learn.github.io/tags/ssrf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CTF 题型 SSRF攻击&amp;例题总结</title>
-      <link>http://localhost:1313/posts/ctf-%E9%A2%98%E5%9E%8B-ssrf%E6%94%BB%E5%87%BB%E4%BE%8B%E9%A2%98%E6%80%BB%E7%BB%93/</link>
+      <link>http://j1rry-learn.github.io/posts/ctf-%E9%A2%98%E5%9E%8B-ssrf%E6%94%BB%E5%87%BB%E4%BE%8B%E9%A2%98%E6%80%BB%E7%BB%93/</link>
       <pubDate>Sat, 23 Mar 2024 12:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ctf-%E9%A2%98%E5%9E%8B-ssrf%E6%94%BB%E5%87%BB%E4%BE%8B%E9%A2%98%E6%80%BB%E7%BB%93/</guid>
+      <guid>http://j1rry-learn.github.io/posts/ctf-%E9%A2%98%E5%9E%8B-ssrf%E6%94%BB%E5%87%BB%E4%BE%8B%E9%A2%98%E6%80%BB%E7%BB%93/</guid>
       <description>&lt;p&gt;CTF 题型 python原型链污染 题记和总结&lt;/p&gt;
 &lt;h1 id=&#34;ctf-题型-ssrf攻击例题总结&#34;&gt;CTF 题型 SSRF攻击&amp;amp;例题总结&lt;/h1&gt;
 &lt;p&gt;[TOC]&lt;/p&gt;

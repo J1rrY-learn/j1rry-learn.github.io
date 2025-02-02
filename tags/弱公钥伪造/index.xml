@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>弱公钥伪造 on J1rrY&#39;s Blog</title>
-    <link>http://localhost:1313/tags/%E5%BC%B1%E5%85%AC%E9%92%A5%E4%BC%AA%E9%80%A0/</link>
+    <link>http://j1rry-learn.github.io/tags/%E5%BC%B1%E5%85%AC%E9%92%A5%E4%BC%AA%E9%80%A0/</link>
     <description>Recent content in 弱公钥伪造 on J1rrY&#39;s Blog</description>
     <image>
       <title>J1rrY&#39;s Blog</title>
-      <url>http://localhost:1313/</url>
-      <link>http://localhost:1313/</link>
+      <url>http://j1rry-learn.github.io/</url>
+      <link>http://j1rry-learn.github.io/</link>
     </image>
-    <generator>Hugo -- 0.139.1</generator>
+    <generator>Hugo -- 0.143.0</generator>
     <language>zh</language>
     <copyright>©2025 J1rrY&amp;rsquo;s Blog</copyright>
     <lastBuildDate>Fri, 20 Dec 2024 12:30:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E5%BC%B1%E5%85%AC%E9%92%A5%E4%BC%AA%E9%80%A0/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://j1rry-learn.github.io/tags/%E5%BC%B1%E5%85%AC%E9%92%A5%E4%BC%AA%E9%80%A0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DownUnderCTF 2021 jwt</title>
-      <link>http://localhost:1313/posts/downunderctf-2021-jwt/</link>
+      <link>http://j1rry-learn.github.io/posts/downunderctf-2021-jwt/</link>
       <pubDate>Fri, 20 Dec 2024 12:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/downunderctf-2021-jwt/</guid>
+      <guid>http://j1rry-learn.github.io/posts/downunderctf-2021-jwt/</guid>
       <description>&lt;p&gt;考点:对于RS256弱公钥生成的jwt可以伪造(非对称加密)&lt;/p&gt;
 &lt;p&gt;网鼎杯 Web1 改编自这道国际赛的题 有空来复现一下
 解题 WP :https://ctftime.org/writeup/30541&lt;/p&gt;

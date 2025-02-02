@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>SSTI on J1rrY&#39;s Blog</title>
-    <link>http://localhost:1313/tags/ssti/</link>
+    <link>http://j1rry-learn.github.io/tags/ssti/</link>
     <description>Recent content in SSTI on J1rrY&#39;s Blog</description>
     <image>
       <title>J1rrY&#39;s Blog</title>
-      <url>http://localhost:1313/</url>
-      <link>http://localhost:1313/</link>
+      <url>http://j1rry-learn.github.io/</url>
+      <link>http://j1rry-learn.github.io/</link>
     </image>
-    <generator>Hugo -- 0.139.1</generator>
+    <generator>Hugo -- 0.143.0</generator>
     <language>zh</language>
     <copyright>©2025 J1rrY&amp;rsquo;s Blog</copyright>
     <lastBuildDate>Sat, 23 Mar 2024 12:30:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/ssti/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://j1rry-learn.github.io/tags/ssti/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CTF 题型 python原型链污染 题记和总结</title>
-      <link>http://localhost:1313/posts/ctf-%E9%A2%98%E5%9E%8B-python%E5%8E%9F%E5%9E%8B%E9%93%BE%E6%B1%A1%E6%9F%93-%E9%A2%98%E8%AE%B0%E5%92%8C%E6%80%BB%E7%BB%93-/</link>
+      <link>http://j1rry-learn.github.io/posts/ctf-%E9%A2%98%E5%9E%8B-python%E5%8E%9F%E5%9E%8B%E9%93%BE%E6%B1%A1%E6%9F%93-%E9%A2%98%E8%AE%B0%E5%92%8C%E6%80%BB%E7%BB%93-/</link>
       <pubDate>Sat, 23 Mar 2024 12:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ctf-%E9%A2%98%E5%9E%8B-python%E5%8E%9F%E5%9E%8B%E9%93%BE%E6%B1%A1%E6%9F%93-%E9%A2%98%E8%AE%B0%E5%92%8C%E6%80%BB%E7%BB%93-/</guid>
+      <guid>http://j1rry-learn.github.io/posts/ctf-%E9%A2%98%E5%9E%8B-python%E5%8E%9F%E5%9E%8B%E9%93%BE%E6%B1%A1%E6%9F%93-%E9%A2%98%E8%AE%B0%E5%92%8C%E6%80%BB%E7%BB%93-/</guid>
       <description>&lt;p&gt;CTF 题型 python原型链污染 题记和总结&lt;/p&gt;
 &lt;h1 id=&#34;一般特征关键函数判断python原型链污染依据&#34;&gt;一般特征关键函数(判断python原型链污染依据)&lt;/h1&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
@@ -38,9 +38,9 @@
     </item>
     <item>
       <title>CTF题型 SSTI(1) Flask-SSTI-labs 通关 题记</title>
-      <link>http://localhost:1313/posts/ctf-%E9%A2%98%E5%9E%8B-flask-ssti-labs-%E9%80%9A%E5%85%B3-level-1-13/</link>
+      <link>http://j1rry-learn.github.io/posts/ctf-%E9%A2%98%E5%9E%8B-flask-ssti-labs-%E9%80%9A%E5%85%B3-level-1-13/</link>
       <pubDate>Fri, 22 Mar 2024 12:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ctf-%E9%A2%98%E5%9E%8B-flask-ssti-labs-%E9%80%9A%E5%85%B3-level-1-13/</guid>
+      <guid>http://j1rry-learn.github.io/posts/ctf-%E9%A2%98%E5%9E%8B-flask-ssti-labs-%E9%80%9A%E5%85%B3-level-1-13/</guid>
       <description>&lt;h1 id=&#34;ctf题型-ssti1-flask-ssti-labs-通关-题记&#34;&gt;CTF题型 SSTI(1) Flask-SSTI-labs 通关 题记&lt;/h1&gt;
 &lt;p&gt;[TOC]&lt;/p&gt;
 &lt;h2 id=&#34;前记&#34;&gt;前记&lt;/h2&gt;
@@ -50,9 +50,9 @@
     </item>
     <item>
       <title>CTF题型 SSTI(2)   Flask-SSTI典型题巩固</title>
-      <link>http://localhost:1313/posts/ctf%E9%A2%98%E5%9E%8B-ssti2---flask-ssti%E5%85%B8%E5%9E%8B%E9%A2%98%E5%B7%A9%E5%9B%BA/</link>
+      <link>http://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-ssti2---flask-ssti%E5%85%B8%E5%9E%8B%E9%A2%98%E5%B7%A9%E5%9B%BA/</link>
       <pubDate>Mon, 05 Feb 2024 12:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ctf%E9%A2%98%E5%9E%8B-ssti2---flask-ssti%E5%85%B8%E5%9E%8B%E9%A2%98%E5%B7%A9%E5%9B%BA/</guid>
+      <guid>http://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-ssti2---flask-ssti%E5%85%B8%E5%9E%8B%E9%A2%98%E5%B7%A9%E5%9B%BA/</guid>
       <description>&lt;h1 id=&#34;ctf题型-ssti2---flask-ssti典型题巩固&#34;&gt;CTF题型 SSTI(2)   Flask-SSTI典型题巩固&lt;/h1&gt;
 &lt;h2 id=&#34;前记&#34;&gt;前记&lt;/h2&gt;
 &lt;p&gt;从基础到自己构造payload&lt;/p&gt;
@@ -61,9 +61,9 @@
     </item>
     <item>
       <title>CTF题型 SSTI(3) Smart SSTI 例题和题记</title>
-      <link>http://localhost:1313/posts/ctf%E9%A2%98%E5%9E%8B-ssti3-smart-ssti-%E4%BE%8B%E9%A2%98%E5%92%8C%E9%A2%98%E8%AE%B0/</link>
+      <link>http://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-ssti3-smart-ssti-%E4%BE%8B%E9%A2%98%E5%92%8C%E9%A2%98%E8%AE%B0/</link>
       <pubDate>Mon, 05 Feb 2024 12:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ctf%E9%A2%98%E5%9E%8B-ssti3-smart-ssti-%E4%BE%8B%E9%A2%98%E5%92%8C%E9%A2%98%E8%AE%B0/</guid>
+      <guid>http://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-ssti3-smart-ssti-%E4%BE%8B%E9%A2%98%E5%92%8C%E9%A2%98%E8%AE%B0/</guid>
       <description>&lt;h1 id=&#34;ctf题型-ssti3-smart-ssti-例题和题记&#34;&gt;CTF题型 SSTI(3) Smart SSTI 例题和题记&lt;/h1&gt;
 &lt;p&gt;前面我们学习了Flask SSTI&lt;/p&gt;
 &lt;p&gt;Smart SSTI和Flask SSTI 不同&lt;/p&gt;

@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>流量分析 on J1rrY&#39;s Blog</title>
-    <link>http://localhost:1313/tags/%E6%B5%81%E9%87%8F%E5%88%86%E6%9E%90/</link>
+    <link>http://j1rry-learn.github.io/tags/%E6%B5%81%E9%87%8F%E5%88%86%E6%9E%90/</link>
     <description>Recent content in 流量分析 on J1rrY&#39;s Blog</description>
     <image>
       <title>J1rrY&#39;s Blog</title>
-      <url>http://localhost:1313/</url>
-      <link>http://localhost:1313/</link>
+      <url>http://j1rry-learn.github.io/</url>
+      <link>http://j1rry-learn.github.io/</link>
     </image>
-    <generator>Hugo -- 0.139.1</generator>
+    <generator>Hugo -- 0.143.0</generator>
     <language>zh</language>
     <copyright>©2025 J1rrY&amp;rsquo;s Blog</copyright>
     <lastBuildDate>Tue, 11 Jun 2024 12:30:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E6%B5%81%E9%87%8F%E5%88%86%E6%9E%90/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://j1rry-learn.github.io/tags/%E6%B5%81%E9%87%8F%E5%88%86%E6%9E%90/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>闽盾杯 2021 DNS协议分析</title>
-      <link>http://localhost:1313/posts/%E9%97%BD%E7%9B%BE%E6%9D%AF-2021-dns%E5%8D%8F%E8%AE%AE%E5%88%86%E6%9E%90/</link>
+      <link>http://j1rry-learn.github.io/posts/%E9%97%BD%E7%9B%BE%E6%9D%AF-2021-dns%E5%8D%8F%E8%AE%AE%E5%88%86%E6%9E%90/</link>
       <pubDate>Tue, 11 Jun 2024 12:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/%E9%97%BD%E7%9B%BE%E6%9D%AF-2021-dns%E5%8D%8F%E8%AE%AE%E5%88%86%E6%9E%90/</guid>
+      <guid>http://j1rry-learn.github.io/posts/%E9%97%BD%E7%9B%BE%E6%9D%AF-2021-dns%E5%8D%8F%E8%AE%AE%E5%88%86%E6%9E%90/</guid>
       <description>&lt;p&gt;今年CISCN的Tough DNS 的前戏就是DNS协议分析
 直接可以查找到flag的base64形式&lt;code&gt;Zmxh&lt;/code&gt;
 &lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202405312042664.png&#34;&gt;
@@ -34,9 +34,9 @@
     </item>
     <item>
       <title>CISCN 2023 初赛 被加密的生产流量</title>
-      <link>http://localhost:1313/posts/ciscn-2023-%E5%88%9D%E8%B5%9B-%E8%A2%AB%E5%8A%A0%E5%AF%86%E7%9A%84%E7%94%9F%E4%BA%A7%E6%B5%81%E9%87%8F/</link>
+      <link>http://j1rry-learn.github.io/posts/ciscn-2023-%E5%88%9D%E8%B5%9B-%E8%A2%AB%E5%8A%A0%E5%AF%86%E7%9A%84%E7%94%9F%E4%BA%A7%E6%B5%81%E9%87%8F/</link>
       <pubDate>Sun, 21 Apr 2024 12:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ciscn-2023-%E5%88%9D%E8%B5%9B-%E8%A2%AB%E5%8A%A0%E5%AF%86%E7%9A%84%E7%94%9F%E4%BA%A7%E6%B5%81%E9%87%8F/</guid>
+      <guid>http://j1rry-learn.github.io/posts/ciscn-2023-%E5%88%9D%E8%B5%9B-%E8%A2%AB%E5%8A%A0%E5%AF%86%E7%9A%84%E7%94%9F%E4%BA%A7%E6%B5%81%E9%87%8F/</guid>
       <description>&lt;p&gt;题目附件给了 &lt;code&gt;modbus.pcap&lt;/code&gt;
 存在多个协议 但是这道题多半是 考 &lt;code&gt;modbus&lt;/code&gt;
 &lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202405311250734.png&#34;&gt;
@@ -57,9 +57,9 @@
     </item>
     <item>
       <title>CISCN 2022 初赛 ez_usb 流量分析题解</title>
-      <link>http://localhost:1313/posts/ciscn-2022-%E5%88%9D%E8%B5%9B-ez_usb/</link>
+      <link>http://j1rry-learn.github.io/posts/ciscn-2022-%E5%88%9D%E8%B5%9B-ez_usb/</link>
       <pubDate>Thu, 11 Apr 2024 12:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ciscn-2022-%E5%88%9D%E8%B5%9B-ez_usb/</guid>
+      <guid>http://j1rry-learn.github.io/posts/ciscn-2022-%E5%88%9D%E8%B5%9B-ez_usb/</guid>
       <description>&lt;p&gt;还是从第一个 &lt;code&gt;URB&lt;/code&gt;向后看
 &lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202405311542393.png&#34;&gt;
 发现 同时 存在 2.8.1 2.10.1  2.4.1
@@ -127,9 +127,9 @@
     </item>
     <item>
       <title>EIS 2019 webshell</title>
-      <link>http://localhost:1313/posts/eis-2019-webshell/</link>
+      <link>http://j1rry-learn.github.io/posts/eis-2019-webshell/</link>
       <pubDate>Thu, 11 Apr 2024 12:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/eis-2019-webshell/</guid>
+      <guid>http://j1rry-learn.github.io/posts/eis-2019-webshell/</guid>
       <description>&lt;p&gt;请求中可以确定是http POST流量
 &lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202405312138830.png&#34;&gt;
 &lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202405312140117.png&#34;&gt;
@@ -152,9 +152,9 @@ php代码美化后&lt;/p&gt;</description>
     </item>
     <item>
       <title>H&amp;NCTF 2024 ez_pecp wp</title>
-      <link>http://localhost:1313/posts/hnctf-2024-ez_pecp/</link>
+      <link>http://j1rry-learn.github.io/posts/hnctf-2024-ez_pecp/</link>
       <pubDate>Thu, 11 Apr 2024 12:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/hnctf-2024-ez_pecp/</guid>
+      <guid>http://j1rry-learn.github.io/posts/hnctf-2024-ez_pecp/</guid>
       <description>&lt;p&gt;考点:冰蝎webshell流量分析+CS4.x流量解密
 给了两个 流量包
 第一个 &lt;code&gt;ctf1.pcapng&lt;/code&gt;
@@ -165,9 +165,9 @@ http-beacon 通信中，默认使用 GET 方法向 &lt;code&gt;/dpixel&lt;/code&
     </item>
     <item>
       <title>MoeCTF 2022 usb</title>
-      <link>http://localhost:1313/posts/moectf-2022-usb/</link>
+      <link>http://j1rry-learn.github.io/posts/moectf-2022-usb/</link>
       <pubDate>Thu, 11 Apr 2024 12:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/moectf-2022-usb/</guid>
+      <guid>http://j1rry-learn.github.io/posts/moectf-2022-usb/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202405311332203.png&#34;&gt;
 直接找 &lt;code&gt;URB&lt;/code&gt;的第一个输入协议
 &lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202405311339030.png&#34;&gt;
@@ -205,9 +205,9 @@ usb流量永存脚本 结合一下&lt;/p&gt;</description>
     </item>
     <item>
       <title>NKCTF 2024 webshell_pro</title>
-      <link>http://localhost:1313/posts/nkctf-2024-webshell_pro/</link>
+      <link>http://j1rry-learn.github.io/posts/nkctf-2024-webshell_pro/</link>
       <pubDate>Thu, 11 Apr 2024 12:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/nkctf-2024-webshell_pro/</guid>
+      <guid>http://j1rry-learn.github.io/posts/nkctf-2024-webshell_pro/</guid>
       <description>&lt;p&gt;还是正常的HTTP流量
 &lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202406011022878.png&#34;&gt;
 既然是webshell一定是看POST流量
@@ -218,9 +218,9 @@ usb流量永存脚本 结合一下&lt;/p&gt;</description>
     </item>
     <item>
       <title>Webshell-jsp 冰蝎流量</title>
-      <link>http://localhost:1313/posts/webshell-jsp-%E5%86%B0%E8%9D%8E%E6%B5%81%E9%87%8F/</link>
+      <link>http://j1rry-learn.github.io/posts/webshell-jsp-%E5%86%B0%E8%9D%8E%E6%B5%81%E9%87%8F/</link>
       <pubDate>Thu, 11 Apr 2024 12:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/webshell-jsp-%E5%86%B0%E8%9D%8E%E6%B5%81%E9%87%8F/</guid>
+      <guid>http://j1rry-learn.github.io/posts/webshell-jsp-%E5%86%B0%E8%9D%8E%E6%B5%81%E9%87%8F/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202406122324882.png&#34;&gt;
 主要是和 &lt;code&gt;main.jsp&lt;/code&gt;进行通信
 浅浅看一下 &lt;code&gt;yjg.txt&lt;/code&gt;内容
@@ -240,9 +240,9 @@ usb流量永存脚本 结合一下&lt;/p&gt;</description>
     </item>
     <item>
       <title>高校运维赛 2024 easyshell</title>
-      <link>http://localhost:1313/posts/%E9%AB%98%E6%A0%A1%E8%BF%90%E7%BB%B4%E8%B5%9B-2024-easyshell/</link>
+      <link>http://j1rry-learn.github.io/posts/%E9%AB%98%E6%A0%A1%E8%BF%90%E7%BB%B4%E8%B5%9B-2024-easyshell/</link>
       <pubDate>Thu, 11 Apr 2024 12:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/%E9%AB%98%E6%A0%A1%E8%BF%90%E7%BB%B4%E8%B5%9B-2024-easyshell/</guid>
+      <guid>http://j1rry-learn.github.io/posts/%E9%AB%98%E6%A0%A1%E8%BF%90%E7%BB%B4%E8%B5%9B-2024-easyshell/</guid>
       <description>&lt;p&gt;考点: 冰蝎流量解密+部分明文攻击
 看请求路由可以知道 shell.php是上传的马子
 &lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202406111946010.png&#34;&gt;
@@ -257,9 +257,9 @@ No.1962 request请求数据解密  关键数据&lt;/p&gt;</description>
     </item>
     <item>
       <title>鹤城杯 2021 流量分析</title>
-      <link>http://localhost:1313/posts/%E9%B9%A4%E5%9F%8E%E6%9D%AF-2021-%E6%B5%81%E9%87%8F%E5%88%86%E6%9E%90/</link>
+      <link>http://j1rry-learn.github.io/posts/%E9%B9%A4%E5%9F%8E%E6%9D%AF-2021-%E6%B5%81%E9%87%8F%E5%88%86%E6%9E%90/</link>
       <pubDate>Thu, 11 Apr 2024 12:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/%E9%B9%A4%E5%9F%8E%E6%9D%AF-2021-%E6%B5%81%E9%87%8F%E5%88%86%E6%9E%90/</guid>
+      <guid>http://j1rry-learn.github.io/posts/%E9%B9%A4%E5%9F%8E%E6%9D%AF-2021-%E6%B5%81%E9%87%8F%E5%88%86%E6%9E%90/</guid>
       <description>&lt;p&gt;看分组也知道考http流量
 &lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202405310936064.png&#34;&gt;
 是布尔盲注

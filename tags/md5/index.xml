@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>MD5 on J1rrY&#39;s Blog</title>
-    <link>http://localhost:1313/tags/md5/</link>
+    <link>http://j1rry-learn.github.io/tags/md5/</link>
     <description>Recent content in MD5 on J1rrY&#39;s Blog</description>
     <image>
       <title>J1rrY&#39;s Blog</title>
-      <url>http://localhost:1313/</url>
-      <link>http://localhost:1313/</link>
+      <url>http://j1rry-learn.github.io/</url>
+      <link>http://j1rry-learn.github.io/</link>
     </image>
-    <generator>Hugo -- 0.139.1</generator>
+    <generator>Hugo -- 0.143.0</generator>
     <language>zh</language>
     <copyright>©2025 J1rrY&amp;rsquo;s Blog</copyright>
     <lastBuildDate>Wed, 03 Jan 2024 12:30:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/md5/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://j1rry-learn.github.io/tags/md5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CTF题型 md5考法相关例题总结</title>
-      <link>http://localhost:1313/posts/ctf%E9%A2%98%E5%9E%8B-md5%E7%9B%B8%E5%85%B3%E4%BE%8B%E9%A2%98/</link>
+      <link>http://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-md5%E7%9B%B8%E5%85%B3%E4%BE%8B%E9%A2%98/</link>
       <pubDate>Wed, 03 Jan 2024 12:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ctf%E9%A2%98%E5%9E%8B-md5%E7%9B%B8%E5%85%B3%E4%BE%8B%E9%A2%98/</guid>
+      <guid>http://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-md5%E7%9B%B8%E5%85%B3%E4%BE%8B%E9%A2%98/</guid>
       <description>&lt;h1 id=&#34;ctf题型-md5考法相关例题总结&#34;&gt;CTF题型 md5考法相关例题总结&lt;/h1&gt;
 &lt;h2 id=&#34;一md5弱字符相等&#34;&gt;一.md5弱字符相等(==)&lt;/h2&gt;
 &lt;h3 id=&#34;swpuctf-2021-新生赛easy_md5&#34;&gt;[SWPUCTF 2021 新生赛]easy_md5&lt;/h3&gt;
