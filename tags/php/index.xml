@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>PHP on J1rrY&#39;s Blog</title>
-    <link>http://j1rry-learn.github.io/tags/php/</link>
+    <link>https://j1rry-learn.github.io/tags/php/</link>
     <description>Recent content in PHP on J1rrY&#39;s Blog</description>
     <image>
       <title>J1rrY&#39;s Blog</title>
-      <url>http://j1rry-learn.github.io/</url>
-      <link>http://j1rry-learn.github.io/</link>
+      <url>https://j1rry-learn.github.io/</url>
+      <link>https://j1rry-learn.github.io/</link>
     </image>
     <generator>Hugo -- 0.143.0</generator>
     <language>zh</language>
     <copyright>©2025 J1rrY&amp;rsquo;s Blog</copyright>
     <lastBuildDate>Mon, 03 Jun 2024 12:30:00 +0000</lastBuildDate>
-    <atom:link href="http://j1rry-learn.github.io/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://j1rry-learn.github.io/tags/php/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>网鼎杯 2020 朱雀组 phpweb</title>
-      <link>http://j1rry-learn.github.io/posts/%E7%BD%91%E9%BC%8E%E6%9D%AF-2020-%E6%9C%B1%E9%9B%80%E7%BB%84-phpweb/</link>
+      <link>https://j1rry-learn.github.io/posts/%E7%BD%91%E9%BC%8E%E6%9D%AF-2020-%E6%9C%B1%E9%9B%80%E7%BB%84-phpweb/</link>
       <pubDate>Mon, 03 Jun 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/%E7%BD%91%E9%BC%8E%E6%9D%AF-2020-%E6%9C%B1%E9%9B%80%E7%BB%84-phpweb/</guid>
+      <guid>https://j1rry-learn.github.io/posts/%E7%BD%91%E9%BC%8E%E6%9D%AF-2020-%E6%9C%B1%E9%9B%80%E7%BB%84-phpweb/</guid>
       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;**&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Warning&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;**:&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;date&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;It&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;is&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;not&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;safe&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;to&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;rely&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;on&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;the&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;system&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;s timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone &amp;#39;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;UTC&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;&amp;#39;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;now&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;but&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;please&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;set&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;date&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;timezone&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;to&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;select&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;your&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;timezone&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;in &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;**/&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;var&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;www&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;index&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;php&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;**&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;on&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;line &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;**&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;24&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;**&lt;/span&gt;  
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;mi&#34;&gt;2024&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mo&#34;&gt;06&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mo&#34;&gt;03&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;35&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;13&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;pm&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;一直刷新 直接抓包看参数
@@ -59,9 +59,9 @@
     </item>
     <item>
       <title>CTF题型 SSTI(3) Smart SSTI 例题和题记</title>
-      <link>http://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-%E5%8C%BF%E5%90%8D%E5%87%BD%E6%95%B0%E8%80%83%E6%B3%95%E4%BE%8B%E9%A2%98%E6%80%BB%E7%BB%93/</link>
+      <link>https://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-%E5%8C%BF%E5%90%8D%E5%87%BD%E6%95%B0%E8%80%83%E6%B3%95%E4%BE%8B%E9%A2%98%E6%80%BB%E7%BB%93/</link>
       <pubDate>Tue, 06 Feb 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-%E5%8C%BF%E5%90%8D%E5%87%BD%E6%95%B0%E8%80%83%E6%B3%95%E4%BE%8B%E9%A2%98%E6%80%BB%E7%BB%93/</guid>
+      <guid>https://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-%E5%8C%BF%E5%90%8D%E5%87%BD%E6%95%B0%E8%80%83%E6%B3%95%E4%BE%8B%E9%A2%98%E6%80%BB%E7%BB%93/</guid>
       <description>&lt;h1 id=&#34;ctf题型-匿名函数考法例题总结&#34;&gt;CTF题型 匿名函数考法&amp;amp;例题总结&lt;/h1&gt;
 &lt;h2 id=&#34;一-原理分析&#34;&gt;一 .原理分析&lt;/h2&gt;
 &lt;p&gt;匿名函数&lt;strong&gt;特点:无函数名，使用一次就被丢弃，一般可以动态执行php代码&lt;/strong&gt;&lt;/p&gt;
@@ -70,9 +70,9 @@
     </item>
     <item>
       <title>CTF题型 SSTI(3) Smart SSTI 例题和题记</title>
-      <link>http://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-ssti3-smart-ssti-%E4%BE%8B%E9%A2%98%E5%92%8C%E9%A2%98%E8%AE%B0/</link>
+      <link>https://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-ssti3-smart-ssti-%E4%BE%8B%E9%A2%98%E5%92%8C%E9%A2%98%E8%AE%B0/</link>
       <pubDate>Mon, 05 Feb 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-ssti3-smart-ssti-%E4%BE%8B%E9%A2%98%E5%92%8C%E9%A2%98%E8%AE%B0/</guid>
+      <guid>https://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-ssti3-smart-ssti-%E4%BE%8B%E9%A2%98%E5%92%8C%E9%A2%98%E8%AE%B0/</guid>
       <description>&lt;h1 id=&#34;ctf题型-ssti3-smart-ssti-例题和题记&#34;&gt;CTF题型 SSTI(3) Smart SSTI 例题和题记&lt;/h1&gt;
 &lt;p&gt;前面我们学习了Flask SSTI&lt;/p&gt;
 &lt;p&gt;Smart SSTI和Flask SSTI 不同&lt;/p&gt;
@@ -81,9 +81,9 @@
     </item>
     <item>
       <title>CTF题型 php反序列化进阶(1) php原生文件操作类 例题和总结</title>
-      <link>http://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-php%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E8%BF%9B%E9%98%B61-php%E5%8E%9F%E7%94%9F%E7%B1%BB-%E4%BE%8B%E9%A2%98%E5%92%8C%E6%80%BB%E7%BB%93/</link>
+      <link>https://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-php%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E8%BF%9B%E9%98%B61-php%E5%8E%9F%E7%94%9F%E7%B1%BB-%E4%BE%8B%E9%A2%98%E5%92%8C%E6%80%BB%E7%BB%93/</link>
       <pubDate>Thu, 02 Nov 2023 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-php%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E8%BF%9B%E9%98%B61-php%E5%8E%9F%E7%94%9F%E7%B1%BB-%E4%BE%8B%E9%A2%98%E5%92%8C%E6%80%BB%E7%BB%93/</guid>
+      <guid>https://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-php%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E8%BF%9B%E9%98%B61-php%E5%8E%9F%E7%94%9F%E7%B1%BB-%E4%BE%8B%E9%A2%98%E5%92%8C%E6%80%BB%E7%BB%93/</guid>
       <description>&lt;h1 id=&#34;ctf题型-php反序列化进阶1-php原生文件操作类-例题和总结&#34;&gt;CTF题型 php反序列化进阶(1) php原生文件操作类 例题和总结&lt;/h1&gt;
 &lt;h2 id=&#34;特征&#34;&gt;特征&lt;/h2&gt;
 &lt;p&gt;在php反序列化中 没有直接的利用点&lt;/p&gt;

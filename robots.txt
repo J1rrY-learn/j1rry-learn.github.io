@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: http://j1rry-learn.github.io/sitemap.xml
+Sitemap: https://j1rry-learn.github.io/sitemap.xml

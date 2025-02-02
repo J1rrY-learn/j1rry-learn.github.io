@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>文件包含 on J1rrY&#39;s Blog</title>
-    <link>http://j1rry-learn.github.io/tags/%E6%96%87%E4%BB%B6%E5%8C%85%E5%90%AB/</link>
+    <link>https://j1rry-learn.github.io/tags/%E6%96%87%E4%BB%B6%E5%8C%85%E5%90%AB/</link>
     <description>Recent content in 文件包含 on J1rrY&#39;s Blog</description>
     <image>
       <title>J1rrY&#39;s Blog</title>
-      <url>http://j1rry-learn.github.io/</url>
-      <link>http://j1rry-learn.github.io/</link>
+      <url>https://j1rry-learn.github.io/</url>
+      <link>https://j1rry-learn.github.io/</link>
     </image>
     <generator>Hugo -- 0.143.0</generator>
     <language>zh</language>
     <copyright>©2025 J1rrY&amp;rsquo;s Blog</copyright>
     <lastBuildDate>Tue, 02 Jan 2024 12:30:00 +0000</lastBuildDate>
-    <atom:link href="http://j1rry-learn.github.io/tags/%E6%96%87%E4%BB%B6%E5%8C%85%E5%90%AB/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://j1rry-learn.github.io/tags/%E6%96%87%E4%BB%B6%E5%8C%85%E5%90%AB/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CTF题型 php://filter特殊编码绕过小汇总</title>
-      <link>http://j1rry-learn.github.io/posts/phpfilter%E4%BC%AA%E5%8D%8F%E8%AE%AE%E7%BB%95%E8%BF%87%E6%AD%BB%E4%BA%A1exit/</link>
+      <link>https://j1rry-learn.github.io/posts/phpfilter%E4%BC%AA%E5%8D%8F%E8%AE%AE%E7%BB%95%E8%BF%87%E6%AD%BB%E4%BA%A1exit/</link>
       <pubDate>Tue, 02 Jan 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/phpfilter%E4%BC%AA%E5%8D%8F%E8%AE%AE%E7%BB%95%E8%BF%87%E6%AD%BB%E4%BA%A1exit/</guid>
+      <guid>https://j1rry-learn.github.io/posts/phpfilter%E4%BC%AA%E5%8D%8F%E8%AE%AE%E7%BB%95%E8%BF%87%E6%AD%BB%E4%BA%A1exit/</guid>
       <description>&lt;h1 id=&#34;ctf题型-phpfilter特殊编码绕过小汇总&#34;&gt;CTF题型 php://filter特殊编码绕过小汇总&lt;/h1&gt;
 &lt;p&gt;&lt;code&gt;php://filter&lt;/code&gt; 是一个伪协议，它允许你读取经过过滤器处理的数据流。过滤器可以执行各种转换，如 base64 编码/解码、字符串压缩/解压缩等&lt;/p&gt;</description>
     </item>

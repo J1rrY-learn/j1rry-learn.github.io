@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>CTF on J1rrY&#39;s Blog</title>
-    <link>http://j1rry-learn.github.io/tags/ctf/</link>
+    <link>https://j1rry-learn.github.io/tags/ctf/</link>
     <description>Recent content in CTF on J1rrY&#39;s Blog</description>
     <image>
       <title>J1rrY&#39;s Blog</title>
-      <url>http://j1rry-learn.github.io/</url>
-      <link>http://j1rry-learn.github.io/</link>
+      <url>https://j1rry-learn.github.io/</url>
+      <link>https://j1rry-learn.github.io/</link>
     </image>
     <generator>Hugo -- 0.143.0</generator>
     <language>zh</language>
     <copyright>©2025 J1rrY&amp;rsquo;s Blog</copyright>
     <lastBuildDate>Tue, 21 Jan 2025 12:30:00 +0000</lastBuildDate>
-    <atom:link href="http://j1rry-learn.github.io/tags/ctf/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://j1rry-learn.github.io/tags/ctf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>尝试CodeQL分析2025 SUCTF SU_Solon</title>
-      <link>http://j1rry-learn.github.io/posts/%E5%B0%9D%E8%AF%95codeql%E5%88%86%E6%9E%902025-suctf-su_solon/</link>
+      <link>https://j1rry-learn.github.io/posts/%E5%B0%9D%E8%AF%95codeql%E5%88%86%E6%9E%902025-suctf-su_solon/</link>
       <pubDate>Tue, 21 Jan 2025 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/%E5%B0%9D%E8%AF%95codeql%E5%88%86%E6%9E%902025-suctf-su_solon/</guid>
+      <guid>https://j1rry-learn.github.io/posts/%E5%B0%9D%E8%AF%95codeql%E5%88%86%E6%9E%902025-suctf-su_solon/</guid>
       <description>&lt;p&gt;本篇文章尝试通过CodeQL对触发JDBC的可能解进行探究,也是初学CodeQL进行练手的一道题目 SU_Solon&lt;/p&gt;
 &lt;p&gt;这是一道非常明确的Hession反序列化的题目&lt;/p&gt;</description>
     </item>
     <item>
       <title>从国城杯Ez_Gallery实现寻找WSGIRef内存马和Response响应头外带以及栈帧回显的尝试</title>
-      <link>http://j1rry-learn.github.io/posts/%E4%BF%AE%E6%94%B9-%E4%BB%8E%E5%9B%BD%E5%9F%8E%E6%9D%AFez_gallery%E5%AE%9E%E7%8E%B0%E5%AF%BB%E6%89%BEwsgiref%E5%86%85%E5%AD%98%E9%A9%AC%E5%92%8Cresponse%E5%93%8D%E5%BA%94%E5%A4%B4%E5%A4%96%E5%B8%A6%E4%BB%A5%E5%8F%8A%E6%A0%88%E5%B8%A7%E5%9B%9E%E6%98%BE%E7%9A%84%E5%B0%9D%E8%AF%95/</link>
+      <link>https://j1rry-learn.github.io/posts/%E4%BF%AE%E6%94%B9-%E4%BB%8E%E5%9B%BD%E5%9F%8E%E6%9D%AFez_gallery%E5%AE%9E%E7%8E%B0%E5%AF%BB%E6%89%BEwsgiref%E5%86%85%E5%AD%98%E9%A9%AC%E5%92%8Cresponse%E5%93%8D%E5%BA%94%E5%A4%B4%E5%A4%96%E5%B8%A6%E4%BB%A5%E5%8F%8A%E6%A0%88%E5%B8%A7%E5%9B%9E%E6%98%BE%E7%9A%84%E5%B0%9D%E8%AF%95/</link>
       <pubDate>Mon, 23 Dec 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/%E4%BF%AE%E6%94%B9-%E4%BB%8E%E5%9B%BD%E5%9F%8E%E6%9D%AFez_gallery%E5%AE%9E%E7%8E%B0%E5%AF%BB%E6%89%BEwsgiref%E5%86%85%E5%AD%98%E9%A9%AC%E5%92%8Cresponse%E5%93%8D%E5%BA%94%E5%A4%B4%E5%A4%96%E5%B8%A6%E4%BB%A5%E5%8F%8A%E6%A0%88%E5%B8%A7%E5%9B%9E%E6%98%BE%E7%9A%84%E5%B0%9D%E8%AF%95/</guid>
+      <guid>https://j1rry-learn.github.io/posts/%E4%BF%AE%E6%94%B9-%E4%BB%8E%E5%9B%BD%E5%9F%8E%E6%9D%AFez_gallery%E5%AE%9E%E7%8E%B0%E5%AF%BB%E6%89%BEwsgiref%E5%86%85%E5%AD%98%E9%A9%AC%E5%92%8Cresponse%E5%93%8D%E5%BA%94%E5%A4%B4%E5%A4%96%E5%B8%A6%E4%BB%A5%E5%8F%8A%E6%A0%88%E5%B8%A7%E5%9B%9E%E6%98%BE%E7%9A%84%E5%B0%9D%E8%AF%95/</guid>
       <description>&lt;h2 id=&#34;登陆后台&#34;&gt;登陆后台&lt;/h2&gt;
 &lt;p&gt;直接尝试弱密码&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;admin
@@ -40,9 +40,9 @@
     </item>
     <item>
       <title>DownUnderCTF 2021 jwt</title>
-      <link>http://j1rry-learn.github.io/posts/downunderctf-2021-jwt/</link>
+      <link>https://j1rry-learn.github.io/posts/downunderctf-2021-jwt/</link>
       <pubDate>Fri, 20 Dec 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/downunderctf-2021-jwt/</guid>
+      <guid>https://j1rry-learn.github.io/posts/downunderctf-2021-jwt/</guid>
       <description>&lt;p&gt;考点:对于RS256弱公钥生成的jwt可以伪造(非对称加密)&lt;/p&gt;
 &lt;p&gt;网鼎杯 Web1 改编自这道国际赛的题 有空来复现一下
 解题 WP :https://ctftime.org/writeup/30541&lt;/p&gt;
@@ -82,9 +82,9 @@
     </item>
     <item>
       <title>2024 网鼎杯 CTF 青龙组 Web 方向 全解 WP</title>
-      <link>http://j1rry-learn.github.io/posts/2024-%E7%BD%91%E9%BC%8E%E6%9D%AF-ctf-%E9%9D%92%E9%BE%99%E7%BB%84-web-%E6%96%B9%E5%90%91-%E8%A7%A3%E9%A2%98-wp/</link>
+      <link>https://j1rry-learn.github.io/posts/2024-%E7%BD%91%E9%BC%8E%E6%9D%AF-ctf-%E9%9D%92%E9%BE%99%E7%BB%84-web-%E6%96%B9%E5%90%91-%E8%A7%A3%E9%A2%98-wp/</link>
       <pubDate>Thu, 19 Dec 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/2024-%E7%BD%91%E9%BC%8E%E6%9D%AF-ctf-%E9%9D%92%E9%BE%99%E7%BB%84-web-%E6%96%B9%E5%90%91-%E8%A7%A3%E9%A2%98-wp/</guid>
+      <guid>https://j1rry-learn.github.io/posts/2024-%E7%BD%91%E9%BC%8E%E6%9D%AF-ctf-%E9%9D%92%E9%BE%99%E7%BB%84-web-%E6%96%B9%E5%90%91-%E8%A7%A3%E9%A2%98-wp/</guid>
       <description>&lt;h1 id=&#34;web1&#34;&gt;Web1&lt;/h1&gt;
 &lt;p&gt;考点: RS256弱公钥jwt伪造+ flask session身份伪造 +emoji shell?+xxe绕过黑名单实现任意文件读取
 本身可以以任意用户登陆 随意登陆后
@@ -99,9 +99,9 @@ Cookie中设置了 &lt;code&gt;token&lt;/code&gt;(jwt) 和 &lt;code&gt;session&l
     </item>
     <item>
       <title>1337UP LIVE 2024 国际赛 Web 方向题解</title>
-      <link>http://j1rry-learn.github.io/posts/1337up-live-2024-%E5%9B%BD%E9%99%85%E8%B5%9B-web-%E6%96%B9%E5%90%91%E9%A2%98%E8%A7%A3/</link>
+      <link>https://j1rry-learn.github.io/posts/1337up-live-2024-%E5%9B%BD%E9%99%85%E8%B5%9B-web-%E6%96%B9%E5%90%91%E9%A2%98%E8%A7%A3/</link>
       <pubDate>Fri, 13 Dec 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/1337up-live-2024-%E5%9B%BD%E9%99%85%E8%B5%9B-web-%E6%96%B9%E5%90%91%E9%A2%98%E8%A7%A3/</guid>
+      <guid>https://j1rry-learn.github.io/posts/1337up-live-2024-%E5%9B%BD%E9%99%85%E8%B5%9B-web-%E6%96%B9%E5%90%91%E9%A2%98%E8%A7%A3/</guid>
       <description>&lt;p&gt;第一次打国际赛 随便打打感觉学到好多东西&lt;/p&gt;
 &lt;h1 id=&#34;pizza-paradise&#34;&gt;Pizza Paradise&lt;/h1&gt;
 &lt;p&gt;&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202411171739867.png&#34;&gt;
@@ -141,9 +141,9 @@ Cookie中设置了 &lt;code&gt;token&lt;/code&gt;(jwt) 和 &lt;code&gt;session&l
     </item>
     <item>
       <title>2024 四川省赛 Misc 部分复现</title>
-      <link>http://j1rry-learn.github.io/posts/2024-%E5%9B%9B%E5%B7%9D%E7%9C%81%E8%B5%9B-misc-%E9%83%A8%E5%88%86%E5%A4%8D%E7%8E%B0/</link>
+      <link>https://j1rry-learn.github.io/posts/2024-%E5%9B%9B%E5%B7%9D%E7%9C%81%E8%B5%9B-misc-%E9%83%A8%E5%88%86%E5%A4%8D%E7%8E%B0/</link>
       <pubDate>Wed, 11 Dec 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/2024-%E5%9B%9B%E5%B7%9D%E7%9C%81%E8%B5%9B-misc-%E9%83%A8%E5%88%86%E5%A4%8D%E7%8E%B0/</guid>
+      <guid>https://j1rry-learn.github.io/posts/2024-%E5%9B%9B%E5%B7%9D%E7%9C%81%E8%B5%9B-misc-%E9%83%A8%E5%88%86%E5%A4%8D%E7%8E%B0/</guid>
       <description>&lt;p&gt;这是第一天的线下CTF赛
 Misc有点弱 多多整理提升一下&lt;/p&gt;
 &lt;h1 id=&#34;unzip-png&#34;&gt;unzip-png&lt;/h1&gt;
@@ -157,18 +157,18 @@ Misc有点弱 多多整理提升一下&lt;/p&gt;
     </item>
     <item>
       <title>2024 SCTF Simpleshop 出题笔记以及对Thinkphp8环境下任意代码执行的改造</title>
-      <link>http://j1rry-learn.github.io/posts/2024-sctf-simpleshop-%E5%87%BA%E9%A2%98%E7%AC%94%E8%AE%B0%E4%BB%A5%E5%8F%8A%E5%AF%B9thinkphp8%E7%8E%AF%E5%A2%83%E4%B8%8B%E4%BB%BB%E6%84%8F%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E7%9A%84%E6%94%B9%E9%80%A0/</link>
+      <link>https://j1rry-learn.github.io/posts/2024-sctf-simpleshop-%E5%87%BA%E9%A2%98%E7%AC%94%E8%AE%B0%E4%BB%A5%E5%8F%8A%E5%AF%B9thinkphp8%E7%8E%AF%E5%A2%83%E4%B8%8B%E4%BB%BB%E6%84%8F%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E7%9A%84%E6%94%B9%E9%80%A0/</link>
       <pubDate>Wed, 13 Nov 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/2024-sctf-simpleshop-%E5%87%BA%E9%A2%98%E7%AC%94%E8%AE%B0%E4%BB%A5%E5%8F%8A%E5%AF%B9thinkphp8%E7%8E%AF%E5%A2%83%E4%B8%8B%E4%BB%BB%E6%84%8F%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E7%9A%84%E6%94%B9%E9%80%A0/</guid>
+      <guid>https://j1rry-learn.github.io/posts/2024-sctf-simpleshop-%E5%87%BA%E9%A2%98%E7%AC%94%E8%AE%B0%E4%BB%A5%E5%8F%8A%E5%AF%B9thinkphp8%E7%8E%AF%E5%A2%83%E4%B8%8B%E4%BB%BB%E6%84%8F%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E7%9A%84%E6%94%B9%E9%80%A0/</guid>
       <description>&lt;p&gt;[TOC]&lt;/p&gt;
 &lt;h1 id=&#34;出题思路&#34;&gt;出题思路&lt;/h1&gt;
 &lt;p&gt;其实这道题主要是想考一下在Thinkphp框架下在反序列化过程中如何实现任意文件写入以及cnext绕过disable_function实现命令执行&lt;/p&gt;</description>
     </item>
     <item>
       <title>Thinkphp8高版本反序列化链实现任意php代码执行</title>
-      <link>http://j1rry-learn.github.io/posts/2024-10-7-thinkphp8%E9%AB%98%E7%89%88%E6%9C%AC%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E9%93%BE%E5%AE%9E%E7%8E%B0%E4%BB%BB%E6%84%8Fphp%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C/</link>
+      <link>https://j1rry-learn.github.io/posts/2024-10-7-thinkphp8%E9%AB%98%E7%89%88%E6%9C%AC%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E9%93%BE%E5%AE%9E%E7%8E%B0%E4%BB%BB%E6%84%8Fphp%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C/</link>
       <pubDate>Thu, 03 Oct 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/2024-10-7-thinkphp8%E9%AB%98%E7%89%88%E6%9C%AC%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E9%93%BE%E5%AE%9E%E7%8E%B0%E4%BB%BB%E6%84%8Fphp%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C/</guid>
+      <guid>https://j1rry-learn.github.io/posts/2024-10-7-thinkphp8%E9%AB%98%E7%89%88%E6%9C%AC%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E9%93%BE%E5%AE%9E%E7%8E%B0%E4%BB%BB%E6%84%8Fphp%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C/</guid>
       <description>&lt;p&gt;本身在Thinkphp框架模板渲染注入中可以实现eval执行任意命令&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202410042308161.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;参考:https://xz.aliyun.com/t/15591&lt;/p&gt;
@@ -176,9 +176,9 @@ Misc有点弱 多多整理提升一下&lt;/p&gt;
     </item>
     <item>
       <title>羊城杯 2020 a_piece_of_java</title>
-      <link>http://j1rry-learn.github.io/posts/%E7%BE%8A%E5%9F%8E%E6%9D%AF-2020-a_piece_of_java/</link>
+      <link>https://j1rry-learn.github.io/posts/%E7%BE%8A%E5%9F%8E%E6%9D%AF-2020-a_piece_of_java/</link>
       <pubDate>Tue, 03 Sep 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/%E7%BE%8A%E5%9F%8E%E6%9D%AF-2020-a_piece_of_java/</guid>
+      <guid>https://j1rry-learn.github.io/posts/%E7%BE%8A%E5%9F%8E%E6%9D%AF-2020-a_piece_of_java/</guid>
       <description>&lt;p&gt;考点:JDBC反序列化打CC链+动态代理类触发readobject
 &lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202406171439011.png&#34;&gt;
 一眼看过去 好像只有一个&lt;code&gt;mysql-connector-java&lt;/code&gt; 可以利用jdbc
@@ -192,18 +192,18 @@ Misc有点弱 多多整理提升一下&lt;/p&gt;
     </item>
     <item>
       <title>R3CTF 2024 取证部分</title>
-      <link>http://j1rry-learn.github.io/posts/r3ctf-2024-%E5%8F%96%E8%AF%81%E9%83%A8%E5%88%86/</link>
+      <link>https://j1rry-learn.github.io/posts/r3ctf-2024-%E5%8F%96%E8%AF%81%E9%83%A8%E5%88%86/</link>
       <pubDate>Mon, 12 Aug 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/r3ctf-2024-%E5%8F%96%E8%AF%81%E9%83%A8%E5%88%86/</guid>
+      <guid>https://j1rry-learn.github.io/posts/r3ctf-2024-%E5%8F%96%E8%AF%81%E9%83%A8%E5%88%86/</guid>
       <description>&lt;p&gt;这是自己当时做的想法 也可以结合 &lt;a href=&#34;https://zysgmzb.club/index.php/archives/317&#34;&gt;https://zysgmzb.club/index.php/archives/317&lt;/a&gt; 学习一下TPA 03 - 💻的做法&lt;/p&gt;
 &lt;h1 id=&#34;tpa-02---&#34;&gt;TPA 02 - 📱&lt;/h1&gt;
 &lt;p&gt;Peggy 是一家公司的员工，和许多人一样，她偶尔也会使用个人手机执行与工作相关的任务。不幸的是，她成为了网络钓鱼攻击的目标。你的任务是找出攻击者的电话号码和佩吉的密码，从而揭露这次攻击的细节。&lt;/p&gt;</description>
     </item>
     <item>
       <title>虎符CTF 2022 ezphp</title>
-      <link>http://j1rry-learn.github.io/posts/%E8%99%8E%E7%AC%A6ctf-2022-ezphp/</link>
+      <link>https://j1rry-learn.github.io/posts/%E8%99%8E%E7%AC%A6ctf-2022-ezphp/</link>
       <pubDate>Sun, 11 Aug 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/%E8%99%8E%E7%AC%A6ctf-2022-ezphp/</guid>
+      <guid>https://j1rry-learn.github.io/posts/%E8%99%8E%E7%AC%A6ctf-2022-ezphp/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/qq_45619909/article/details/128946735&#34;&gt;https://blog.csdn.net/qq_45619909/article/details/128946735&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;考点:nginx临时文件上传+LD_PROLOAD劫持&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;?&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;php &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;empty&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$_GET&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;env&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]))&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;?&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;highlight_file&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;__FILE__&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;putenv&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$_GET&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;env&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;system&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;echo hfctf2022&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;?&amp;gt;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;
@@ -222,9 +222,9 @@ Misc有点弱 多多整理提升一下&lt;/p&gt;
     </item>
     <item>
       <title>2024 XYCTF Web全解&amp;Misc WP</title>
-      <link>http://j1rry-learn.github.io/posts/2024-xyctf-webmisc-wp/</link>
+      <link>https://j1rry-learn.github.io/posts/2024-xyctf-webmisc-wp/</link>
       <pubDate>Sun, 21 Jul 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/2024-xyctf-webmisc-wp/</guid>
+      <guid>https://j1rry-learn.github.io/posts/2024-xyctf-webmisc-wp/</guid>
       <description>&lt;h1 id=&#34;web&#34;&gt;Web&lt;/h1&gt;
 &lt;h2 id=&#34;ezhttp&#34;&gt;ezhttp&lt;/h2&gt;
 &lt;h3 id=&#34;考点信息泄露基础发包&#34;&gt;考点:信息泄露+基础发包&lt;/h3&gt;
@@ -253,9 +253,9 @@ password: @JOILha!wuigqi123$
     </item>
     <item>
       <title>网鼎杯 2020 玄武组 SSRFMe</title>
-      <link>http://j1rry-learn.github.io/posts/%E7%BD%91%E9%BC%8E%E6%9D%AF-2020-%E7%8E%84%E6%AD%A6%E7%BB%84-ssrfme/</link>
+      <link>https://j1rry-learn.github.io/posts/%E7%BD%91%E9%BC%8E%E6%9D%AF-2020-%E7%8E%84%E6%AD%A6%E7%BB%84-ssrfme/</link>
       <pubDate>Thu, 11 Jul 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/%E7%BD%91%E9%BC%8E%E6%9D%AF-2020-%E7%8E%84%E6%AD%A6%E7%BB%84-ssrfme/</guid>
+      <guid>https://j1rry-learn.github.io/posts/%E7%BD%91%E9%BC%8E%E6%9D%AF-2020-%E7%8E%84%E6%AD%A6%E7%BB%84-ssrfme/</guid>
       <description>&lt;p&gt;复习一下常见的redis主从复制
 主要是redis伪服务器的选择和一些小细节&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;?&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;php&lt;/span&gt;  
@@ -304,9 +304,9 @@ password: @JOILha!wuigqi123$
     </item>
     <item>
       <title>ThinkPHP审计(2)  Thinkphp反序列化5.x链子</title>
-      <link>http://j1rry-learn.github.io/posts/thinkphp%E5%AE%A1%E8%AE%A12--thinkphp%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E9%93%BE5.1.x%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90%E5%85%B8%E5%9E%8Bctf%E4%BE%8B%E9%A2%98/</link>
+      <link>https://j1rry-learn.github.io/posts/thinkphp%E5%AE%A1%E8%AE%A12--thinkphp%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E9%93%BE5.1.x%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90%E5%85%B8%E5%9E%8Bctf%E4%BE%8B%E9%A2%98/</link>
       <pubDate>Wed, 12 Jun 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/thinkphp%E5%AE%A1%E8%AE%A12--thinkphp%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E9%93%BE5.1.x%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90%E5%85%B8%E5%9E%8Bctf%E4%BE%8B%E9%A2%98/</guid>
+      <guid>https://j1rry-learn.github.io/posts/thinkphp%E5%AE%A1%E8%AE%A12--thinkphp%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E9%93%BE5.1.x%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90%E5%85%B8%E5%9E%8Bctf%E4%BE%8B%E9%A2%98/</guid>
       <description>&lt;h1 id=&#34;thinkphp审计2--thinkphp反序列化链子51x原理分析从0编写poc&#34;&gt;ThinkPHP审计(2)  Thinkphp反序列化链子5.1.X原理分析&amp;amp;从0编写POC&lt;/h1&gt;
 &lt;h1 id=&#34;动态调试环境配置&#34;&gt;动态调试环境配置&lt;/h1&gt;
 &lt;p&gt;比较简洁的环境配置教程：&lt;/p&gt;
@@ -316,9 +316,9 @@ password: @JOILha!wuigqi123$
     </item>
     <item>
       <title>2024 H&amp;N CTF wp</title>
-      <link>http://j1rry-learn.github.io/posts/2024-hn-ctf-wp/</link>
+      <link>https://j1rry-learn.github.io/posts/2024-hn-ctf-wp/</link>
       <pubDate>Tue, 11 Jun 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/2024-hn-ctf-wp/</guid>
+      <guid>https://j1rry-learn.github.io/posts/2024-hn-ctf-wp/</guid>
       <description>&lt;h1 id=&#34;web&#34;&gt;Web&lt;/h1&gt;
 &lt;h2 id=&#34;ez_tp&#34;&gt;ez_tp&lt;/h2&gt;
 &lt;p&gt;判断是thinkphp 3.2
@@ -327,9 +327,9 @@ password: @JOILha!wuigqi123$
     </item>
     <item>
       <title>高校运维赛 2024 easyshell</title>
-      <link>http://j1rry-learn.github.io/posts/%E9%AB%98%E6%A0%A1%E8%BF%90%E7%BB%B4%E8%B5%9B-2024-pyssrf/</link>
+      <link>https://j1rry-learn.github.io/posts/%E9%AB%98%E6%A0%A1%E8%BF%90%E7%BB%B4%E8%B5%9B-2024-pyssrf/</link>
       <pubDate>Tue, 11 Jun 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/%E9%AB%98%E6%A0%A1%E8%BF%90%E7%BB%B4%E8%B5%9B-2024-pyssrf/</guid>
+      <guid>https://j1rry-learn.github.io/posts/%E9%AB%98%E6%A0%A1%E8%BF%90%E7%BB%B4%E8%B5%9B-2024-pyssrf/</guid>
       <description>&lt;p&gt;没有环境,过一遍思路吧
 考点: pickle反序列化+urllib库注入redis缓存&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;flask&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Flask&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;request&lt;/span&gt;
@@ -378,9 +378,9 @@ password: @JOILha!wuigqi123$
     </item>
     <item>
       <title>闽盾杯 2021 DNS协议分析</title>
-      <link>http://j1rry-learn.github.io/posts/%E9%97%BD%E7%9B%BE%E6%9D%AF-2021-dns%E5%8D%8F%E8%AE%AE%E5%88%86%E6%9E%90/</link>
+      <link>https://j1rry-learn.github.io/posts/%E9%97%BD%E7%9B%BE%E6%9D%AF-2021-dns%E5%8D%8F%E8%AE%AE%E5%88%86%E6%9E%90/</link>
       <pubDate>Tue, 11 Jun 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/%E9%97%BD%E7%9B%BE%E6%9D%AF-2021-dns%E5%8D%8F%E8%AE%AE%E5%88%86%E6%9E%90/</guid>
+      <guid>https://j1rry-learn.github.io/posts/%E9%97%BD%E7%9B%BE%E6%9D%AF-2021-dns%E5%8D%8F%E8%AE%AE%E5%88%86%E6%9E%90/</guid>
       <description>&lt;p&gt;今年CISCN的Tough DNS 的前戏就是DNS协议分析
 直接可以查找到flag的base64形式&lt;code&gt;Zmxh&lt;/code&gt;
 &lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202405312042664.png&#34;&gt;
@@ -396,9 +396,9 @@ password: @JOILha!wuigqi123$
     </item>
     <item>
       <title>网鼎杯 2020 朱雀组 phpweb</title>
-      <link>http://j1rry-learn.github.io/posts/%E7%BD%91%E9%BC%8E%E6%9D%AF-2020-%E6%9C%B1%E9%9B%80%E7%BB%84-phpweb/</link>
+      <link>https://j1rry-learn.github.io/posts/%E7%BD%91%E9%BC%8E%E6%9D%AF-2020-%E6%9C%B1%E9%9B%80%E7%BB%84-phpweb/</link>
       <pubDate>Mon, 03 Jun 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/%E7%BD%91%E9%BC%8E%E6%9D%AF-2020-%E6%9C%B1%E9%9B%80%E7%BB%84-phpweb/</guid>
+      <guid>https://j1rry-learn.github.io/posts/%E7%BD%91%E9%BC%8E%E6%9D%AF-2020-%E6%9C%B1%E9%9B%80%E7%BB%84-phpweb/</guid>
       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;**&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Warning&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;**:&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;date&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;It&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;is&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;not&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;safe&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;to&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;rely&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;on&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;the&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;system&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;s timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone &amp;#39;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;UTC&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;&amp;#39;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;now&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;but&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;please&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;set&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;date&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;timezone&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;to&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;select&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;your&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;timezone&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;in &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;**/&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;var&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;www&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;index&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;php&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;**&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;on&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;line &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;**&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;24&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;**&lt;/span&gt;  
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;mi&#34;&gt;2024&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mo&#34;&gt;06&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mo&#34;&gt;03&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;35&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;13&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;pm&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;一直刷新 直接抓包看参数
@@ -439,9 +439,9 @@ password: @JOILha!wuigqi123$
     </item>
     <item>
       <title>ThinkPHP代码审计(1)    不安全的SQL注入&amp;PHP反序列化链子phar利用&amp;简单的CMS审计实例</title>
-      <link>http://j1rry-learn.github.io/posts/php%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A11----%E4%B8%8D%E5%AE%89%E5%85%A8%E7%9A%84sql%E6%B3%A8%E5%85%A5php%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E9%93%BE%E5%AD%90%E7%9A%84%E5%88%A9%E7%94%A8/</link>
+      <link>https://j1rry-learn.github.io/posts/php%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A11----%E4%B8%8D%E5%AE%89%E5%85%A8%E7%9A%84sql%E6%B3%A8%E5%85%A5php%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E9%93%BE%E5%AD%90%E7%9A%84%E5%88%A9%E7%94%A8/</link>
       <pubDate>Sun, 02 Jun 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/php%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A11----%E4%B8%8D%E5%AE%89%E5%85%A8%E7%9A%84sql%E6%B3%A8%E5%85%A5php%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E9%93%BE%E5%AD%90%E7%9A%84%E5%88%A9%E7%94%A8/</guid>
+      <guid>https://j1rry-learn.github.io/posts/php%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A11----%E4%B8%8D%E5%AE%89%E5%85%A8%E7%9A%84sql%E6%B3%A8%E5%85%A5php%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E9%93%BE%E5%AD%90%E7%9A%84%E5%88%A9%E7%94%A8/</guid>
       <description>&lt;h1 id=&#34;thinkphp代码审计1----不安全的sql注入php反序列化链子phar利用简单的cms审计实例&#34;&gt;ThinkPHP代码审计(1)    不安全的SQL注入&amp;amp;PHP反序列化链子phar利用&amp;amp;简单的CMS审计实例&lt;/h1&gt;
 &lt;p&gt;[TOC]&lt;/p&gt;
 &lt;h1 id=&#34;一thinkphp5不安全的sql写法&#34;&gt;一.Thinkphp5不安全的SQL写法&lt;/h1&gt;
@@ -449,9 +449,9 @@ password: @JOILha!wuigqi123$
     </item>
     <item>
       <title>2024 CISCN 上半年初赛 WP</title>
-      <link>http://j1rry-learn.github.io/posts/2024-ciscn-wp-by-j1rry/</link>
+      <link>https://j1rry-learn.github.io/posts/2024-ciscn-wp-by-j1rry/</link>
       <pubDate>Sat, 01 Jun 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/2024-ciscn-wp-by-j1rry/</guid>
+      <guid>https://j1rry-learn.github.io/posts/2024-ciscn-wp-by-j1rry/</guid>
       <description>&lt;h1 id=&#34;web&#34;&gt;Web&lt;/h1&gt;
 &lt;h2 id=&#34;easycms&#34;&gt;easycms&lt;/h2&gt;
 &lt;p&gt;发现目录下存在 flag.php&lt;/p&gt;
@@ -480,9 +480,9 @@ password: @JOILha!wuigqi123$
     </item>
     <item>
       <title>2024 RCTF 部分 WP</title>
-      <link>http://j1rry-learn.github.io/posts/2024-rctf-%E9%83%A8%E5%88%86-wp/</link>
+      <link>https://j1rry-learn.github.io/posts/2024-rctf-%E9%83%A8%E5%88%86-wp/</link>
       <pubDate>Sat, 11 May 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/2024-rctf-%E9%83%A8%E5%88%86-wp/</guid>
+      <guid>https://j1rry-learn.github.io/posts/2024-rctf-%E9%83%A8%E5%88%86-wp/</guid>
       <description>&lt;h1 id=&#34;misc&#34;&gt;Misc&lt;/h1&gt;
 &lt;h2 id=&#34;gogogo&#34;&gt;gogogo&lt;/h2&gt;
 &lt;p&gt;考点:内存取证
@@ -500,9 +500,9 @@ AXIOM 分析存在云服务 但是百度网盘要密码
     </item>
     <item>
       <title>2024 凌武杯D3CTF 部分WP</title>
-      <link>http://j1rry-learn.github.io/posts/2024-%E5%87%8C%E6%AD%A6%E6%9D%AFd3ctf-wp/</link>
+      <link>https://j1rry-learn.github.io/posts/2024-%E5%87%8C%E6%AD%A6%E6%9D%AFd3ctf-wp/</link>
       <pubDate>Wed, 01 May 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/2024-%E5%87%8C%E6%AD%A6%E6%9D%AFd3ctf-wp/</guid>
+      <guid>https://j1rry-learn.github.io/posts/2024-%E5%87%8C%E6%AD%A6%E6%9D%AFd3ctf-wp/</guid>
       <description>&lt;h1 id=&#34;ospf-enhanced&#34;&gt;O!!!SPF!!!!!! Enhanced&lt;/h1&gt;
 &lt;p&gt;题目描述&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;I&amp;#39;m apologized for the missing part of the treasure map. Luckily this is a way to recover it. 2a13:b487:11aa::d3:c7f:2f will tell you the key at its path. But it seems not easy to reach it? The dungeon and the flag inside it is waiting for you.
@@ -512,9 +512,9 @@ AXIOM 分析存在云服务 但是百度网盘要密码
     </item>
     <item>
       <title>2024 VNCTF Web 部分WP</title>
-      <link>http://j1rry-learn.github.io/posts/2024-vnctf-%E9%83%A8%E5%88%86-wp/</link>
+      <link>https://j1rry-learn.github.io/posts/2024-vnctf-%E9%83%A8%E5%88%86-wp/</link>
       <pubDate>Sun, 21 Apr 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/2024-vnctf-%E9%83%A8%E5%88%86-wp/</guid>
+      <guid>https://j1rry-learn.github.io/posts/2024-vnctf-%E9%83%A8%E5%88%86-wp/</guid>
       <description>&lt;h1 id=&#34;web&#34;&gt;Web&lt;/h1&gt;
 &lt;h2 id=&#34;givenphp&#34;&gt;givenphp&lt;/h2&gt;
 &lt;p&gt;考点:LD_LOAD环镜变量劫持&lt;/p&gt;
@@ -562,9 +562,9 @@ AXIOM 分析存在云服务 但是百度网盘要密码
     </item>
     <item>
       <title>2024 中国海洋大学 CTF 部分WP</title>
-      <link>http://j1rry-learn.github.io/posts/2024-%E4%B8%AD%E5%9B%BD%E6%B5%B7%E6%B4%8B%E5%A4%A7%E5%AD%A6-ctf/</link>
+      <link>https://j1rry-learn.github.io/posts/2024-%E4%B8%AD%E5%9B%BD%E6%B5%B7%E6%B4%8B%E5%A4%A7%E5%AD%A6-ctf/</link>
       <pubDate>Sun, 21 Apr 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/2024-%E4%B8%AD%E5%9B%BD%E6%B5%B7%E6%B4%8B%E5%A4%A7%E5%AD%A6-ctf/</guid>
+      <guid>https://j1rry-learn.github.io/posts/2024-%E4%B8%AD%E5%9B%BD%E6%B5%B7%E6%B4%8B%E5%A4%A7%E5%AD%A6-ctf/</guid>
       <description>&lt;h1 id=&#34;web&#34;&gt;Web&lt;/h1&gt;
 &lt;h2 id=&#34;菜鸟工具2&#34;&gt;菜鸟工具2&lt;/h2&gt;
 &lt;p&gt;如何&lt;strong&gt;实现python读内存&lt;/strong&gt;
@@ -578,9 +578,9 @@ AXIOM 分析存在云服务 但是百度网盘要密码
     </item>
     <item>
       <title>CISCN 2023 初赛 被加密的生产流量</title>
-      <link>http://j1rry-learn.github.io/posts/ciscn-2023-%E5%88%9D%E8%B5%9B-%E8%A2%AB%E5%8A%A0%E5%AF%86%E7%9A%84%E7%94%9F%E4%BA%A7%E6%B5%81%E9%87%8F/</link>
+      <link>https://j1rry-learn.github.io/posts/ciscn-2023-%E5%88%9D%E8%B5%9B-%E8%A2%AB%E5%8A%A0%E5%AF%86%E7%9A%84%E7%94%9F%E4%BA%A7%E6%B5%81%E9%87%8F/</link>
       <pubDate>Sun, 21 Apr 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/ciscn-2023-%E5%88%9D%E8%B5%9B-%E8%A2%AB%E5%8A%A0%E5%AF%86%E7%9A%84%E7%94%9F%E4%BA%A7%E6%B5%81%E9%87%8F/</guid>
+      <guid>https://j1rry-learn.github.io/posts/ciscn-2023-%E5%88%9D%E8%B5%9B-%E8%A2%AB%E5%8A%A0%E5%AF%86%E7%9A%84%E7%94%9F%E4%BA%A7%E6%B5%81%E9%87%8F/</guid>
       <description>&lt;p&gt;题目附件给了 &lt;code&gt;modbus.pcap&lt;/code&gt;
 存在多个协议 但是这道题多半是 考 &lt;code&gt;modbus&lt;/code&gt;
 &lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202405311250734.png&#34;&gt;
@@ -601,9 +601,9 @@ AXIOM 分析存在云服务 但是百度网盘要密码
     </item>
     <item>
       <title>CISCN 2022 初赛 ez_usb 流量分析题解</title>
-      <link>http://j1rry-learn.github.io/posts/ciscn-2022-%E5%88%9D%E8%B5%9B-ez_usb/</link>
+      <link>https://j1rry-learn.github.io/posts/ciscn-2022-%E5%88%9D%E8%B5%9B-ez_usb/</link>
       <pubDate>Thu, 11 Apr 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/ciscn-2022-%E5%88%9D%E8%B5%9B-ez_usb/</guid>
+      <guid>https://j1rry-learn.github.io/posts/ciscn-2022-%E5%88%9D%E8%B5%9B-ez_usb/</guid>
       <description>&lt;p&gt;还是从第一个 &lt;code&gt;URB&lt;/code&gt;向后看
 &lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202405311542393.png&#34;&gt;
 发现 同时 存在 2.8.1 2.10.1  2.4.1
@@ -671,9 +671,9 @@ AXIOM 分析存在云服务 但是百度网盘要密码
     </item>
     <item>
       <title>EIS 2019 webshell</title>
-      <link>http://j1rry-learn.github.io/posts/eis-2019-webshell/</link>
+      <link>https://j1rry-learn.github.io/posts/eis-2019-webshell/</link>
       <pubDate>Thu, 11 Apr 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/eis-2019-webshell/</guid>
+      <guid>https://j1rry-learn.github.io/posts/eis-2019-webshell/</guid>
       <description>&lt;p&gt;请求中可以确定是http POST流量
 &lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202405312138830.png&#34;&gt;
 &lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202405312140117.png&#34;&gt;
@@ -696,9 +696,9 @@ php代码美化后&lt;/p&gt;</description>
     </item>
     <item>
       <title>H&amp;NCTF 2024 ez_pecp wp</title>
-      <link>http://j1rry-learn.github.io/posts/hnctf-2024-ez_pecp/</link>
+      <link>https://j1rry-learn.github.io/posts/hnctf-2024-ez_pecp/</link>
       <pubDate>Thu, 11 Apr 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/hnctf-2024-ez_pecp/</guid>
+      <guid>https://j1rry-learn.github.io/posts/hnctf-2024-ez_pecp/</guid>
       <description>&lt;p&gt;考点:冰蝎webshell流量分析+CS4.x流量解密
 给了两个 流量包
 第一个 &lt;code&gt;ctf1.pcapng&lt;/code&gt;
@@ -709,9 +709,9 @@ http-beacon 通信中，默认使用 GET 方法向 &lt;code&gt;/dpixel&lt;/code&
     </item>
     <item>
       <title>MoeCTF 2022 usb</title>
-      <link>http://j1rry-learn.github.io/posts/moectf-2022-usb/</link>
+      <link>https://j1rry-learn.github.io/posts/moectf-2022-usb/</link>
       <pubDate>Thu, 11 Apr 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/moectf-2022-usb/</guid>
+      <guid>https://j1rry-learn.github.io/posts/moectf-2022-usb/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202405311332203.png&#34;&gt;
 直接找 &lt;code&gt;URB&lt;/code&gt;的第一个输入协议
 &lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202405311339030.png&#34;&gt;
@@ -749,9 +749,9 @@ usb流量永存脚本 结合一下&lt;/p&gt;</description>
     </item>
     <item>
       <title>NKCTF 2024 webshell_pro</title>
-      <link>http://j1rry-learn.github.io/posts/nkctf-2024-webshell_pro/</link>
+      <link>https://j1rry-learn.github.io/posts/nkctf-2024-webshell_pro/</link>
       <pubDate>Thu, 11 Apr 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/nkctf-2024-webshell_pro/</guid>
+      <guid>https://j1rry-learn.github.io/posts/nkctf-2024-webshell_pro/</guid>
       <description>&lt;p&gt;还是正常的HTTP流量
 &lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202406011022878.png&#34;&gt;
 既然是webshell一定是看POST流量
@@ -762,9 +762,9 @@ usb流量永存脚本 结合一下&lt;/p&gt;</description>
     </item>
     <item>
       <title>Webshell-jsp 冰蝎流量</title>
-      <link>http://j1rry-learn.github.io/posts/webshell-jsp-%E5%86%B0%E8%9D%8E%E6%B5%81%E9%87%8F/</link>
+      <link>https://j1rry-learn.github.io/posts/webshell-jsp-%E5%86%B0%E8%9D%8E%E6%B5%81%E9%87%8F/</link>
       <pubDate>Thu, 11 Apr 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/webshell-jsp-%E5%86%B0%E8%9D%8E%E6%B5%81%E9%87%8F/</guid>
+      <guid>https://j1rry-learn.github.io/posts/webshell-jsp-%E5%86%B0%E8%9D%8E%E6%B5%81%E9%87%8F/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202406122324882.png&#34;&gt;
 主要是和 &lt;code&gt;main.jsp&lt;/code&gt;进行通信
 浅浅看一下 &lt;code&gt;yjg.txt&lt;/code&gt;内容
@@ -784,9 +784,9 @@ usb流量永存脚本 结合一下&lt;/p&gt;</description>
     </item>
     <item>
       <title>高校运维赛 2024 easyshell</title>
-      <link>http://j1rry-learn.github.io/posts/%E9%AB%98%E6%A0%A1%E8%BF%90%E7%BB%B4%E8%B5%9B-2024-easyshell/</link>
+      <link>https://j1rry-learn.github.io/posts/%E9%AB%98%E6%A0%A1%E8%BF%90%E7%BB%B4%E8%B5%9B-2024-easyshell/</link>
       <pubDate>Thu, 11 Apr 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/%E9%AB%98%E6%A0%A1%E8%BF%90%E7%BB%B4%E8%B5%9B-2024-easyshell/</guid>
+      <guid>https://j1rry-learn.github.io/posts/%E9%AB%98%E6%A0%A1%E8%BF%90%E7%BB%B4%E8%B5%9B-2024-easyshell/</guid>
       <description>&lt;p&gt;考点: 冰蝎流量解密+部分明文攻击
 看请求路由可以知道 shell.php是上传的马子
 &lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202406111946010.png&#34;&gt;
@@ -801,9 +801,9 @@ No.1962 request请求数据解密  关键数据&lt;/p&gt;</description>
     </item>
     <item>
       <title>鹤城杯 2021 流量分析</title>
-      <link>http://j1rry-learn.github.io/posts/%E9%B9%A4%E5%9F%8E%E6%9D%AF-2021-%E6%B5%81%E9%87%8F%E5%88%86%E6%9E%90/</link>
+      <link>https://j1rry-learn.github.io/posts/%E9%B9%A4%E5%9F%8E%E6%9D%AF-2021-%E6%B5%81%E9%87%8F%E5%88%86%E6%9E%90/</link>
       <pubDate>Thu, 11 Apr 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/%E9%B9%A4%E5%9F%8E%E6%9D%AF-2021-%E6%B5%81%E9%87%8F%E5%88%86%E6%9E%90/</guid>
+      <guid>https://j1rry-learn.github.io/posts/%E9%B9%A4%E5%9F%8E%E6%9D%AF-2021-%E6%B5%81%E9%87%8F%E5%88%86%E6%9E%90/</guid>
       <description>&lt;p&gt;看分组也知道考http流量
 &lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202405310936064.png&#34;&gt;
 是布尔盲注
@@ -819,9 +819,9 @@ No.1962 request请求数据解密  关键数据&lt;/p&gt;</description>
     </item>
     <item>
       <title>CTF题型 Http请求走私总结&amp;靶场例题</title>
-      <link>http://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-http%E8%AF%B7%E6%B1%82%E8%B5%B0%E7%A7%81burp%E4%BE%8B%E9%A2%98/</link>
+      <link>https://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-http%E8%AF%B7%E6%B1%82%E8%B5%B0%E7%A7%81burp%E4%BE%8B%E9%A2%98/</link>
       <pubDate>Sun, 24 Mar 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-http%E8%AF%B7%E6%B1%82%E8%B5%B0%E7%A7%81burp%E4%BE%8B%E9%A2%98/</guid>
+      <guid>https://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-http%E8%AF%B7%E6%B1%82%E8%B5%B0%E7%A7%81burp%E4%BE%8B%E9%A2%98/</guid>
       <description>&lt;h1 id=&#34;ctf题型-http请求走私总结靶场例题&#34;&gt;CTF题型 Http请求走私总结&amp;amp;靶场例题&lt;/h1&gt;
 &lt;h1 id=&#34;http请求走私&#34;&gt;HTTP请求走私&lt;/h1&gt;
 &lt;h2 id=&#34;http请求走私漏洞原理&#34;&gt;HTTP请求走私漏洞原理&lt;/h2&gt;
@@ -832,9 +832,9 @@ No.1962 request请求数据解密  关键数据&lt;/p&gt;</description>
     </item>
     <item>
       <title>CTF 题型 python原型链污染 题记和总结</title>
-      <link>http://j1rry-learn.github.io/posts/ctf-%E9%A2%98%E5%9E%8B-python%E5%8E%9F%E5%9E%8B%E9%93%BE%E6%B1%A1%E6%9F%93-%E9%A2%98%E8%AE%B0%E5%92%8C%E6%80%BB%E7%BB%93-/</link>
+      <link>https://j1rry-learn.github.io/posts/ctf-%E9%A2%98%E5%9E%8B-python%E5%8E%9F%E5%9E%8B%E9%93%BE%E6%B1%A1%E6%9F%93-%E9%A2%98%E8%AE%B0%E5%92%8C%E6%80%BB%E7%BB%93-/</link>
       <pubDate>Sat, 23 Mar 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/ctf-%E9%A2%98%E5%9E%8B-python%E5%8E%9F%E5%9E%8B%E9%93%BE%E6%B1%A1%E6%9F%93-%E9%A2%98%E8%AE%B0%E5%92%8C%E6%80%BB%E7%BB%93-/</guid>
+      <guid>https://j1rry-learn.github.io/posts/ctf-%E9%A2%98%E5%9E%8B-python%E5%8E%9F%E5%9E%8B%E9%93%BE%E6%B1%A1%E6%9F%93-%E9%A2%98%E8%AE%B0%E5%92%8C%E6%80%BB%E7%BB%93-/</guid>
       <description>&lt;p&gt;CTF 题型 python原型链污染 题记和总结&lt;/p&gt;
 &lt;h1 id=&#34;一般特征关键函数判断python原型链污染依据&#34;&gt;一般特征关键函数(判断python原型链污染依据)&lt;/h1&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
@@ -854,9 +854,9 @@ No.1962 request请求数据解密  关键数据&lt;/p&gt;</description>
     </item>
     <item>
       <title>CTF 题型 SSRF攻击&amp;例题总结</title>
-      <link>http://j1rry-learn.github.io/posts/ctf-%E9%A2%98%E5%9E%8B-ssrf%E6%94%BB%E5%87%BB%E4%BE%8B%E9%A2%98%E6%80%BB%E7%BB%93/</link>
+      <link>https://j1rry-learn.github.io/posts/ctf-%E9%A2%98%E5%9E%8B-ssrf%E6%94%BB%E5%87%BB%E4%BE%8B%E9%A2%98%E6%80%BB%E7%BB%93/</link>
       <pubDate>Sat, 23 Mar 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/ctf-%E9%A2%98%E5%9E%8B-ssrf%E6%94%BB%E5%87%BB%E4%BE%8B%E9%A2%98%E6%80%BB%E7%BB%93/</guid>
+      <guid>https://j1rry-learn.github.io/posts/ctf-%E9%A2%98%E5%9E%8B-ssrf%E6%94%BB%E5%87%BB%E4%BE%8B%E9%A2%98%E6%80%BB%E7%BB%93/</guid>
       <description>&lt;p&gt;CTF 题型 python原型链污染 题记和总结&lt;/p&gt;
 &lt;h1 id=&#34;ctf-题型-ssrf攻击例题总结&#34;&gt;CTF 题型 SSRF攻击&amp;amp;例题总结&lt;/h1&gt;
 &lt;p&gt;[TOC]&lt;/p&gt;
@@ -867,9 +867,9 @@ No.1962 request请求数据解密  关键数据&lt;/p&gt;</description>
     </item>
     <item>
       <title>CTF题型 Http2降级走私原理分析&amp;例题分享</title>
-      <link>http://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-http2%E9%99%8D%E7%BA%A7%E8%B5%B0%E7%A7%81/</link>
+      <link>https://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-http2%E9%99%8D%E7%BA%A7%E8%B5%B0%E7%A7%81/</link>
       <pubDate>Sat, 23 Mar 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-http2%E9%99%8D%E7%BA%A7%E8%B5%B0%E7%A7%81/</guid>
+      <guid>https://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-http2%E9%99%8D%E7%BA%A7%E8%B5%B0%E7%A7%81/</guid>
       <description>&lt;h1 id=&#34;ctf题型-http2降级走私原理分析例题分享&#34;&gt;CTF题型 Http2降级走私原理分析&amp;amp;例题分享&lt;/h1&gt;
 &lt;p&gt;[TOC]&lt;/p&gt;
 &lt;p&gt;请先学习Http请求走私原理作为前置知识&lt;/p&gt;
@@ -879,9 +879,9 @@ No.1962 request请求数据解密  关键数据&lt;/p&gt;</description>
     </item>
     <item>
       <title>CTF题型 SSTI(1) Flask-SSTI-labs 通关 题记</title>
-      <link>http://j1rry-learn.github.io/posts/ctf-%E9%A2%98%E5%9E%8B-flask-ssti-labs-%E9%80%9A%E5%85%B3-level-1-13/</link>
+      <link>https://j1rry-learn.github.io/posts/ctf-%E9%A2%98%E5%9E%8B-flask-ssti-labs-%E9%80%9A%E5%85%B3-level-1-13/</link>
       <pubDate>Fri, 22 Mar 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/ctf-%E9%A2%98%E5%9E%8B-flask-ssti-labs-%E9%80%9A%E5%85%B3-level-1-13/</guid>
+      <guid>https://j1rry-learn.github.io/posts/ctf-%E9%A2%98%E5%9E%8B-flask-ssti-labs-%E9%80%9A%E5%85%B3-level-1-13/</guid>
       <description>&lt;h1 id=&#34;ctf题型-ssti1-flask-ssti-labs-通关-题记&#34;&gt;CTF题型 SSTI(1) Flask-SSTI-labs 通关 题记&lt;/h1&gt;
 &lt;p&gt;[TOC]&lt;/p&gt;
 &lt;h2 id=&#34;前记&#34;&gt;前记&lt;/h2&gt;
@@ -891,9 +891,9 @@ No.1962 request请求数据解密  关键数据&lt;/p&gt;</description>
     </item>
     <item>
       <title>CTF trick proc的利用</title>
-      <link>http://j1rry-learn.github.io/posts/ctf-trick-proc%E7%9A%84%E5%88%A9%E7%94%A8/</link>
+      <link>https://j1rry-learn.github.io/posts/ctf-trick-proc%E7%9A%84%E5%88%A9%E7%94%A8/</link>
       <pubDate>Thu, 21 Mar 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/ctf-trick-proc%E7%9A%84%E5%88%A9%E7%94%A8/</guid>
+      <guid>https://j1rry-learn.github.io/posts/ctf-trick-proc%E7%9A%84%E5%88%A9%E7%94%A8/</guid>
       <description>&lt;h1 id=&#34;proc利用相关例题总结&#34;&gt;/proc利用相关例题总结&lt;/h1&gt;
 &lt;p&gt;[toc]&lt;/p&gt;
 &lt;h2 id=&#34;知识点汇总&#34;&gt;知识点汇总&lt;/h2&gt;
@@ -910,9 +910,9 @@ No.1962 request请求数据解密  关键数据&lt;/p&gt;</description>
     </item>
     <item>
       <title>2024 VenomCTF Web 部分WP</title>
-      <link>http://j1rry-learn.github.io/posts/2024-venomctf-wp/</link>
+      <link>https://j1rry-learn.github.io/posts/2024-venomctf-wp/</link>
       <pubDate>Tue, 12 Mar 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/2024-venomctf-wp/</guid>
+      <guid>https://j1rry-learn.github.io/posts/2024-venomctf-wp/</guid>
       <description>&lt;h1 id=&#34;web&#34;&gt;Web&lt;/h1&gt;
 &lt;h2 id=&#34;hackjs&#34;&gt;hackjs&lt;/h2&gt;
 &lt;p&gt;考点:qs数组原型链污染,hasOwnProperty覆盖
@@ -923,9 +923,9 @@ No.1962 request请求数据解密  关键数据&lt;/p&gt;</description>
     </item>
     <item>
       <title>LCTF 2018 bestphp&#39;s revenge</title>
-      <link>http://j1rry-learn.github.io/posts/lctf-2018-bestphps-revenge/</link>
+      <link>https://j1rry-learn.github.io/posts/lctf-2018-bestphps-revenge/</link>
       <pubDate>Fri, 09 Feb 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/lctf-2018-bestphps-revenge/</guid>
+      <guid>https://j1rry-learn.github.io/posts/lctf-2018-bestphps-revenge/</guid>
       <description>&lt;p&gt;考点:Soap原生类+Session反序列化+CRLF注入&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;?&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;php&lt;/span&gt;  
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;highlight_file&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;__FILE__&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;  
@@ -953,9 +953,9 @@ only localhost can get flag!
     </item>
     <item>
       <title>CTF题型 SSTI(3) Smart SSTI 例题和题记</title>
-      <link>http://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-%E5%8C%BF%E5%90%8D%E5%87%BD%E6%95%B0%E8%80%83%E6%B3%95%E4%BE%8B%E9%A2%98%E6%80%BB%E7%BB%93/</link>
+      <link>https://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-%E5%8C%BF%E5%90%8D%E5%87%BD%E6%95%B0%E8%80%83%E6%B3%95%E4%BE%8B%E9%A2%98%E6%80%BB%E7%BB%93/</link>
       <pubDate>Tue, 06 Feb 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-%E5%8C%BF%E5%90%8D%E5%87%BD%E6%95%B0%E8%80%83%E6%B3%95%E4%BE%8B%E9%A2%98%E6%80%BB%E7%BB%93/</guid>
+      <guid>https://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-%E5%8C%BF%E5%90%8D%E5%87%BD%E6%95%B0%E8%80%83%E6%B3%95%E4%BE%8B%E9%A2%98%E6%80%BB%E7%BB%93/</guid>
       <description>&lt;h1 id=&#34;ctf题型-匿名函数考法例题总结&#34;&gt;CTF题型 匿名函数考法&amp;amp;例题总结&lt;/h1&gt;
 &lt;h2 id=&#34;一-原理分析&#34;&gt;一 .原理分析&lt;/h2&gt;
 &lt;p&gt;匿名函数&lt;strong&gt;特点:无函数名，使用一次就被丢弃，一般可以动态执行php代码&lt;/strong&gt;&lt;/p&gt;
@@ -964,9 +964,9 @@ only localhost can get flag!
     </item>
     <item>
       <title>CTF题型 pickle反序列化进阶&amp;例题</title>
-      <link>http://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-pickle%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E8%BF%9B%E9%98%B6%E5%88%A9%E7%94%A8/</link>
+      <link>https://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-pickle%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E8%BF%9B%E9%98%B6%E5%88%A9%E7%94%A8/</link>
       <pubDate>Mon, 05 Feb 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-pickle%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E8%BF%9B%E9%98%B6%E5%88%A9%E7%94%A8/</guid>
+      <guid>https://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-pickle%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E8%BF%9B%E9%98%B6%E5%88%A9%E7%94%A8/</guid>
       <description>&lt;h1 id=&#34;ctf题型-pickle反序列化进阶例题&#34;&gt;CTF题型 pickle反序列化进阶&amp;amp;例题&lt;/h1&gt;
 &lt;h1 id=&#34;一基础的pickle反序列化&#34;&gt;一.基础的pickle反序列化&lt;/h1&gt;
 &lt;p&gt;关键代码&lt;/p&gt;
@@ -979,9 +979,9 @@ protocal：如果该项省略，则默认为0。如果为负值或HIGHEST_PROTOC
     </item>
     <item>
       <title>CTF题型 SSTI(2)   Flask-SSTI典型题巩固</title>
-      <link>http://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-ssti2---flask-ssti%E5%85%B8%E5%9E%8B%E9%A2%98%E5%B7%A9%E5%9B%BA/</link>
+      <link>https://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-ssti2---flask-ssti%E5%85%B8%E5%9E%8B%E9%A2%98%E5%B7%A9%E5%9B%BA/</link>
       <pubDate>Mon, 05 Feb 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-ssti2---flask-ssti%E5%85%B8%E5%9E%8B%E9%A2%98%E5%B7%A9%E5%9B%BA/</guid>
+      <guid>https://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-ssti2---flask-ssti%E5%85%B8%E5%9E%8B%E9%A2%98%E5%B7%A9%E5%9B%BA/</guid>
       <description>&lt;h1 id=&#34;ctf题型-ssti2---flask-ssti典型题巩固&#34;&gt;CTF题型 SSTI(2)   Flask-SSTI典型题巩固&lt;/h1&gt;
 &lt;h2 id=&#34;前记&#34;&gt;前记&lt;/h2&gt;
 &lt;p&gt;从基础到自己构造payload&lt;/p&gt;
@@ -990,9 +990,9 @@ protocal：如果该项省略，则默认为0。如果为负值或HIGHEST_PROTOC
     </item>
     <item>
       <title>CTF题型 SSTI(3) Smart SSTI 例题和题记</title>
-      <link>http://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-ssti3-smart-ssti-%E4%BE%8B%E9%A2%98%E5%92%8C%E9%A2%98%E8%AE%B0/</link>
+      <link>https://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-ssti3-smart-ssti-%E4%BE%8B%E9%A2%98%E5%92%8C%E9%A2%98%E8%AE%B0/</link>
       <pubDate>Mon, 05 Feb 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-ssti3-smart-ssti-%E4%BE%8B%E9%A2%98%E5%92%8C%E9%A2%98%E8%AE%B0/</guid>
+      <guid>https://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-ssti3-smart-ssti-%E4%BE%8B%E9%A2%98%E5%92%8C%E9%A2%98%E8%AE%B0/</guid>
       <description>&lt;h1 id=&#34;ctf题型-ssti3-smart-ssti-例题和题记&#34;&gt;CTF题型 SSTI(3) Smart SSTI 例题和题记&lt;/h1&gt;
 &lt;p&gt;前面我们学习了Flask SSTI&lt;/p&gt;
 &lt;p&gt;Smart SSTI和Flask SSTI 不同&lt;/p&gt;
@@ -1001,9 +1001,9 @@ protocal：如果该项省略，则默认为0。如果为负值或HIGHEST_PROTOC
     </item>
     <item>
       <title>2024-Hgame-Web-Misc复现-附docker-部分wp</title>
-      <link>http://j1rry-learn.github.io/posts/2024-hgame-web-misc%E5%A4%8D%E7%8E%B0-%E9%99%84docker-%E9%83%A8%E5%88%86wp/</link>
+      <link>https://j1rry-learn.github.io/posts/2024-hgame-web-misc%E5%A4%8D%E7%8E%B0-%E9%99%84docker-%E9%83%A8%E5%88%86wp/</link>
       <pubDate>Sun, 21 Jan 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/2024-hgame-web-misc%E5%A4%8D%E7%8E%B0-%E9%99%84docker-%E9%83%A8%E5%88%86wp/</guid>
+      <guid>https://j1rry-learn.github.io/posts/2024-hgame-web-misc%E5%A4%8D%E7%8E%B0-%E9%99%84docker-%E9%83%A8%E5%88%86wp/</guid>
       <description>&lt;h1 id=&#34;2024-hgame-webmisc复现附docker-部分wp&#34;&gt;2024 Hgame Web&amp;amp;Misc复现(附docker) 部分wp&lt;/h1&gt;
 &lt;h2 id=&#34;2024-hgame-webmisc复现附docker-部分wp-1&#34;&gt;2024 Hgame Web&amp;amp;Misc复现(附docker) 部分wp&lt;/h2&gt;
 &lt;h4 id=&#34;文章目录&#34;&gt;文章目录&lt;/h4&gt;
@@ -1115,9 +1115,9 @@ protocal：如果该项省略，则默认为0。如果为负值或HIGHEST_PROTOC
     </item>
     <item>
       <title>Java安全 反序列化(5) CC6链原理分析</title>
-      <link>http://j1rry-learn.github.io/posts/java%E5%AE%89%E5%85%A8-%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%964-cc6%E9%93%BE%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90/</link>
+      <link>https://j1rry-learn.github.io/posts/java%E5%AE%89%E5%85%A8-%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%964-cc6%E9%93%BE%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90/</link>
       <pubDate>Mon, 15 Jan 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/java%E5%AE%89%E5%85%A8-%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%964-cc6%E9%93%BE%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90/</guid>
+      <guid>https://j1rry-learn.github.io/posts/java%E5%AE%89%E5%85%A8-%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%964-cc6%E9%93%BE%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90/</guid>
       <description>&lt;h1 id=&#34;java安全-反序列化5-cc6链原理分析&#34;&gt;Java安全 反序列化(5) CC6链原理分析&lt;/h1&gt;
 &lt;p&gt;CC6学习的目的在于其可以无视jdk版本，这条链子更像CC1-LazyMap和URLDNS链子的缝合版&lt;/p&gt;
 &lt;p&gt;[TOC]&lt;/p&gt;
@@ -1126,9 +1126,9 @@ protocal：如果该项省略，则默认为0。如果为负值或HIGHEST_PROTOC
     </item>
     <item>
       <title>Java安全 反序列化(4) CC1链-LazyMap版</title>
-      <link>http://j1rry-learn.github.io/posts/java%E5%AE%89%E5%85%A8-%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%963-cc1%E9%93%BE-lazymap%E7%89%88/</link>
+      <link>https://j1rry-learn.github.io/posts/java%E5%AE%89%E5%85%A8-%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%963-cc1%E9%93%BE-lazymap%E7%89%88/</link>
       <pubDate>Sun, 14 Jan 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/java%E5%AE%89%E5%85%A8-%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%963-cc1%E9%93%BE-lazymap%E7%89%88/</guid>
+      <guid>https://j1rry-learn.github.io/posts/java%E5%AE%89%E5%85%A8-%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%963-cc1%E9%93%BE-lazymap%E7%89%88/</guid>
       <description>&lt;h1 id=&#34;java安全-反序列化4-cc1链-lazymap版&#34;&gt;Java安全 反序列化(4) CC1链-LazyMap版&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;实验环境:存在漏洞的版本 commons-collections3.1-3.2.1 jdk 8u71之后已修复不可利⽤&lt;/p&gt;&lt;/blockquote&gt;
@@ -1137,9 +1137,9 @@ protocal：如果该项省略，则默认为0。如果为负值或HIGHEST_PROTOC
     </item>
     <item>
       <title>Java安全 反序列化(2) 链的命令执行原理分析</title>
-      <link>http://j1rry-learn.github.io/posts/java%E5%AE%89%E5%85%A8-%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%962-%E9%93%BE%E5%BC%8F%E7%9A%84%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90/</link>
+      <link>https://j1rry-learn.github.io/posts/java%E5%AE%89%E5%85%A8-%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%962-%E9%93%BE%E5%BC%8F%E7%9A%84%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90/</link>
       <pubDate>Sat, 13 Jan 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/java%E5%AE%89%E5%85%A8-%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%962-%E9%93%BE%E5%BC%8F%E7%9A%84%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90/</guid>
+      <guid>https://j1rry-learn.github.io/posts/java%E5%AE%89%E5%85%A8-%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%962-%E9%93%BE%E5%BC%8F%E7%9A%84%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90/</guid>
       <description>&lt;h1 id=&#34;java安全-反序列化2-链的命令执行原理分析&#34;&gt;Java安全 反序列化(2) 链的命令执行原理分析&lt;/h1&gt;
 &lt;p&gt;CC链的命令执行原理的前置学习便于快速学习CC链&lt;/p&gt;
 &lt;p&gt;环境要求&lt;/p&gt;
@@ -1167,9 +1167,9 @@ public class Transformer_exec {
     </item>
     <item>
       <title>Java安全 反序列化(1) URLDNS链原理分析</title>
-      <link>http://j1rry-learn.github.io/posts/java%E5%AE%89%E5%85%A8-%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%961-urldns%E9%93%BE%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90/</link>
+      <link>https://j1rry-learn.github.io/posts/java%E5%AE%89%E5%85%A8-%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%961-urldns%E9%93%BE%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90/</link>
       <pubDate>Fri, 12 Jan 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/java%E5%AE%89%E5%85%A8-%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%961-urldns%E9%93%BE%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90/</guid>
+      <guid>https://j1rry-learn.github.io/posts/java%E5%AE%89%E5%85%A8-%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%961-urldns%E9%93%BE%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90/</guid>
       <description>&lt;h1 id=&#34;java安全-反序列化1-urldns链原理分析&#34;&gt;Java安全 反序列化(1) URLDNS链原理分析&lt;/h1&gt;
 &lt;p&gt;开始学习Java反序列化链&amp;ndash;URLDNS&lt;/p&gt;
 &lt;h2 id=&#34;前置知识&#34;&gt;前置知识&lt;/h2&gt;
@@ -1177,9 +1177,9 @@ public class Transformer_exec {
     </item>
     <item>
       <title>Java安全 反序列化(3) CC1链-TransformedMap版</title>
-      <link>http://j1rry-learn.github.io/posts/java%E5%AE%89%E5%85%A8-%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%962-cc1%E9%93%BE%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90/</link>
+      <link>https://j1rry-learn.github.io/posts/java%E5%AE%89%E5%85%A8-%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%962-cc1%E9%93%BE%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90/</link>
       <pubDate>Fri, 12 Jan 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/java%E5%AE%89%E5%85%A8-%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%962-cc1%E9%93%BE%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90/</guid>
+      <guid>https://j1rry-learn.github.io/posts/java%E5%AE%89%E5%85%A8-%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%962-cc1%E9%93%BE%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90/</guid>
       <description>&lt;h1 id=&#34;java安全-反序列化3-cc1链-transformedmap版&#34;&gt;Java安全 反序列化(3) CC1链-TransformedMap版&lt;/h1&gt;
 &lt;p&gt;本文尝试从CC1的挖掘思路出发，理解CC1的实现原理&lt;/p&gt;
 &lt;p&gt;[TOC]&lt;/p&gt;
@@ -1187,9 +1187,9 @@ public class Transformer_exec {
     </item>
     <item>
       <title>Java安全基础 关键概念汇总</title>
-      <link>http://j1rry-learn.github.io/posts/java%E5%AE%89%E5%85%A8-%E6%9E%81%E7%AE%80%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</link>
+      <link>https://j1rry-learn.github.io/posts/java%E5%AE%89%E5%85%A8-%E6%9E%81%E7%AE%80%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</link>
       <pubDate>Tue, 09 Jan 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/java%E5%AE%89%E5%85%A8-%E6%9E%81%E7%AE%80%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</guid>
+      <guid>https://j1rry-learn.github.io/posts/java%E5%AE%89%E5%85%A8-%E6%9E%81%E7%AE%80%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</guid>
       <description>&lt;h1 id=&#34;java安全基础-关键概念汇总&#34;&gt;Java安全基础 关键概念汇总&lt;/h1&gt;
 &lt;h2 id=&#34;前置知识&#34;&gt;前置知识&lt;/h2&gt;
 &lt;p&gt;了解Java基本面向对象语法以及反射&lt;/p&gt;
@@ -1199,9 +1199,9 @@ public class Transformer_exec {
     </item>
     <item>
       <title>CTF题型 md5考法相关例题总结</title>
-      <link>http://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-md5%E7%9B%B8%E5%85%B3%E4%BE%8B%E9%A2%98/</link>
+      <link>https://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-md5%E7%9B%B8%E5%85%B3%E4%BE%8B%E9%A2%98/</link>
       <pubDate>Wed, 03 Jan 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-md5%E7%9B%B8%E5%85%B3%E4%BE%8B%E9%A2%98/</guid>
+      <guid>https://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-md5%E7%9B%B8%E5%85%B3%E4%BE%8B%E9%A2%98/</guid>
       <description>&lt;h1 id=&#34;ctf题型-md5考法相关例题总结&#34;&gt;CTF题型 md5考法相关例题总结&lt;/h1&gt;
 &lt;h2 id=&#34;一md5弱字符相等&#34;&gt;一.md5弱字符相等(==)&lt;/h2&gt;
 &lt;h3 id=&#34;swpuctf-2021-新生赛easy_md5&#34;&gt;[SWPUCTF 2021 新生赛]easy_md5&lt;/h3&gt;
@@ -1212,26 +1212,26 @@ public class Transformer_exec {
     </item>
     <item>
       <title>CTF题型 php://filter特殊编码绕过小汇总</title>
-      <link>http://j1rry-learn.github.io/posts/phpfilter%E4%BC%AA%E5%8D%8F%E8%AE%AE%E7%BB%95%E8%BF%87%E6%AD%BB%E4%BA%A1exit/</link>
+      <link>https://j1rry-learn.github.io/posts/phpfilter%E4%BC%AA%E5%8D%8F%E8%AE%AE%E7%BB%95%E8%BF%87%E6%AD%BB%E4%BA%A1exit/</link>
       <pubDate>Tue, 02 Jan 2024 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/phpfilter%E4%BC%AA%E5%8D%8F%E8%AE%AE%E7%BB%95%E8%BF%87%E6%AD%BB%E4%BA%A1exit/</guid>
+      <guid>https://j1rry-learn.github.io/posts/phpfilter%E4%BC%AA%E5%8D%8F%E8%AE%AE%E7%BB%95%E8%BF%87%E6%AD%BB%E4%BA%A1exit/</guid>
       <description>&lt;h1 id=&#34;ctf题型-phpfilter特殊编码绕过小汇总&#34;&gt;CTF题型 php://filter特殊编码绕过小汇总&lt;/h1&gt;
 &lt;p&gt;&lt;code&gt;php://filter&lt;/code&gt; 是一个伪协议，它允许你读取经过过滤器处理的数据流。过滤器可以执行各种转换，如 base64 编码/解码、字符串压缩/解压缩等&lt;/p&gt;</description>
     </item>
     <item>
       <title>CTF题型 nodejs(2) Js沙盒逃逸原理&amp;典型例题</title>
-      <link>http://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-nodejs2-js%E6%B2%99%E7%9B%92%E9%80%83%E9%80%B8%E5%8E%9F%E7%90%86%E5%85%B8%E5%9E%8B%E4%BE%8B%E9%A2%98/</link>
+      <link>https://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-nodejs2-js%E6%B2%99%E7%9B%92%E9%80%83%E9%80%B8%E5%8E%9F%E7%90%86%E5%85%B8%E5%9E%8B%E4%BE%8B%E9%A2%98/</link>
       <pubDate>Sat, 23 Dec 2023 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-nodejs2-js%E6%B2%99%E7%9B%92%E9%80%83%E9%80%B8%E5%8E%9F%E7%90%86%E5%85%B8%E5%9E%8B%E4%BE%8B%E9%A2%98/</guid>
+      <guid>https://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-nodejs2-js%E6%B2%99%E7%9B%92%E9%80%83%E9%80%B8%E5%8E%9F%E7%90%86%E5%85%B8%E5%9E%8B%E4%BE%8B%E9%A2%98/</guid>
       <description>&lt;h1 id=&#34;ctf题型-nodejs2-js沙盒逃逸原理典型例题&#34;&gt;CTF题型 nodejs(2) Js沙盒逃逸原理&amp;amp;典型例题&lt;/h1&gt;
 &lt;p&gt;&lt;code&gt;vm&lt;/code&gt; 模块提供了一系列 API 用于在 V8 虚拟机环境中编译和运行代码&lt;/p&gt;
 &lt;p&gt;逃逸定义：通过某种方式拿到沙箱外的 &lt;code&gt;global.process&lt;/code&gt;就算成功&lt;/p&gt;</description>
     </item>
     <item>
       <title>CTF题型 nodejs(1)  命令执行绕过</title>
-      <link>http://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-nodejs%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E7%BB%95%E8%BF%87%E6%B2%99%E7%AE%B1%E9%80%83%E9%80%B8/</link>
+      <link>https://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-nodejs%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E7%BB%95%E8%BF%87%E6%B2%99%E7%AE%B1%E9%80%83%E9%80%B8/</link>
       <pubDate>Fri, 03 Nov 2023 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-nodejs%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E7%BB%95%E8%BF%87%E6%B2%99%E7%AE%B1%E9%80%83%E9%80%B8/</guid>
+      <guid>https://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-nodejs%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E7%BB%95%E8%BF%87%E6%B2%99%E7%AE%B1%E9%80%83%E9%80%B8/</guid>
       <description>&lt;h1 id=&#34;ctf题型-nodejs1--命令执行绕过&#34;&gt;CTF题型 nodejs(1)  命令执行绕过&lt;/h1&gt;
 &lt;p&gt;[TOC]&lt;/p&gt;
 &lt;h1 id=&#34;一nodejs中的命令执行&#34;&gt;一.nodejs中的命令执行&lt;/h1&gt;
@@ -1243,9 +1243,9 @@ public class Transformer_exec {
     </item>
     <item>
       <title>CTF题型 php反序列化进阶(1) php原生文件操作类 例题和总结</title>
-      <link>http://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-php%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E8%BF%9B%E9%98%B61-php%E5%8E%9F%E7%94%9F%E7%B1%BB-%E4%BE%8B%E9%A2%98%E5%92%8C%E6%80%BB%E7%BB%93/</link>
+      <link>https://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-php%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E8%BF%9B%E9%98%B61-php%E5%8E%9F%E7%94%9F%E7%B1%BB-%E4%BE%8B%E9%A2%98%E5%92%8C%E6%80%BB%E7%BB%93/</link>
       <pubDate>Thu, 02 Nov 2023 12:30:00 +0000</pubDate>
-      <guid>http://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-php%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E8%BF%9B%E9%98%B61-php%E5%8E%9F%E7%94%9F%E7%B1%BB-%E4%BE%8B%E9%A2%98%E5%92%8C%E6%80%BB%E7%BB%93/</guid>
+      <guid>https://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-php%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E8%BF%9B%E9%98%B61-php%E5%8E%9F%E7%94%9F%E7%B1%BB-%E4%BE%8B%E9%A2%98%E5%92%8C%E6%80%BB%E7%BB%93/</guid>
       <description>&lt;h1 id=&#34;ctf题型-php反序列化进阶1-php原生文件操作类-例题和总结&#34;&gt;CTF题型 php反序列化进阶(1) php原生文件操作类 例题和总结&lt;/h1&gt;
 &lt;h2 id=&#34;特征&#34;&gt;特征&lt;/h2&gt;
 &lt;p&gt;在php反序列化中 没有直接的利用点&lt;/p&gt;
