@@ -135,37 +135,6 @@ Misc有点弱 多多整理提升一下&lt;/p&gt;
 使用以下命令编译生成&lt;a href=&#34;https://so.csdn.net/so/search?q=so%E6%96%87%E4%BB%B6&amp;amp;spm=1001.2101.3001.7020&#34;&gt;so文件&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>2024 XYCTF Web全解&amp;Misc WP</title>
-      <link>https://j1rry-learn.github.io/posts/2024-xyctf-webmisc-wp/</link>
-      <pubDate>Sun, 21 Jul 2024 12:30:00 +0000</pubDate>
-      <guid>https://j1rry-learn.github.io/posts/2024-xyctf-webmisc-wp/</guid>
-      <description>&lt;h1 id=&#34;web&#34;&gt;Web&lt;/h1&gt;
-&lt;h2 id=&#34;ezhttp&#34;&gt;ezhttp&lt;/h2&gt;
-&lt;h3 id=&#34;考点信息泄露基础发包&#34;&gt;考点:信息泄露+基础发包&lt;/h3&gt;
-&lt;p&gt;&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202404251629591.png&#34;&gt;
-访问 &lt;code&gt;/robots.txt&lt;/code&gt;
-&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202404251629603.png&#34;&gt;
-访问 &lt;code&gt;/l0g1n.txt&lt;/code&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202404251630958.png&#34;&gt;&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;username: XYCTF
-password: @JOILha!wuigqi123$
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;登录
-&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202404251631375.png&#34;&gt;
-添加&lt;code&gt;Referer&lt;/code&gt;头
-&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202404251631813.png&#34;&gt;
-&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202404251632085.png&#34;&gt;
-添加&lt;code&gt;User-Agent&lt;/code&gt;
-&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202404251632726.png&#34;&gt;
-&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202404251638362.png&#34;&gt;
-直接burp(fake ip)插件一把梭
-&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202404251640508.png&#34;&gt;
-添加 &lt;code&gt;Via&lt;/code&gt;头
-&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202404251641745.png&#34;&gt;
-添加 &lt;code&gt;Cookie&lt;/code&gt;
-&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202404251642602.png&#34;&gt;
-可以拿flag&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>网鼎杯 2020 玄武组 SSRFMe</title>
       <link>https://j1rry-learn.github.io/posts/%E7%BD%91%E9%BC%8E%E6%9D%AF-2020-%E7%8E%84%E6%AD%A6%E7%BB%84-ssrfme/</link>
       <pubDate>Thu, 11 Jul 2024 12:30:00 +0000</pubDate>
@@ -390,6 +359,37 @@ AXIOM 分析存在云服务 但是百度网盘要密码
 
 很抱歉藏宝图丢失了一部分。幸运的是，我们有办法找回它。2a13:b487:11aa::d3:c7f:2f 会告诉你钥匙的路径。但要找到它似乎并不容易？地牢和里面的旗帜正在等着你。
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;什么玩意&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2024 XYCTF Web全解&amp;Misc WP</title>
+      <link>https://j1rry-learn.github.io/posts/2024-xyctf-webmisc-wp/</link>
+      <pubDate>Fri, 26 Apr 2024 12:30:00 +0000</pubDate>
+      <guid>https://j1rry-learn.github.io/posts/2024-xyctf-webmisc-wp/</guid>
+      <description>&lt;h1 id=&#34;web&#34;&gt;Web&lt;/h1&gt;
+&lt;h2 id=&#34;ezhttp&#34;&gt;ezhttp&lt;/h2&gt;
+&lt;h3 id=&#34;考点信息泄露基础发包&#34;&gt;考点:信息泄露+基础发包&lt;/h3&gt;
+&lt;p&gt;&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202404251629591.png&#34;&gt;
+访问 &lt;code&gt;/robots.txt&lt;/code&gt;
+&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202404251629603.png&#34;&gt;
+访问 &lt;code&gt;/l0g1n.txt&lt;/code&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202404251630958.png&#34;&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;username: XYCTF
+password: @JOILha!wuigqi123$
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;登录
+&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202404251631375.png&#34;&gt;
+添加&lt;code&gt;Referer&lt;/code&gt;头
+&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202404251631813.png&#34;&gt;
+&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202404251632085.png&#34;&gt;
+添加&lt;code&gt;User-Agent&lt;/code&gt;
+&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202404251632726.png&#34;&gt;
+&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202404251638362.png&#34;&gt;
+直接burp(fake ip)插件一把梭
+&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202404251640508.png&#34;&gt;
+添加 &lt;code&gt;Via&lt;/code&gt;头
+&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202404251641745.png&#34;&gt;
+添加 &lt;code&gt;Cookie&lt;/code&gt;
+&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202404251642602.png&#34;&gt;
+可以拿flag&lt;/p&gt;</description>
     </item>
     <item>
       <title>2024 VNCTF Web 部分WP</title>
