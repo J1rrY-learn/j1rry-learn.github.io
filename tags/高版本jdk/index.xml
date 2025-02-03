@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>高版本JDK on J1rrY&#39;s Blog</title>
+    <link>https://j1rry-learn.github.io/tags/%E9%AB%98%E7%89%88%E6%9C%ACjdk/</link>
+    <description>Recent content in 高版本JDK on J1rrY&#39;s Blog</description>
+    <image>
+      <title>J1rrY&#39;s Blog</title>
+      <url>https://j1rry-learn.github.io/</url>
+      <link>https://j1rry-learn.github.io/</link>
+    </image>
+    <generator>Hugo -- 0.143.0</generator>
+    <language>zh</language>
+    <copyright>©2025 J1rrY&amp;rsquo;s Blog</copyright>
+    <lastBuildDate>Mon, 03 Feb 2025 18:35:00 +0800</lastBuildDate>
+    <atom:link href="https://j1rry-learn.github.io/tags/%E9%AB%98%E7%89%88%E6%9C%ACjdk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>从2025系统安全防护赛JDBCParty学习高版本JDK和高版本Tomcat打JNDI到RCE</title>
+      <link>https://j1rry-learn.github.io/posts/%E4%BB%8E%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8%E9%98%B2%E6%8A%A4%E8%B5%9Bjdbcparty-%E5%AD%A6%E4%B9%A0%E9%AB%98%E7%89%88%E6%9C%ACjdk%E5%92%8C%E9%AB%98%E7%89%88%E6%9C%ACtomcat%E6%89%93jndi%E5%88%B0rce/</link>
+      <pubDate>Mon, 03 Feb 2025 18:35:00 +0800</pubDate>
+      <guid>https://j1rry-learn.github.io/posts/%E4%BB%8E%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8%E9%98%B2%E6%8A%A4%E8%B5%9Bjdbcparty-%E5%AD%A6%E4%B9%A0%E9%AB%98%E7%89%88%E6%9C%ACjdk%E5%92%8C%E9%AB%98%E7%89%88%E6%9C%ACtomcat%E6%89%93jndi%E5%88%B0rce/</guid>
+      <description>&lt;p&gt;之前有师傅在群里发了如何反序列化触发到JNDI
+这里重新学习整理一下整个流程
+考点:高版本JDK反序列化+高版本JNDI打法&lt;/p&gt;
+&lt;h1 id=&#34;jdk17反射限制绕过&#34;&gt;JDK17+反射限制绕过&lt;/h1&gt;
+&lt;p&gt;参考:https://pankas.top/2023/12/05/jdk17-%E5%8F%8D%E5%B0%84%E9%99%90%E5%88%B6%E7%BB%95%E8%BF%87/
+这位师傅说的非常详细了&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
