@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>命令执行绕过 on J1rrY&#39;s Blog</title>
-    <link>https://j1rry-learn.github.io/tags/%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E7%BB%95%E8%BF%87/</link>
+    <link>http://localhost:1313/tags/%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E7%BB%95%E8%BF%87/</link>
     <description>Recent content in 命令执行绕过 on J1rrY&#39;s Blog</description>
     <image>
       <title>J1rrY&#39;s Blog</title>
-      <url>https://j1rry-learn.github.io/</url>
-      <link>https://j1rry-learn.github.io/</link>
+      <url>http://localhost:1313/</url>
+      <link>http://localhost:1313/</link>
     </image>
     <generator>Hugo -- 0.143.0</generator>
     <language>zh</language>
     <copyright>©2025 J1rrY&amp;rsquo;s Blog</copyright>
     <lastBuildDate>Fri, 03 Nov 2023 12:30:00 +0000</lastBuildDate>
-    <atom:link href="https://j1rry-learn.github.io/tags/%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E7%BB%95%E8%BF%87/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E7%BB%95%E8%BF%87/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CTF题型 nodejs(1)  命令执行绕过</title>
-      <link>https://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-nodejs%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E7%BB%95%E8%BF%87%E6%B2%99%E7%AE%B1%E9%80%83%E9%80%B8/</link>
+      <link>http://localhost:1313/posts/ctf%E9%A2%98%E5%9E%8B-nodejs%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E7%BB%95%E8%BF%87%E6%B2%99%E7%AE%B1%E9%80%83%E9%80%B8/</link>
       <pubDate>Fri, 03 Nov 2023 12:30:00 +0000</pubDate>
-      <guid>https://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-nodejs%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E7%BB%95%E8%BF%87%E6%B2%99%E7%AE%B1%E9%80%83%E9%80%B8/</guid>
+      <guid>http://localhost:1313/posts/ctf%E9%A2%98%E5%9E%8B-nodejs%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E7%BB%95%E8%BF%87%E6%B2%99%E7%AE%B1%E9%80%83%E9%80%B8/</guid>
       <description>&lt;h1 id=&#34;ctf题型-nodejs1--命令执行绕过&#34;&gt;CTF题型 nodejs(1)  命令执行绕过&lt;/h1&gt;
 &lt;p&gt;[TOC]&lt;/p&gt;
 &lt;h1 id=&#34;一nodejs中的命令执行&#34;&gt;一.nodejs中的命令执行&lt;/h1&gt;

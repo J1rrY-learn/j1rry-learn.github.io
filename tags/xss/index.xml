@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>XSS on J1rrY&#39;s Blog</title>
-    <link>https://j1rry-learn.github.io/tags/xss/</link>
+    <link>http://localhost:1313/tags/xss/</link>
     <description>Recent content in XSS on J1rrY&#39;s Blog</description>
     <image>
       <title>J1rrY&#39;s Blog</title>
-      <url>https://j1rry-learn.github.io/</url>
-      <link>https://j1rry-learn.github.io/</link>
+      <url>http://localhost:1313/</url>
+      <link>http://localhost:1313/</link>
     </image>
     <generator>Hugo -- 0.143.0</generator>
     <language>zh</language>
     <copyright>©2025 J1rrY&amp;rsquo;s Blog</copyright>
     <lastBuildDate>Tue, 11 Feb 2025 21:00:00 +0800</lastBuildDate>
-    <atom:link href="https://j1rry-learn.github.io/tags/xss/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/xss/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2025 N1CTF Junior Web 方向全解</title>
-      <link>https://j1rry-learn.github.io/posts/2025-n1ctf-junior-web-%E6%96%B9%E5%90%91%E5%85%A8%E8%A7%A3/</link>
+      <link>http://localhost:1313/posts/2025-n1ctf-junior-web-%E6%96%B9%E5%90%91%E5%85%A8%E8%A7%A3/</link>
       <pubDate>Tue, 11 Feb 2025 21:00:00 +0800</pubDate>
-      <guid>https://j1rry-learn.github.io/posts/2025-n1ctf-junior-web-%E6%96%B9%E5%90%91%E5%85%A8%E8%A7%A3/</guid>
-      <description>&lt;p&gt;&lt;img alt=&#34;ae63981cadbf07fd2e4b92daf554d25d.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202502101727436.png&#34;&gt;
+      <guid>http://localhost:1313/posts/2025-n1ctf-junior-web-%E6%96%B9%E5%90%91%E5%85%A8%E8%A7%A3/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;ae63981cadbf07fd2e4b92daf554d25d.png&#34; loading=&#34;lazy&#34; src=&#34;https://xz.aliyun.com/api/v2/files/2b92181b-3e46-3cc2-bf20-8dbef7a2751a&#34;&gt;
 很高兴可以成为第一个AK Web的师傅hh 祝N1CTF Junior越办越好~&lt;/p&gt;
 &lt;h1 id=&#34;gavatar&#34;&gt;Gavatar&lt;/h1&gt;
 &lt;p&gt;直接登陆上去 发现在头像上传处可以接受URL作为参数
-&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202502101733213.png&#34;&gt;
+&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://xz.aliyun.com/api/v2/files/ac9d29b0-6e28-327f-920a-e7adb51ea756&#34;&gt;
 考虑是不是存在什么SSRF/任意文件读取
 直接可以尝试&lt;code&gt;file&lt;/code&gt;协议
-&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202502101735588.png&#34;&gt;
+&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://xz.aliyun.com/api/v2/files/f53f1100-48b0-3af5-8f27-754d9de3c81f&#34;&gt;
 可以实现读取任意文件
-&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202502101736870.png&#34;&gt;
+&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://xz.aliyun.com/api/v2/files/61065c0a-1a8e-3122-89da-ffde8bf4455a&#34;&gt;
 但是这个题给了docker 是用&lt;code&gt;/readflag&lt;/code&gt;去获取&lt;code&gt;flag&lt;/code&gt;
 考虑是否需要通过任意文件读取转换为RCE
 当时特别注意了一下这里的的PHP版本 &lt;code&gt;8.3.4&lt;/code&gt;
-&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202502101739134.png&#34;&gt;
+&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://xz.aliyun.com/api/v2/files/32cb7178-e0d1-346f-b520-25f89ad8029c&#34;&gt;
 不就是vulhub上给的一模一样的版本 利用 CVE-2024-2961 的实现&lt;/p&gt;</description>
     </item>
   </channel>

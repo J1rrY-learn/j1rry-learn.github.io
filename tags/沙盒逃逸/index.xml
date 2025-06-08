@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>沙盒逃逸 on J1rrY&#39;s Blog</title>
-    <link>https://j1rry-learn.github.io/tags/%E6%B2%99%E7%9B%92%E9%80%83%E9%80%B8/</link>
+    <link>http://localhost:1313/tags/%E6%B2%99%E7%9B%92%E9%80%83%E9%80%B8/</link>
     <description>Recent content in 沙盒逃逸 on J1rrY&#39;s Blog</description>
     <image>
       <title>J1rrY&#39;s Blog</title>
-      <url>https://j1rry-learn.github.io/</url>
-      <link>https://j1rry-learn.github.io/</link>
+      <url>http://localhost:1313/</url>
+      <link>http://localhost:1313/</link>
     </image>
     <generator>Hugo -- 0.143.0</generator>
     <language>zh</language>
     <copyright>©2025 J1rrY&amp;rsquo;s Blog</copyright>
     <lastBuildDate>Sat, 23 Dec 2023 12:30:00 +0000</lastBuildDate>
-    <atom:link href="https://j1rry-learn.github.io/tags/%E6%B2%99%E7%9B%92%E9%80%83%E9%80%B8/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E6%B2%99%E7%9B%92%E9%80%83%E9%80%B8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CTF题型 nodejs(2) Js沙盒逃逸原理&amp;典型例题</title>
-      <link>https://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-nodejs2-js%E6%B2%99%E7%9B%92%E9%80%83%E9%80%B8%E5%8E%9F%E7%90%86%E5%85%B8%E5%9E%8B%E4%BE%8B%E9%A2%98/</link>
+      <link>http://localhost:1313/posts/ctf%E9%A2%98%E5%9E%8B-nodejs2-js%E6%B2%99%E7%9B%92%E9%80%83%E9%80%B8%E5%8E%9F%E7%90%86%E5%85%B8%E5%9E%8B%E4%BE%8B%E9%A2%98/</link>
       <pubDate>Sat, 23 Dec 2023 12:30:00 +0000</pubDate>
-      <guid>https://j1rry-learn.github.io/posts/ctf%E9%A2%98%E5%9E%8B-nodejs2-js%E6%B2%99%E7%9B%92%E9%80%83%E9%80%B8%E5%8E%9F%E7%90%86%E5%85%B8%E5%9E%8B%E4%BE%8B%E9%A2%98/</guid>
+      <guid>http://localhost:1313/posts/ctf%E9%A2%98%E5%9E%8B-nodejs2-js%E6%B2%99%E7%9B%92%E9%80%83%E9%80%B8%E5%8E%9F%E7%90%86%E5%85%B8%E5%9E%8B%E4%BE%8B%E9%A2%98/</guid>
       <description>&lt;h1 id=&#34;ctf题型-nodejs2-js沙盒逃逸原理典型例题&#34;&gt;CTF题型 nodejs(2) Js沙盒逃逸原理&amp;amp;典型例题&lt;/h1&gt;
 &lt;p&gt;&lt;code&gt;vm&lt;/code&gt; 模块提供了一系列 API 用于在 V8 虚拟机环境中编译和运行代码&lt;/p&gt;
 &lt;p&gt;逃逸定义：通过某种方式拿到沙箱外的 &lt;code&gt;global.process&lt;/code&gt;就算成功&lt;/p&gt;</description>

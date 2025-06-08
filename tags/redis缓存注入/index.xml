@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Redis缓存注入 on J1rrY&#39;s Blog</title>
-    <link>https://j1rry-learn.github.io/tags/redis%E7%BC%93%E5%AD%98%E6%B3%A8%E5%85%A5/</link>
+    <link>http://localhost:1313/tags/redis%E7%BC%93%E5%AD%98%E6%B3%A8%E5%85%A5/</link>
     <description>Recent content in Redis缓存注入 on J1rrY&#39;s Blog</description>
     <image>
       <title>J1rrY&#39;s Blog</title>
-      <url>https://j1rry-learn.github.io/</url>
-      <link>https://j1rry-learn.github.io/</link>
+      <url>http://localhost:1313/</url>
+      <link>http://localhost:1313/</link>
     </image>
     <generator>Hugo -- 0.143.0</generator>
     <language>zh</language>
     <copyright>©2025 J1rrY&amp;rsquo;s Blog</copyright>
     <lastBuildDate>Tue, 11 Jun 2024 12:30:00 +0000</lastBuildDate>
-    <atom:link href="https://j1rry-learn.github.io/tags/redis%E7%BC%93%E5%AD%98%E6%B3%A8%E5%85%A5/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/redis%E7%BC%93%E5%AD%98%E6%B3%A8%E5%85%A5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>高校运维赛 2024 easyshell</title>
-      <link>https://j1rry-learn.github.io/posts/%E9%AB%98%E6%A0%A1%E8%BF%90%E7%BB%B4%E8%B5%9B-2024-pyssrf/</link>
+      <link>http://localhost:1313/posts/%E9%AB%98%E6%A0%A1%E8%BF%90%E7%BB%B4%E8%B5%9B-2024-pyssrf/</link>
       <pubDate>Tue, 11 Jun 2024 12:30:00 +0000</pubDate>
-      <guid>https://j1rry-learn.github.io/posts/%E9%AB%98%E6%A0%A1%E8%BF%90%E7%BB%B4%E8%B5%9B-2024-pyssrf/</guid>
+      <guid>http://localhost:1313/posts/%E9%AB%98%E6%A0%A1%E8%BF%90%E7%BB%B4%E8%B5%9B-2024-pyssrf/</guid>
       <description>&lt;p&gt;没有环境,过一遍思路吧
 考点: pickle反序列化+urllib库注入redis缓存&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;flask&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Flask&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;request&lt;/span&gt;
