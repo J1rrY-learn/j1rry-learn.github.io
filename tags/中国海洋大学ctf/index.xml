@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>中国海洋大学CTF on J1rrY&#39;s Blog</title>
-    <link>http://localhost:1313/tags/%E4%B8%AD%E5%9B%BD%E6%B5%B7%E6%B4%8B%E5%A4%A7%E5%AD%A6ctf/</link>
+    <link>https://j1rry-learn.github.io/tags/%E4%B8%AD%E5%9B%BD%E6%B5%B7%E6%B4%8B%E5%A4%A7%E5%AD%A6ctf/</link>
     <description>Recent content in 中国海洋大学CTF on J1rrY&#39;s Blog</description>
     <image>
       <title>J1rrY&#39;s Blog</title>
-      <url>http://localhost:1313/</url>
-      <link>http://localhost:1313/</link>
+      <url>https://j1rry-learn.github.io/</url>
+      <link>https://j1rry-learn.github.io/</link>
     </image>
     <generator>Hugo -- 0.143.0</generator>
     <language>zh</language>
     <copyright>©2025 J1rrY&amp;rsquo;s Blog</copyright>
     <lastBuildDate>Sun, 21 Apr 2024 12:30:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E4%B8%AD%E5%9B%BD%E6%B5%B7%E6%B4%8B%E5%A4%A7%E5%AD%A6ctf/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://j1rry-learn.github.io/tags/%E4%B8%AD%E5%9B%BD%E6%B5%B7%E6%B4%8B%E5%A4%A7%E5%AD%A6ctf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2024 中国海洋大学 CTF 部分WP</title>
-      <link>http://localhost:1313/posts/2024-%E4%B8%AD%E5%9B%BD%E6%B5%B7%E6%B4%8B%E5%A4%A7%E5%AD%A6-ctf/</link>
+      <link>https://j1rry-learn.github.io/posts/2024-%E4%B8%AD%E5%9B%BD%E6%B5%B7%E6%B4%8B%E5%A4%A7%E5%AD%A6-ctf/</link>
       <pubDate>Sun, 21 Apr 2024 12:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2024-%E4%B8%AD%E5%9B%BD%E6%B5%B7%E6%B4%8B%E5%A4%A7%E5%AD%A6-ctf/</guid>
+      <guid>https://j1rry-learn.github.io/posts/2024-%E4%B8%AD%E5%9B%BD%E6%B5%B7%E6%B4%8B%E5%A4%A7%E5%AD%A6-ctf/</guid>
       <description>&lt;h1 id=&#34;web&#34;&gt;Web&lt;/h1&gt;
 &lt;h2 id=&#34;菜鸟工具2&#34;&gt;菜鸟工具2&lt;/h2&gt;
 &lt;p&gt;如何&lt;strong&gt;实现python读内存&lt;/strong&gt;

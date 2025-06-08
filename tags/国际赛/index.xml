@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>国际赛 on J1rrY&#39;s Blog</title>
-    <link>http://localhost:1313/tags/%E5%9B%BD%E9%99%85%E8%B5%9B/</link>
+    <link>https://j1rry-learn.github.io/tags/%E5%9B%BD%E9%99%85%E8%B5%9B/</link>
     <description>Recent content in 国际赛 on J1rrY&#39;s Blog</description>
     <image>
       <title>J1rrY&#39;s Blog</title>
-      <url>http://localhost:1313/</url>
-      <link>http://localhost:1313/</link>
+      <url>https://j1rry-learn.github.io/</url>
+      <link>https://j1rry-learn.github.io/</link>
     </image>
     <generator>Hugo -- 0.143.0</generator>
     <language>zh</language>
     <copyright>©2025 J1rrY&amp;rsquo;s Blog</copyright>
     <lastBuildDate>Fri, 13 Dec 2024 12:30:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E5%9B%BD%E9%99%85%E8%B5%9B/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://j1rry-learn.github.io/tags/%E5%9B%BD%E9%99%85%E8%B5%9B/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1337UP LIVE 2024 国际赛 Web 方向题解</title>
-      <link>http://localhost:1313/posts/1337up-live-2024-%E5%9B%BD%E9%99%85%E8%B5%9B-web-%E6%96%B9%E5%90%91%E9%A2%98%E8%A7%A3/</link>
+      <link>https://j1rry-learn.github.io/posts/1337up-live-2024-%E5%9B%BD%E9%99%85%E8%B5%9B-web-%E6%96%B9%E5%90%91%E9%A2%98%E8%A7%A3/</link>
       <pubDate>Fri, 13 Dec 2024 12:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/1337up-live-2024-%E5%9B%BD%E9%99%85%E8%B5%9B-web-%E6%96%B9%E5%90%91%E9%A2%98%E8%A7%A3/</guid>
+      <guid>https://j1rry-learn.github.io/posts/1337up-live-2024-%E5%9B%BD%E9%99%85%E8%B5%9B-web-%E6%96%B9%E5%90%91%E9%A2%98%E8%A7%A3/</guid>
       <description>&lt;p&gt;第一次打国际赛 随便打打感觉学到好多东西&lt;/p&gt;
 &lt;h1 id=&#34;pizza-paradise&#34;&gt;Pizza Paradise&lt;/h1&gt;
 &lt;p&gt;&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202411171739867.png&#34;&gt;

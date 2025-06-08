@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>SQL注入 on J1rrY&#39;s Blog</title>
-    <link>http://localhost:1313/tags/sql%E6%B3%A8%E5%85%A5/</link>
+    <link>https://j1rry-learn.github.io/tags/sql%E6%B3%A8%E5%85%A5/</link>
     <description>Recent content in SQL注入 on J1rrY&#39;s Blog</description>
     <image>
       <title>J1rrY&#39;s Blog</title>
-      <url>http://localhost:1313/</url>
-      <link>http://localhost:1313/</link>
+      <url>https://j1rry-learn.github.io/</url>
+      <link>https://j1rry-learn.github.io/</link>
     </image>
     <generator>Hugo -- 0.143.0</generator>
     <language>zh</language>
     <copyright>©2025 J1rrY&amp;rsquo;s Blog</copyright>
     <lastBuildDate>Sun, 02 Jun 2024 12:30:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/sql%E6%B3%A8%E5%85%A5/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://j1rry-learn.github.io/tags/sql%E6%B3%A8%E5%85%A5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ThinkPHP代码审计(1)    不安全的SQL注入&amp;PHP反序列化链子phar利用&amp;简单的CMS审计实例</title>
-      <link>http://localhost:1313/posts/php%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A11----%E4%B8%8D%E5%AE%89%E5%85%A8%E7%9A%84sql%E6%B3%A8%E5%85%A5php%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E9%93%BE%E5%AD%90%E7%9A%84%E5%88%A9%E7%94%A8/</link>
+      <link>https://j1rry-learn.github.io/posts/php%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A11----%E4%B8%8D%E5%AE%89%E5%85%A8%E7%9A%84sql%E6%B3%A8%E5%85%A5php%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E9%93%BE%E5%AD%90%E7%9A%84%E5%88%A9%E7%94%A8/</link>
       <pubDate>Sun, 02 Jun 2024 12:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/php%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A11----%E4%B8%8D%E5%AE%89%E5%85%A8%E7%9A%84sql%E6%B3%A8%E5%85%A5php%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E9%93%BE%E5%AD%90%E7%9A%84%E5%88%A9%E7%94%A8/</guid>
+      <guid>https://j1rry-learn.github.io/posts/php%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A11----%E4%B8%8D%E5%AE%89%E5%85%A8%E7%9A%84sql%E6%B3%A8%E5%85%A5php%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E9%93%BE%E5%AD%90%E7%9A%84%E5%88%A9%E7%94%A8/</guid>
       <description>&lt;h1 id=&#34;thinkphp代码审计1----不安全的sql注入php反序列化链子phar利用简单的cms审计实例&#34;&gt;ThinkPHP代码审计(1)    不安全的SQL注入&amp;amp;PHP反序列化链子phar利用&amp;amp;简单的CMS审计实例&lt;/h1&gt;
 &lt;p&gt;[TOC]&lt;/p&gt;
 &lt;h1 id=&#34;一thinkphp5不安全的sql写法&#34;&gt;一.Thinkphp5不安全的SQL写法&lt;/h1&gt;

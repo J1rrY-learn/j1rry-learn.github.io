@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Python内存马 on J1rrY&#39;s Blog</title>
-    <link>http://localhost:1313/tags/python%E5%86%85%E5%AD%98%E9%A9%AC/</link>
+    <link>https://j1rry-learn.github.io/tags/python%E5%86%85%E5%AD%98%E9%A9%AC/</link>
     <description>Recent content in Python内存马 on J1rrY&#39;s Blog</description>
     <image>
       <title>J1rrY&#39;s Blog</title>
-      <url>http://localhost:1313/</url>
-      <link>http://localhost:1313/</link>
+      <url>https://j1rry-learn.github.io/</url>
+      <link>https://j1rry-learn.github.io/</link>
     </image>
     <generator>Hugo -- 0.143.0</generator>
     <language>zh</language>
     <copyright>©2025 J1rrY&amp;rsquo;s Blog</copyright>
     <lastBuildDate>Mon, 23 Dec 2024 12:30:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/python%E5%86%85%E5%AD%98%E9%A9%AC/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://j1rry-learn.github.io/tags/python%E5%86%85%E5%AD%98%E9%A9%AC/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>从国城杯Ez_Gallery实现寻找WSGIRef内存马和Response响应头外带以及栈帧回显的尝试</title>
-      <link>http://localhost:1313/posts/%E4%BF%AE%E6%94%B9-%E4%BB%8E%E5%9B%BD%E5%9F%8E%E6%9D%AFez_gallery%E5%AE%9E%E7%8E%B0%E5%AF%BB%E6%89%BEwsgiref%E5%86%85%E5%AD%98%E9%A9%AC%E5%92%8Cresponse%E5%93%8D%E5%BA%94%E5%A4%B4%E5%A4%96%E5%B8%A6%E4%BB%A5%E5%8F%8A%E6%A0%88%E5%B8%A7%E5%9B%9E%E6%98%BE%E7%9A%84%E5%B0%9D%E8%AF%95/</link>
+      <link>https://j1rry-learn.github.io/posts/%E4%BF%AE%E6%94%B9-%E4%BB%8E%E5%9B%BD%E5%9F%8E%E6%9D%AFez_gallery%E5%AE%9E%E7%8E%B0%E5%AF%BB%E6%89%BEwsgiref%E5%86%85%E5%AD%98%E9%A9%AC%E5%92%8Cresponse%E5%93%8D%E5%BA%94%E5%A4%B4%E5%A4%96%E5%B8%A6%E4%BB%A5%E5%8F%8A%E6%A0%88%E5%B8%A7%E5%9B%9E%E6%98%BE%E7%9A%84%E5%B0%9D%E8%AF%95/</link>
       <pubDate>Mon, 23 Dec 2024 12:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/%E4%BF%AE%E6%94%B9-%E4%BB%8E%E5%9B%BD%E5%9F%8E%E6%9D%AFez_gallery%E5%AE%9E%E7%8E%B0%E5%AF%BB%E6%89%BEwsgiref%E5%86%85%E5%AD%98%E9%A9%AC%E5%92%8Cresponse%E5%93%8D%E5%BA%94%E5%A4%B4%E5%A4%96%E5%B8%A6%E4%BB%A5%E5%8F%8A%E6%A0%88%E5%B8%A7%E5%9B%9E%E6%98%BE%E7%9A%84%E5%B0%9D%E8%AF%95/</guid>
+      <guid>https://j1rry-learn.github.io/posts/%E4%BF%AE%E6%94%B9-%E4%BB%8E%E5%9B%BD%E5%9F%8E%E6%9D%AFez_gallery%E5%AE%9E%E7%8E%B0%E5%AF%BB%E6%89%BEwsgiref%E5%86%85%E5%AD%98%E9%A9%AC%E5%92%8Cresponse%E5%93%8D%E5%BA%94%E5%A4%B4%E5%A4%96%E5%B8%A6%E4%BB%A5%E5%8F%8A%E6%A0%88%E5%B8%A7%E5%9B%9E%E6%98%BE%E7%9A%84%E5%B0%9D%E8%AF%95/</guid>
       <description>&lt;h2 id=&#34;登陆后台&#34;&gt;登陆后台&lt;/h2&gt;
 &lt;p&gt;直接尝试弱密码&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;admin

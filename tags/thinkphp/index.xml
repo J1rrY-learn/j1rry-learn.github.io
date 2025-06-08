@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Thinkphp on J1rrY&#39;s Blog</title>
-    <link>http://localhost:1313/tags/thinkphp/</link>
+    <link>https://j1rry-learn.github.io/tags/thinkphp/</link>
     <description>Recent content in Thinkphp on J1rrY&#39;s Blog</description>
     <image>
       <title>J1rrY&#39;s Blog</title>
-      <url>http://localhost:1313/</url>
-      <link>http://localhost:1313/</link>
+      <url>https://j1rry-learn.github.io/</url>
+      <link>https://j1rry-learn.github.io/</link>
     </image>
     <generator>Hugo -- 0.143.0</generator>
     <language>zh</language>
     <copyright>©2025 J1rrY&amp;rsquo;s Blog</copyright>
     <lastBuildDate>Wed, 13 Nov 2024 12:30:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/thinkphp/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://j1rry-learn.github.io/tags/thinkphp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2024 SCTF Simpleshop 出题笔记以及对Thinkphp8环境下任意代码执行的改造</title>
-      <link>http://localhost:1313/posts/2024-sctf-simpleshop-%E5%87%BA%E9%A2%98%E7%AC%94%E8%AE%B0%E4%BB%A5%E5%8F%8A%E5%AF%B9thinkphp8%E7%8E%AF%E5%A2%83%E4%B8%8B%E4%BB%BB%E6%84%8F%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E7%9A%84%E6%94%B9%E9%80%A0/</link>
+      <link>https://j1rry-learn.github.io/posts/2024-sctf-simpleshop-%E5%87%BA%E9%A2%98%E7%AC%94%E8%AE%B0%E4%BB%A5%E5%8F%8A%E5%AF%B9thinkphp8%E7%8E%AF%E5%A2%83%E4%B8%8B%E4%BB%BB%E6%84%8F%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E7%9A%84%E6%94%B9%E9%80%A0/</link>
       <pubDate>Wed, 13 Nov 2024 12:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2024-sctf-simpleshop-%E5%87%BA%E9%A2%98%E7%AC%94%E8%AE%B0%E4%BB%A5%E5%8F%8A%E5%AF%B9thinkphp8%E7%8E%AF%E5%A2%83%E4%B8%8B%E4%BB%BB%E6%84%8F%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E7%9A%84%E6%94%B9%E9%80%A0/</guid>
+      <guid>https://j1rry-learn.github.io/posts/2024-sctf-simpleshop-%E5%87%BA%E9%A2%98%E7%AC%94%E8%AE%B0%E4%BB%A5%E5%8F%8A%E5%AF%B9thinkphp8%E7%8E%AF%E5%A2%83%E4%B8%8B%E4%BB%BB%E6%84%8F%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E7%9A%84%E6%94%B9%E9%80%A0/</guid>
       <description>&lt;p&gt;[TOC]&lt;/p&gt;
 &lt;h1 id=&#34;出题思路&#34;&gt;出题思路&lt;/h1&gt;
 &lt;p&gt;其实这道题主要是想考一下在Thinkphp框架下在反序列化过程中如何实现任意文件写入以及cnext绕过disable_function实现命令执行&lt;/p&gt;</description>
     </item>
     <item>
       <title>Thinkphp8高版本反序列化链实现任意php代码执行</title>
-      <link>http://localhost:1313/posts/2024-10-7-thinkphp8%E9%AB%98%E7%89%88%E6%9C%AC%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E9%93%BE%E5%AE%9E%E7%8E%B0%E4%BB%BB%E6%84%8Fphp%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C/</link>
+      <link>https://j1rry-learn.github.io/posts/2024-10-7-thinkphp8%E9%AB%98%E7%89%88%E6%9C%AC%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E9%93%BE%E5%AE%9E%E7%8E%B0%E4%BB%BB%E6%84%8Fphp%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C/</link>
       <pubDate>Thu, 03 Oct 2024 12:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2024-10-7-thinkphp8%E9%AB%98%E7%89%88%E6%9C%AC%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E9%93%BE%E5%AE%9E%E7%8E%B0%E4%BB%BB%E6%84%8Fphp%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C/</guid>
+      <guid>https://j1rry-learn.github.io/posts/2024-10-7-thinkphp8%E9%AB%98%E7%89%88%E6%9C%AC%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E9%93%BE%E5%AE%9E%E7%8E%B0%E4%BB%BB%E6%84%8Fphp%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C/</guid>
       <description>&lt;p&gt;本身在Thinkphp框架模板渲染注入中可以实现eval执行任意命令&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;https://jerry-note-imgs.oss-cn-beijing.aliyuncs.com/imgs/202410042308161.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;参考:https://xz.aliyun.com/t/15591&lt;/p&gt;
@@ -35,9 +35,9 @@
     </item>
     <item>
       <title>ThinkPHP审计(2)  Thinkphp反序列化5.x链子</title>
-      <link>http://localhost:1313/posts/thinkphp%E5%AE%A1%E8%AE%A12--thinkphp%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E9%93%BE5.1.x%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90%E5%85%B8%E5%9E%8Bctf%E4%BE%8B%E9%A2%98/</link>
+      <link>https://j1rry-learn.github.io/posts/thinkphp%E5%AE%A1%E8%AE%A12--thinkphp%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E9%93%BE5.1.x%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90%E5%85%B8%E5%9E%8Bctf%E4%BE%8B%E9%A2%98/</link>
       <pubDate>Wed, 12 Jun 2024 12:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/thinkphp%E5%AE%A1%E8%AE%A12--thinkphp%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E9%93%BE5.1.x%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90%E5%85%B8%E5%9E%8Bctf%E4%BE%8B%E9%A2%98/</guid>
+      <guid>https://j1rry-learn.github.io/posts/thinkphp%E5%AE%A1%E8%AE%A12--thinkphp%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E9%93%BE5.1.x%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90%E5%85%B8%E5%9E%8Bctf%E4%BE%8B%E9%A2%98/</guid>
       <description>&lt;h1 id=&#34;thinkphp审计2--thinkphp反序列化链子51x原理分析从0编写poc&#34;&gt;ThinkPHP审计(2)  Thinkphp反序列化链子5.1.X原理分析&amp;amp;从0编写POC&lt;/h1&gt;
 &lt;h1 id=&#34;动态调试环境配置&#34;&gt;动态调试环境配置&lt;/h1&gt;
 &lt;p&gt;比较简洁的环境配置教程：&lt;/p&gt;
@@ -47,9 +47,9 @@
     </item>
     <item>
       <title>ThinkPHP代码审计(1)    不安全的SQL注入&amp;PHP反序列化链子phar利用&amp;简单的CMS审计实例</title>
-      <link>http://localhost:1313/posts/php%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A11----%E4%B8%8D%E5%AE%89%E5%85%A8%E7%9A%84sql%E6%B3%A8%E5%85%A5php%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E9%93%BE%E5%AD%90%E7%9A%84%E5%88%A9%E7%94%A8/</link>
+      <link>https://j1rry-learn.github.io/posts/php%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A11----%E4%B8%8D%E5%AE%89%E5%85%A8%E7%9A%84sql%E6%B3%A8%E5%85%A5php%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E9%93%BE%E5%AD%90%E7%9A%84%E5%88%A9%E7%94%A8/</link>
       <pubDate>Sun, 02 Jun 2024 12:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/php%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A11----%E4%B8%8D%E5%AE%89%E5%85%A8%E7%9A%84sql%E6%B3%A8%E5%85%A5php%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E9%93%BE%E5%AD%90%E7%9A%84%E5%88%A9%E7%94%A8/</guid>
+      <guid>https://j1rry-learn.github.io/posts/php%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A11----%E4%B8%8D%E5%AE%89%E5%85%A8%E7%9A%84sql%E6%B3%A8%E5%85%A5php%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E9%93%BE%E5%AD%90%E7%9A%84%E5%88%A9%E7%94%A8/</guid>
       <description>&lt;h1 id=&#34;thinkphp代码审计1----不安全的sql注入php反序列化链子phar利用简单的cms审计实例&#34;&gt;ThinkPHP代码审计(1)    不安全的SQL注入&amp;amp;PHP反序列化链子phar利用&amp;amp;简单的CMS审计实例&lt;/h1&gt;
 &lt;p&gt;[TOC]&lt;/p&gt;
 &lt;h1 id=&#34;一thinkphp5不安全的sql写法&#34;&gt;一.Thinkphp5不安全的SQL写法&lt;/h1&gt;

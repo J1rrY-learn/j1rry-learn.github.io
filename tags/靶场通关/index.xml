@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>靶场通关 on J1rrY&#39;s Blog</title>
-    <link>http://localhost:1313/tags/%E9%9D%B6%E5%9C%BA%E9%80%9A%E5%85%B3/</link>
+    <link>https://j1rry-learn.github.io/tags/%E9%9D%B6%E5%9C%BA%E9%80%9A%E5%85%B3/</link>
     <description>Recent content in 靶场通关 on J1rrY&#39;s Blog</description>
     <image>
       <title>J1rrY&#39;s Blog</title>
-      <url>http://localhost:1313/</url>
-      <link>http://localhost:1313/</link>
+      <url>https://j1rry-learn.github.io/</url>
+      <link>https://j1rry-learn.github.io/</link>
     </image>
     <generator>Hugo -- 0.143.0</generator>
     <language>zh</language>
     <copyright>©2025 J1rrY&amp;rsquo;s Blog</copyright>
     <lastBuildDate>Fri, 22 Mar 2024 12:30:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E9%9D%B6%E5%9C%BA%E9%80%9A%E5%85%B3/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://j1rry-learn.github.io/tags/%E9%9D%B6%E5%9C%BA%E9%80%9A%E5%85%B3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CTF题型 SSTI(1) Flask-SSTI-labs 通关 题记</title>
-      <link>http://localhost:1313/posts/ctf-%E9%A2%98%E5%9E%8B-flask-ssti-labs-%E9%80%9A%E5%85%B3-level-1-13/</link>
+      <link>https://j1rry-learn.github.io/posts/ctf-%E9%A2%98%E5%9E%8B-flask-ssti-labs-%E9%80%9A%E5%85%B3-level-1-13/</link>
       <pubDate>Fri, 22 Mar 2024 12:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ctf-%E9%A2%98%E5%9E%8B-flask-ssti-labs-%E9%80%9A%E5%85%B3-level-1-13/</guid>
+      <guid>https://j1rry-learn.github.io/posts/ctf-%E9%A2%98%E5%9E%8B-flask-ssti-labs-%E9%80%9A%E5%85%B3-level-1-13/</guid>
       <description>&lt;h1 id=&#34;ctf题型-ssti1-flask-ssti-labs-通关-题记&#34;&gt;CTF题型 SSTI(1) Flask-SSTI-labs 通关 题记&lt;/h1&gt;
 &lt;p&gt;[TOC]&lt;/p&gt;
 &lt;h2 id=&#34;前记&#34;&gt;前记&lt;/h2&gt;

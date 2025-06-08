@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Session反序列化 on J1rrY&#39;s Blog</title>
-    <link>http://localhost:1313/tags/session%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96/</link>
+    <link>https://j1rry-learn.github.io/tags/session%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96/</link>
     <description>Recent content in Session反序列化 on J1rrY&#39;s Blog</description>
     <image>
       <title>J1rrY&#39;s Blog</title>
-      <url>http://localhost:1313/</url>
-      <link>http://localhost:1313/</link>
+      <url>https://j1rry-learn.github.io/</url>
+      <link>https://j1rry-learn.github.io/</link>
     </image>
     <generator>Hugo -- 0.143.0</generator>
     <language>zh</language>
     <copyright>©2025 J1rrY&amp;rsquo;s Blog</copyright>
     <lastBuildDate>Fri, 09 Feb 2024 12:30:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/session%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://j1rry-learn.github.io/tags/session%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LCTF 2018 bestphp&#39;s revenge</title>
-      <link>http://localhost:1313/posts/lctf-2018-bestphps-revenge/</link>
+      <link>https://j1rry-learn.github.io/posts/lctf-2018-bestphps-revenge/</link>
       <pubDate>Fri, 09 Feb 2024 12:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/lctf-2018-bestphps-revenge/</guid>
+      <guid>https://j1rry-learn.github.io/posts/lctf-2018-bestphps-revenge/</guid>
       <description>&lt;p&gt;考点:Soap原生类+Session反序列化+CRLF注入&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;?&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;php&lt;/span&gt;  
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;highlight_file&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;__FILE__&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;  
